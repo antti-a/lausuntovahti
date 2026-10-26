@@ -1,10 +1,10 @@
 {
-  "_comment": "Pisteytyssäännöt. Muokkaa vapaasti; skripti lukee tämän joka ajolla ja pisteyttää kaikki seurattavat kohteet uudelleen. Kirjainkoolla ei ole väliä. Avainsana osuu sanan alkuun, ja perässä saa olla enintään 5 kirjainta taivutusta: 'joki' osuu sanaan 'jokea' mutta ei sanaan 'Vantaanjoki'. Tähti löysentää: 'Vantaanjo*' = mikä tahansa jatko (Vantaanjoen, Vantaanjokeen); '*joki' = saa olla myös yhdyssanan loppuosa (Mätäjoki). Varo lyhyitä sanoja ja kuntien nimiä: 'järven' osui sanaan 'Järvenpää', '*järvi' osuisi Nurmijärveen.",
+  "_comment": "Pisteytyssäännöt. Muokkaa vapaasti; skripti lukee tämän joka ajolla ja pisteyttää kaikki seurattavat kohteet uudelleen. Kirjainkoolla ei ole väliä. Avainsana osuu sanan alkuun, ja perässä saa olla enintään 5 kirjainta taivutusta: 'vesistö' osuu sanaan 'vesistöjen'. Jos taivutus muuttaa sanan alkua, osumaa ei tule: 'lahti' ei osu sanaan 'lahden'. Tähti löysentää: 'Vantaanjo*' = mikä tahansa jatko (Vantaanjoen, Vantaanjokeen); '*joki' = saa olla myös yhdyssanan loppuosa (Mätäjoki). Varo lyhyitä sanoja ja kuntien nimiä: 'järven' osui sanaan 'Järvenpää', '*järvi' osuisi Nurmijärveen.",
   "water_keywords": [
     "vesi",
     "vesistö",
-    "joki",
-    "joen",
+    "*joki",
+    "*joen",
     "puro",
     "oja",
     "lampi",
@@ -29,6 +29,8 @@
     "vesilupa",
     "vesilain",
     "vesitalous",
+    "vesihuol*",
+    "vesiensuojelu*",
     "vesienhoito",
     "vesienhoitosuunnitelma",
     "vede",

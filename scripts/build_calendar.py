@@ -112,7 +112,7 @@ def clean_date(s):
     return dt.date.fromisoformat(s).isoformat()
 
 
-MAX_SUFFIX = 5  # allowed inflection tail after a keyword (joki→joessa, vesistö→vesistöjen); longer tails are compounds
+MAX_SUFFIX = 5  # allowed inflection tail after a keyword (vesistö→vesistöjen); longer tails are compounds
 
 
 def keyword_regex(k):

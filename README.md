@@ -44,7 +44,7 @@ Pisteytys (`config/keywords.json`):
 Säätäminen:
 - Liian paljon tavaraa → nosta `thresholds.medium` arvoon 3 tai poista avainsanoja.
 - Liian vähän → laske kynnyksiä tai lisää avainsanoja.
-- Avainsana osuu sanan alkuun, ja perässä saa olla enintään 5 kirjainta taivutusta (`joki` → "jokea", ei "Vantaanjoki"). `sana*` = mikä tahansa jatko (`Vantaanjo*` → "Vantaanjokeen"), `*sana` = myös yhdyssanan loppuosa (`*joki` → "Mätäjoki"). Lyhyet sanat osuvat herkästi: `järven` osui sanaan "Järvenpää".
+- Avainsana osuu sanan alkuun, ja perässä saa olla enintään 5 kirjainta taivutusta (`vesistö` → "vesistöjen"; `lahti` ei osu sanaan "lahden", koska sanan alku muuttuu). `sana*` = mikä tahansa jatko (`Vantaanjo*` → "Vantaanjokeen"), `*sana` = myös yhdyssanan loppuosa (`*joki` → "Mätäjoki"). Lyhyet sanat osuvat herkästi: `järven` osui sanaan "Järvenpää".
 - Halutaan seurata myös päätösten valitusaikoja → `non_response_actions_max_priority.päätös: "medium"`.
 - Yksittäinen kohde → lisää `state/items.json`-riville `"manual_priority": "high" | "medium" | "low" | "exclude"`. Säilyy ajosta toiseen.
 
