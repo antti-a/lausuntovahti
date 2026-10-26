@@ -45,6 +45,80 @@
     ]
   },
   {
+    "source_id": "kunta_vantaa",
+    "title": "Ympäristölupahakemus, Vantaan kaupunki, Pitkäsentie 23",
+    "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3474673",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "ympäristölupa",
+    "action": "muistutus",
+    "published": "2026-10-12",
+    "deadline": "2026-11-18",
+    "deadline_confidence": "exact",
+    "summary": "Vantaan kaupungin ympäristölupahakemus Pitkäsentie 23:lle; vaikutukset hulevesiin, pohjaveteen ja lähivesistöihin.",
+    "id": "d29b38a89d24",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "plan: ympäristölupa",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_vantaa",
+    "title": "Ympäristönsuojelu- ja maa-aineslain asia, Rudus Oy",
+    "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3477853",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "maa-aineslupa",
+    "action": "muistutus",
+    "published": "2026-10-13",
+    "deadline": "2026-11-18",
+    "deadline_confidence": "exact",
+    "summary": "Rudus Oy:n ympäristönsuojelu- ja maa-aineslain mukainen asia Vantaalla; kiviaineksen otto/käsittely voi vaikuttaa pohjaveteen ja valumavesiin.",
+    "id": "22452c44e94c",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 4,
+    "priority": "high",
+    "reasons": [
+      "plan: maa-aineslupa",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_vantaa",
+    "title": "Vesilain mukainen päätös, Vantaan kaupunki",
+    "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3477409",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "vesilupa",
+    "action": "päätös",
+    "published": "2026-10-13",
+    "deadline": "2026-11-19",
+    "deadline_confidence": "exact",
+    "summary": "Vesilain mukainen päätös Vantaan kaupungin hankkeesta; vaikuttaa vesistöön. Valitusaika käynnissä.",
+    "id": "eaff8f8de621",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water: vesi, vesilupa, vesilain",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
     "source_id": "lvv_kuulutukset",
     "title": "Pääkaupunkiseudun Junakalusto Oy, Kehäradan varikon ympäristövaikutusten arviointiohjelma nähtävillä",
     "url": "https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot",
@@ -70,6 +144,82 @@
     ]
   },
   {
+    "source_id": "kunta_vantaa",
+    "title": "Ympäristönsuojelupäätös, Finavia Oyj",
+    "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3478387",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "ympäristölupa",
+    "action": "päätös",
+    "published": "2026-10-14",
+    "deadline": "2026-11-20",
+    "deadline_confidence": "exact",
+    "summary": "Finavian ympäristönsuojelupäätös Helsinki-Vantaalla; lentokentän hulevedet ja jäänestoaineet voivat kuormittaa Vantaanjoen vesistöä.",
+    "id": "76e566e6533f",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): vesi, vesistö, *joen",
+      "plan: ympäristölupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_vantaa",
+    "title": "Ympäristönsuojelupäätös, Rudus Oy",
+    "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3482752",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "ympäristölupa",
+    "action": "päätös",
+    "published": "2026-10-22",
+    "deadline": "2026-11-30",
+    "deadline_confidence": "exact",
+    "summary": "Rudus Oy:n ympäristönsuojelupäätös Vantaalla; murskaus/kiviaines voi vaikuttaa pohjaveteen ja valumavesiin.",
+    "id": "caf4cff2b57f",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: ympäristölupa, murskaus",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_vantaa",
+    "title": "YVA-päätös, Vantaan Energia Oy",
+    "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3483516",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "YVA",
+    "action": "tiedoksi",
+    "published": "2026-10-26",
+    "deadline": "2026-12-02",
+    "deadline_confidence": "exact",
+    "summary": "Vantaan Energian hankkeen YVA-päätös; tiedoksiantoaika päättyy 2.12.2026.",
+    "id": "d4d5c6107f1b",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: YVA",
+      "action tiedoksi: -1",
+      "kunta match",
+      "action tiedoksi → max low"
+    ]
+  },
+  {
     "source_id": "lausuntopalvelu",
     "title": "Kuuleminen ehdotuksesta Kymijoen–Suomenlahden vesienhoitosuunnitelmaksi 2028–2033",
     "url": "https://www.lausuntopalvelu.fi/FI/Proposal/List",
@@ -86,7 +236,7 @@
     "score": 4,
     "priority": "high",
     "reasons": [
-      "water: vesienhoito, vesienhoitosuunnitelma",
+      "water: *joen, vesienhoito, vesienhoitosuunnitelma",
       "action lausunto: +1"
     ]
   },
@@ -110,7 +260,7 @@
     "score": 3,
     "priority": "low",
     "reasons": [
-      "water (summary only): hulevede*, Vantaanjo*, Palojo*",
+      "water (summary only): *joki, hulevede*, Vantaanjo*",
       "plan: YVA, perusteltu päätelmä, datakeskus",
       "action tiedoksi: -1",
       "kunta match",
@@ -136,8 +286,59 @@
     "score": 5,
     "priority": "high",
     "reasons": [
-      "water (summary only): hulevesi*, valuma-alue, valuma",
+      "water (summary only): *joen, hulevesi*, valuma-alue",
       "plan: yleiskaava",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "evk_uusimaa",
+    "title": "Mt 1324 Lahnus–Klaukkala kevyen liikenteen väylä, tiesuunnitelma nähtävillä, Espoo ja Nurmijärvi",
+    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/30T_Kuulutus_TS_nahtavillaolo_Mt1324_Lahnus_Klaukkala",
+    "kunta": [
+      "Espoo",
+      "Nurmijärvi"
+    ],
+    "type": "tiesuunnitelma",
+    "action": "muistutus",
+    "published": null,
+    "deadline": null,
+    "deadline_confidence": "unknown",
+    "summary": "Tiesuunnitelma Lahnus–Klaukkala; rakentaminen vaikuttaa hulevesiin ja ojiin Vantaanjoen/Espoonjoen valuma-alueella.",
+    "id": "244b623e8c3e",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water (summary only): *joen, hulevesi*, valuma-alue",
+      "plan: tiesuunnitelma",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "evk_uusimaa",
+    "title": "Hyvinkään itäinen ohikulkutie, tiesuunnitelma nähtävillä",
+    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/30T_Kuulutus_TS_nahtavillaolo_Hyvinkaan_itainen_ohikulkutie",
+    "kunta": [
+      "Hyvinkää"
+    ],
+    "type": "tiesuunnitelma",
+    "action": "muistutus",
+    "published": null,
+    "deadline": null,
+    "deadline_confidence": "unknown",
+    "summary": "Hyvinkään itäisen ohikulkutien tiesuunnitelma; uusi tielinjaus vaikuttaa hulevesiin ja pohjavesiin Vantaanjoen latvoilla.",
+    "id": "9effca505f44",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water (summary only): *joen, hulevesi*, pohjavesi*",
+      "plan: tiesuunnitelma",
       "action muistutus: +1",
       "kunta match"
     ]

@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Helsinki
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
 UID:6e9aa8777c28-uusi@lausuntovahti
-DTSTAMP:20261026T115605Z
+DTSTAMP:20261026T121614Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:!! UUSI\, MIELIPIDE DL 20.11.2026 (arvio): Pääkaupunkiseudun Juna
@@ -29,7 +29,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:062d3cf437fb-uusi@lausuntovahti
-DTSTAMP:20261026T115605Z
+DTSTAMP:20261026T121614Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:!! UUSI\, LAUSUNTO DL 1.6.2027 (arvio): Kuuleminen ehdotuksesta Kym
@@ -41,15 +41,15 @@ DESCRIPTION:Vesienhoitosuunnitelma ja toimenpideohjelma kaudelle 2028–203
  025.\n\nTyyppi: vesienhoito | Toimenpide: lausunto | Prioriteetti: high (p
  isteet 4)\nKunta: alueellinen\nJulkaistu: 2026-12-01 | Määräpäivä: 1.
  6.2027 (arvio)\nLähde: lausuntopalvelu\nLinkki: https://www.lausuntopalve
- lu.fi/FI/Proposal/List\nPerustelut: water: vesienhoito\, vesienhoitosuunni
- telma\; action lausunto: +1
+ lu.fi/FI/Proposal/List\nPerustelut: water: *joen\, vesienhoito\, vesienhoi
+ tosuunnitelma\; action lausunto: +1
 URL:https://www.lausuntopalvelu.fi/FI/Proposal/List
 CATEGORIES:high,vesienhoito
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c999a93f6e04@lausuntovahti
-DTSTAMP:20261026T115605Z
+DTSTAMP:20261026T121614Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:!! MUISTUTUS DL ?: Espoon yleiskaava 2060\, kaavaehdotus nähtävil
@@ -60,17 +60,134 @@ DESCRIPTION:Koko kaupungin yleiskaava\; ehdotus on tarkoitus asettaa näht
  ä tiedossa.\n\nTyyppi: yleiskaava | Toimenpide: muistutus | Prioriteetti:
   high (pisteet 5)\nKunta: Espoo\nJulkaistu: ? | Määräpäivä: ei tiedos
  sa\nLähde: kunta_espoo\nLinkki: https://www.espoo.fi/fi/kuulutukset\nPeru
- stelut: water (summary only): hulevesi*\, valuma-alue\, valuma\; plan: yle
- iskaava\; action muistutus: +1\; kunta match\n\nMääräpäivä ei ole vie
- lä tiedossa – tarkista linkistä. Tapahtuma siirtyy joka viikko ajopäi
- välle\, kunnes määräpäivä selviää.
+ stelut: water (summary only): *joen\, hulevesi*\, valuma-alue\; plan: ylei
+ skaava\; action muistutus: +1\; kunta match\n\nMääräpäivä ei ole viel
+ ä tiedossa – tarkista linkistä. Tapahtuma siirtyy joka viikko ajopäiv
+ älle\, kunnes määräpäivä selviää.
 URL:https://www.espoo.fi/fi/kuulutukset
 CATEGORIES:high,yleiskaava
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:d29b38a89d24-uusi@lausuntovahti
+DTSTAMP:20261026T121614Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:!! UUSI\, MUISTUTUS DL 18.11.2026: Ympäristölupahakemus\, Vantaan
+  kaupunki\, Pitkäsentie 23 [Vantaa]
+DESCRIPTION:Vantaan kaupungin ympäristölupahakemus Pitkäsentie 23:lle\; 
+ vaikutukset hulevesiin\, pohjaveteen ja lähivesistöihin.\n\nTyyppi: ymp
+ äristölupa | Toimenpide: muistutus | Prioriteetti: high (pisteet 5)\nKun
+ ta: Vantaa\nJulkaistu: 2026-10-12 | Määräpäivä: 18.11.2026\nLähde: k
+ unta_vantaa\nLinkki: http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=
+ 3&docid=3474673\nPerustelut: water (summary only): hulevesi*\; plan: ympä
+ ristölupa\; action muistutus: +1\; kunta match
+URL:http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3474673
+CATEGORIES:high,ympäristölupa
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:22452c44e94c-uusi@lausuntovahti
+DTSTAMP:20261026T121614Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:!! UUSI\, MUISTUTUS DL 18.11.2026: Ympäristönsuojelu- ja maa-aine
+ slain asia\, Rudus Oy [Vantaa]
+DESCRIPTION:Rudus Oy:n ympäristönsuojelu- ja maa-aineslain mukainen asia 
+ Vantaalla\; kiviaineksen otto/käsittely voi vaikuttaa pohjaveteen ja valu
+ mavesiin.\n\nTyyppi: maa-aineslupa | Toimenpide: muistutus | Prioriteetti:
+  high (pisteet 4)\nKunta: Vantaa\nJulkaistu: 2026-10-13 | Määräpäivä:
+  18.11.2026\nLähde: kunta_vantaa\nLinkki: http://paatokset.vantaa.fi/ktwe
+ bscr/fileshow?doctype=3&docid=3477853\nPerustelut: plan: maa-aineslupa\; a
+ ction muistutus: +1\; kunta match
+URL:http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3477853
+CATEGORIES:high,maa-aineslupa
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:244b623e8c3e@lausuntovahti
+DTSTAMP:20261026T121614Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:!! MUISTUTUS DL ?: Mt 1324 Lahnus–Klaukkala kevyen liikenteen vä
+ ylä\, tiesuunnitelma nähtävillä\, Espoo ja Nurmijärvi [Espoo\, Nurmij
+ ärvi]
+DESCRIPTION:Tiesuunnitelma Lahnus–Klaukkala\; rakentaminen vaikuttaa hule
+ vesiin ja ojiin Vantaanjoen/Espoonjoen valuma-alueella.\n\nTyyppi: tiesuun
+ nitelma | Toimenpide: muistutus | Prioriteetti: high (pisteet 5)\nKunta: E
+ spoo\, Nurmijärvi\nJulkaistu: ? | Määräpäivä: ei tiedossa\nLähde: e
+ vk_uusimaa\nLinkki: https://elinvoimakeskus.fi/documents/d/elinvoimakeskus
+ /30T_Kuulutus_TS_nahtavillaolo_Mt1324_Lahnus_Klaukkala\nPerustelut: water 
+ (summary only): *joen\, hulevesi*\, valuma-alue\; plan: tiesuunnitelma\; a
+ ction muistutus: +1\; kunta match\n\nMääräpäivä ei ole vielä tiedoss
+ a – tarkista linkistä. Tapahtuma siirtyy joka viikko ajopäivälle\, ku
+ nnes määräpäivä selviää.
+URL:https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/30T_Kuulutus_TS_
+ nahtavillaolo_Mt1324_Lahnus_Klaukkala
+CATEGORIES:high,tiesuunnitelma
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9effca505f44@lausuntovahti
+DTSTAMP:20261026T121614Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:!! MUISTUTUS DL ?: Hyvinkään itäinen ohikulkutie\, tiesuunnitelm
+ a nähtävillä [Hyvinkää]
+DESCRIPTION:Hyvinkään itäisen ohikulkutien tiesuunnitelma\; uusi tielinj
+ aus vaikuttaa hulevesiin ja pohjavesiin Vantaanjoen latvoilla.\n\nTyyppi: 
+ tiesuunnitelma | Toimenpide: muistutus | Prioriteetti: high (pisteet 5)\nK
+ unta: Hyvinkää\nJulkaistu: ? | Määräpäivä: ei tiedossa\nLähde: evk
+ _uusimaa\nLinkki: https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/3
+ 0T_Kuulutus_TS_nahtavillaolo_Hyvinkaan_itainen_ohikulkutie\nPerustelut: wa
+ ter (summary only): *joen\, hulevesi*\, pohjavesi*\; plan: tiesuunnitelma\
+ ; action muistutus: +1\; kunta match\n\nMääräpäivä ei ole vielä tied
+ ossa – tarkista linkistä. Tapahtuma siirtyy joka viikko ajopäivälle\,
+  kunnes määräpäivä selviää.
+URL:https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/30T_Kuulutus_TS_
+ nahtavillaolo_Hyvinkaan_itainen_ohikulkutie
+CATEGORIES:high,tiesuunnitelma
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d29b38a89d24@lausuntovahti
+DTSTAMP:20261026T121614Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:!! MUISTUTUS DL: Ympäristölupahakemus\, Vantaan kaupunki\, Pitkä
+ sentie 23 [Vantaa]
+DESCRIPTION:Vantaan kaupungin ympäristölupahakemus Pitkäsentie 23:lle\; 
+ vaikutukset hulevesiin\, pohjaveteen ja lähivesistöihin.\n\nTyyppi: ymp
+ äristölupa | Toimenpide: muistutus | Prioriteetti: high (pisteet 5)\nKun
+ ta: Vantaa\nJulkaistu: 2026-10-12 | Määräpäivä: 18.11.2026\nLähde: k
+ unta_vantaa\nLinkki: http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=
+ 3&docid=3474673\nPerustelut: water (summary only): hulevesi*\; plan: ympä
+ ristölupa\; action muistutus: +1\; kunta match
+URL:http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3474673
+CATEGORIES:high,ympäristölupa
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:22452c44e94c@lausuntovahti
+DTSTAMP:20261026T121614Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:!! MUISTUTUS DL: Ympäristönsuojelu- ja maa-aineslain asia\, Rudus
+  Oy [Vantaa]
+DESCRIPTION:Rudus Oy:n ympäristönsuojelu- ja maa-aineslain mukainen asia 
+ Vantaalla\; kiviaineksen otto/käsittely voi vaikuttaa pohjaveteen ja valu
+ mavesiin.\n\nTyyppi: maa-aineslupa | Toimenpide: muistutus | Prioriteetti:
+  high (pisteet 4)\nKunta: Vantaa\nJulkaistu: 2026-10-13 | Määräpäivä:
+  18.11.2026\nLähde: kunta_vantaa\nLinkki: http://paatokset.vantaa.fi/ktwe
+ bscr/fileshow?doctype=3&docid=3477853\nPerustelut: plan: maa-aineslupa\; a
+ ction muistutus: +1\; kunta match
+URL:http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3477853
+CATEGORIES:high,maa-aineslupa
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6e9aa8777c28@lausuntovahti
-DTSTAMP:20261026T115605Z
+DTSTAMP:20261026T121614Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:!! MIELIPIDE DL (arvio): Pääkaupunkiseudun Junakalusto Oy\, Kehä
@@ -91,7 +208,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:062d3cf437fb@lausuntovahti
-DTSTAMP:20261026T115605Z
+DTSTAMP:20261026T121614Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:!! LAUSUNTO DL (arvio): Kuuleminen ehdotuksesta Kymijoen–Suomenla
@@ -103,8 +220,8 @@ DESCRIPTION:Vesienhoitosuunnitelma ja toimenpideohjelma kaudelle 2028–203
  025.\n\nTyyppi: vesienhoito | Toimenpide: lausunto | Prioriteetti: high (p
  isteet 4)\nKunta: alueellinen\nJulkaistu: 2026-12-01 | Määräpäivä: 1.
  6.2027 (arvio)\nLähde: lausuntopalvelu\nLinkki: https://www.lausuntopalve
- lu.fi/FI/Proposal/List\nPerustelut: water: vesienhoito\, vesienhoitosuunni
- telma\; action lausunto: +1
+ lu.fi/FI/Proposal/List\nPerustelut: water: *joen\, vesienhoito\, vesienhoi
+ tosuunnitelma\; action lausunto: +1
 URL:https://www.lausuntopalvelu.fi/FI/Proposal/List
 CATEGORIES:high,vesienhoito
 TRANSP:TRANSPARENT
