@@ -23,5 +23,56 @@
       "kunta match",
       "action päätös → max low"
     ]
+  },
+  {
+    "source_id": "evk_uusimaa",
+    "title": "Mt 1324 Lahnus–Klaukkala kevyen liikenteen väylä, tiesuunnitelma nähtävillä, Espoo ja Nurmijärvi",
+    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/30T_Kuulutus_TS_nahtavillaolo_Mt1324_Lahnus_Klaukkala",
+    "kunta": [
+      "Espoo",
+      "Nurmijärvi"
+    ],
+    "type": "tiesuunnitelma",
+    "action": "muistutus",
+    "published": "2021-02-17",
+    "deadline": "2021-03-19",
+    "deadline_confidence": "exact",
+    "summary": "Tiesuunnitelma Lahnus–Klaukkala; rakentaminen vaikuttaa hulevesiin ja ojiin Vantaanjoen/Espoonjoen valuma-alueella.",
+    "id": "244b623e8c3e",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water (summary only): *joen, hulevesi*, valuma-alue",
+      "plan: tiesuunnitelma",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "evk_uusimaa",
+    "title": "Hyvinkään itäinen ohikulkutie, tiesuunnitelma nähtävillä",
+    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/30T_Kuulutus_TS_nahtavillaolo_Hyvinkaan_itainen_ohikulkutie",
+    "kunta": [
+      "Hyvinkää"
+    ],
+    "type": "tiesuunnitelma",
+    "action": "muistutus",
+    "published": "2021-10-01",
+    "deadline": "2021-11-01",
+    "deadline_confidence": "exact",
+    "summary": "Hyvinkään itäisen ohikulkutien tiesuunnitelma; uusi tielinjaus vaikuttaa hulevesiin ja pohjavesiin Vantaanjoen latvoilla.",
+    "id": "9effca505f44",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water (summary only): *joen, hulevesi*, pohjavesi*",
+      "plan: tiesuunnitelma",
+      "action muistutus: +1",
+      "kunta match"
+    ]
   }
 ]

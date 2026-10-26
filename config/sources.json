@@ -25,7 +25,7 @@
     {
       "id": "lvv_tietopalvelu",
       "name": "LVV – Ympäristöasioiden tietopalvelu (vesi- ja ympäristöluvat)",
-      "url": "https://ylupa.avi.fi/",
+      "url": "https://ytietopalvelu.lvv.fi/",
       "method": "search",
       "search_queries": [
         "ylupa.avi.fi {kunta}",
@@ -37,8 +37,8 @@
         "vesilupa",
         "ympäristölupa"
       ],
-      "verify": true,
-      "notes": "Vanha osoite ylupa.avi.fi; LVV on nimennyt palvelun uudelleen 1.1.2026. Oikea osoite löytyy lvv.fi/ymparisto/vesilupa -sivulta (linkki 'Ympäristöasioiden tietopalvelu'). Kirjaa löydetty osoite tähän."
+      "verify": false,
+      "notes": "Vanha osoite ylupa.avi.fi; LVV on nimennyt palvelun uudelleen 1.1.2026. Oikea osoite löytyy lvv.fi/ymparisto/vesilupa -sivulta (linkki 'Ympäristöasioiden tietopalvelu'). Kirjaa löydetty osoite tähän. 26.10.2026 (2. ajo): oikea osoite ytietopalvelu.lvv.fi; asiakohtaiset sivut muotoa ytietopalvelu.lvv.fi/fi-FI/asia/<nro>. Etusivu on JS-sovellus (WebFetch: 'Tuntematon virhe'), joten LVV-hakemukset löytyvät käytännössä kuntien kuulutussivuilta ('Ilmoitus kuulutuksesta' -PDF:t)."
     },
     {
       "id": "evk_uusimaa",
@@ -67,7 +67,7 @@
         "tiesuunnitelma"
       ],
       "verify": true,
-      "notes": "Alueellinen sivu on todennäköisesti muotoa elinvoimakeskus.fi/-/sis-kuulutukset (vrt. uud-, kas-, var-). Hae hub-sivulta aluevalinta 'Sisä-Suomen elinvoimakeskus' ja kirjaa oikea url."
+      "notes": "Alueellinen sivu on todennäköisesti muotoa elinvoimakeskus.fi/-/sis-kuulutukset (vrt. uud-, kas-, var-). Hae hub-sivulta aluevalinta 'Sisä-Suomen elinvoimakeskus' ja kirjaa oikea url. 26.10.2026: elinvoimakeskus.fi/-/sis-kuulutukset palautti 404; hub-sivulla eikä elinvoimakeskus.fi/sisa-suomi -sivulla ole alueellista kuulutuslinkkiä. Uud-kuulutukset-sivulla on myös Hämeen kohteita (Janakkala, Hollola)."
     },
     {
       "id": "vayliensuunnittelu",
@@ -105,7 +105,7 @@
     {
       "id": "vaasa_hao",
       "name": "Vaasan hallinto-oikeus – julkiset kuulutukset (valitukset vesi-/ympäristölupapäätöksistä)",
-      "url": "https://www.tuomioistuimet.fi/fi/hallinto-oikeudet/vaasan-hallinto-oikeus/yleistiedoksiannot-ja-julkiset-kuulutukset/hallinto-oikeuden-julkiset-kuulutukset/",
+      "url": "https://www.tuomioistuimet.fi/tuomioistuimet/vaasan-hallinto-oikeus/yleistiedoksiannot-ja-julkiset-kuulutukset/hallinto-oikeuden-julkiset-kuulutukset/",
       "method": "fetch_then_search",
       "search_queries": [
         "Vaasan hallinto-oikeus julkinen kuulutus valitus {kunta}"
@@ -115,8 +115,8 @@
         "valitus",
         "vastine"
       ],
-      "verify": true,
-      "notes": "Polku päätelty kuulutus-PDF:ien tekstistä; vahvista."
+      "verify": false,
+      "notes": "Polku päätelty kuulutus-PDF:ien tekstistä; vahvista. 26.10.2026: vanha polku /fi/hallinto-oikeudet/... palautti 404; uusi osoite luettavissa WebFetchillä."
     },
     {
       "id": "lausuntopalvelu",
@@ -155,13 +155,13 @@
       "covers": [
         "maakuntakaava"
       ],
-      "verify": true,
-      "notes": "Myös uml10fi.oncloudos.com (kokousasiakirjat ja kuulutukset)."
+      "verify": false,
+      "notes": "Myös uml10fi.oncloudos.com (kokousasiakirjat ja kuulutukset). 26.10.2026: sivu luettavissa; VISIO-kaavan luonnos oli nähtävillä 11.3.–8.5.2026, ehdotus nähtäville keväällä 2027."
     },
     {
       "id": "hameen_liitto",
       "name": "Hämeen liitto – maakuntakaava 2040",
-      "url": "https://www.hameenliitto.fi/",
+      "url": "https://hameenliitto.fi/aluesuunnittelu/maakuntakaava/valmistelussa-1-vaihemaakuntakaava/",
       "method": "fetch_then_search",
       "search_queries": [
         "Hämeen liitto maakuntakaava 2040 ehdotus nähtävillä",
@@ -171,12 +171,13 @@
       "covers": [
         "maakuntakaava"
       ],
-      "verify": true
+      "verify": false,
+      "notes": "26.10.2026: 1. vaihemaakuntakaavan ehdotus nähtäville alustavasti loppuvuodesta 2026. Kuulutuslista hameenliitto.tweb.fi/ktwebbin/dbisa.dll/ktwebscr/kuullist_tweb.htm (503 26.10.2026)."
     },
     {
       "id": "keski_uudenmaan_ymparistokeskus",
       "name": "Keski-Uudenmaan ympäristökeskus (Järvenpää, Kerava, Mäntsälä, Nurmijärvi, Tuusula)",
-      "url": "https://www.keskiuudenmaanymparistokeskus.fi/",
+      "url": "https://tuusula.oncloudos.com/cgi/DREQUEST.PHP?alo=1&page=announcement_search&kas=4&txt=&koh=1",
       "method": "fetch_then_search",
       "search_queries": [
         "Keski-Uudenmaan ympäristökeskus kuulutus ympäristölupa",
@@ -189,21 +190,21 @@
         "vesilain ilmoitukset",
         "ympäristönsuojelumääräykset"
       ],
-      "verify": true,
-      "notes": "Kuulutukset löytyvät myös sopimuskuntien Oncloudos-kuulutussivuilta."
+      "verify": false,
+      "notes": "Kuulutukset löytyvät myös sopimuskuntien Oncloudos-kuulutussivuilta. 26.10.2026: KUYK:n oma sivu linkittää tähän Tuusulan Dynasty-hakuun (kas=4)."
     },
     {
       "id": "kunta_helsinki",
       "name": "Helsinki – kaavakuulutukset",
-      "url": "https://www.hel.fi/kaavakuulutukset",
+      "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/kaava-asiat-ja-rakentaminen",
       "method": "fetch",
       "reach": "Helsinki",
       "covers": [
         "asemakaava",
         "yleiskaava"
       ],
-      "verify": true,
-      "notes": "Lisäksi paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset (muut kuulutukset, katu- ja puistosuunnitelmat) ja kartta.hel.fi/suunnitelmat."
+      "verify": false,
+      "notes": "Lisäksi paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset (muut kuulutukset, katu- ja puistosuunnitelmat) ja kartta.hel.fi/suunnitelmat. hel.fi/kaavakuulutukset ohjaa tähän (26.10.2026)."
     },
     {
       "id": "kunta_helsinki_muut",
@@ -231,13 +232,13 @@
         "ympäristölupa",
         "muut"
       ],
-      "verify": true,
-      "notes": "vantaa.fi tarjoaa RSS:n ajankohtaissisällöstä (vantaa.fi/fi/rss/...). Tarkista onko kuulutuksille oma syöte."
+      "verify": false,
+      "notes": "vantaa.fi tarjoaa RSS:n ajankohtaissisällöstä (vantaa.fi/fi/rss/...). Tarkista onko kuulutuksille oma syöte. 26.10.2026: osoite toimii, listaa paatokset.vantaa.fi-kuulutukset ja Lupapisteen rakentamiskuulutukset."
     },
     {
       "id": "kunta_espoo",
       "name": "Espoo – kuulutukset",
-      "url": "https://www.espoo.fi/fi/kuulutukset",
+      "url": "https://www.espoo.fi/fi/palvelut/kuulutukset",
       "method": "fetch",
       "reach": "Espoo, Kauniainen (ympäristönsuojelu)",
       "covers": [
@@ -246,26 +247,26 @@
         "ympäristölupa",
         "muut"
       ],
-      "verify": true,
-      "notes": "Espoon yleiskaava 2060 -ehdotus nähtäville syksyllä 2026. 26.10.2026: espoo.fi/fi/kuulutukset palautti 404; oikea osoite selvitettävä (verify jää true)."
+      "verify": false,
+      "notes": "Espoon yleiskaava 2060 -ehdotus nähtäville syksyllä 2026. 26.10.2026: espoo.fi/fi/kuulutukset palautti 404; oikea osoite selvitettävä (verify jää true). 26.10.2026: oikea osoite espoo.fi/fi/palvelut/kuulutukset (luettavissa). Kaavakuulutukset otsikolla 'Kuulutus: Kaavoja nähtävillä <pvm>'."
     },
     {
       "id": "kunta_kauniainen",
       "name": "Kauniainen – kuulutukset",
-      "url": "https://www.kauniainen.fi/kaupunki-ja-paatoksenteko/kuulutukset/",
+      "url": "https://kauniainen10fi.oncloudos.com/cgi/DREQUEST.PHP?alo=1&page=announcement_search",
       "method": "fetch",
       "reach": "Kauniainen",
       "covers": [
         "asemakaava",
         "muut"
       ],
-      "verify": true,
-      "notes": "Myös kauniainen10se.oncloudos.com."
+      "verify": false,
+      "notes": "Myös kauniainen10se.oncloudos.com. 26.10.2026: vanha osoite 404; kauniainen.fi:n listaus on JS-sovellus. Dynasty-haku (kauniainen10fi ja kauniainen10se) palautti 'ei kuulutuksia' – tarkista seuraavalla ajolla, onko listaus oikeasti tyhjä."
     },
     {
       "id": "kunta_kirkkonummi",
       "name": "Kirkkonummi – kuulutukset",
-      "url": "https://www.kirkkonummi.fi/kuulutukset",
+      "url": "https://kirkkonummi.oncloudos.com/cgi/DREQUEST.PHP?alo=1&page=announcement_search",
       "method": "fetch",
       "reach": "Kirkkonummi",
       "covers": [
@@ -274,13 +275,13 @@
         "ympäristölupa",
         "muut"
       ],
-      "verify": true,
-      "notes": "Myös kirkkonummi.oncloudos.com."
+      "verify": false,
+      "notes": "Myös kirkkonummi.oncloudos.com. kirkkonummi.fi/kuulutukset ohjaa tähän (26.10.2026). Sisältää myös LVV:n 'Ilmoitus kuulutuksesta' -PDF:t Espoon/Kirkkonummen hankkeista."
     },
     {
       "id": "kunta_vihti",
       "name": "Vihti – kuulutukset",
-      "url": "https://www.vihti.fi/kuulutukset/",
+      "url": "https://vihti.oncloudos.com/cgi/DREQUEST.PHP?alo=1&page=announcement_search",
       "method": "fetch",
       "reach": "Vihti",
       "covers": [
@@ -289,13 +290,13 @@
         "ympäristölupa",
         "muut"
       ],
-      "verify": true,
-      "notes": "Myös vihti.oncloudos.com."
+      "verify": false,
+      "notes": "Myös vihti.oncloudos.com. vihti.fi/kuulutukset ohjaa tähän (26.10.2026)."
     },
     {
       "id": "kunta_nurmijarvi",
       "name": "Nurmijärvi – kuulutukset",
-      "url": "https://www.nurmijarvi.fi/kuulutukset/",
+      "url": "https://nurmijarvi10.oncloudos.com/cgi/DREQUEST.PHP?page=announcement_search&alo=1",
       "method": "fetch",
       "reach": "Nurmijärvi",
       "covers": [
@@ -303,13 +304,13 @@
         "yleiskaava",
         "muut"
       ],
-      "verify": true,
-      "notes": "Kuulutus-PDF:t osoitteessa nurmijarvi10.oncloudos.com/kuulutus/<id>.PDF."
+      "verify": false,
+      "notes": "Kuulutus-PDF:t osoitteessa nurmijarvi10.oncloudos.com/kuulutus/<id>.PDF. 26.10.2026: nurmijarvi.fi/kuulutukset sisältää vain linkit; varsinainen lista Dynastyssa."
     },
     {
       "id": "kunta_tuusula",
       "name": "Tuusula – kuulutukset",
-      "url": "https://www.tuusula.fi/kuulutukset",
+      "url": "https://tuusula.oncloudos.com/cgi/DREQUEST.PHP?alo=1&page=announcement_search",
       "method": "fetch",
       "reach": "Tuusula",
       "covers": [
@@ -317,13 +318,13 @@
         "yleiskaava",
         "muut"
       ],
-      "verify": true,
-      "notes": "Myös tuusula.cloudnc.fi."
+      "verify": false,
+      "notes": "Myös tuusula.cloudnc.fi. tuusula.fi/kuulutukset ohjaa tähän (26.10.2026). Sisältää myös Keski-Uudenmaan ympäristökeskuksen ja LVV:n kuulutukset."
     },
     {
       "id": "kunta_kerava",
       "name": "Kerava – kuulutukset",
-      "url": "https://www.kerava.fi/kuulutukset",
+      "url": "https://kerava-julkaisu.tweb.fi/ktwebscr/kuullist_tweb.htm",
       "method": "fetch",
       "reach": "Kerava",
       "covers": [
@@ -331,7 +332,8 @@
         "yleiskaava",
         "muut"
       ],
-      "verify": true
+      "verify": false,
+      "notes": "26.10.2026: kerava.fi/kuulutukset 404; kaupungin kuulutukset osoitteessa kerava-julkaisu.tweb.fi (palautti 503 26.10.2026), kaava- ja rakennusvalvontakuulutukset kerava.fi/asuminen-ja-rakentaminen/rakennusvalvonta/rakennusvalvonnan-ja-kaavoituksen-kuulutukset/."
     },
     {
       "id": "kunta_jarvenpaa",
@@ -345,12 +347,12 @@
         "muut"
       ],
       "verify": true,
-      "notes": "Myös jarvenpaa.cloudnc.fi."
+      "notes": "Myös jarvenpaa.cloudnc.fi. 26.10.2026: jarvenpaa.fi/kuulutukset on JS-sovellus, WebFetch näkee vain navigaation; ei toimivaa vaihtoehtoa löytynyt (jarvenpaa.cloudnc.fi = pöytäkirjat). Haku löysi vain vanhoja kaavakuulutus-PDF:iä (jarvenpaa.fi/files/...)."
     },
     {
       "id": "kunta_sipoo",
       "name": "Sipoo – kuulutukset",
-      "url": "https://www.sipoo.fi/kuulutukset/",
+      "url": "https://sipoofi.oncloudos.com/cgi/DREQUEST.PHP?alo=1&page=announcement_search",
       "method": "fetch",
       "reach": "Sipoo",
       "covers": [
@@ -359,12 +361,13 @@
         "ympäristölupa",
         "muut"
       ],
-      "verify": true
+      "verify": false,
+      "notes": "26.10.2026: sipoo.fi/kuulutukset linkittää Dynasty-hakuun."
     },
     {
       "id": "kunta_mantsala",
       "name": "Mäntsälä – kuulutukset",
-      "url": "https://www.mantsala.fi/kuulutukset",
+      "url": "https://mantsalad10.oncloudos.com/cgi/DREQUEST.PHP?alo=1&page=announcement_search",
       "method": "fetch",
       "reach": "Mäntsälä",
       "covers": [
@@ -372,13 +375,13 @@
         "yleiskaava",
         "muut"
       ],
-      "verify": true,
-      "notes": "Myös mantsalad10.oncloudos.com."
+      "verify": false,
+      "notes": "Myös mantsalad10.oncloudos.com. 26.10.2026: mantsala.fi/kuulutukset 404; Dynasty-haku toimii."
     },
     {
       "id": "kunta_hyvinkaa",
       "name": "Hyvinkää – kuulutukset",
-      "url": "https://www.hyvinkaa.fi/kuulutukset/",
+      "url": "https://asianhallintavhp.hyvinkaa.fi/ktwebscr/kuullist_tweb.htm",
       "method": "fetch",
       "reach": "Hyvinkää",
       "covers": [
@@ -387,12 +390,13 @@
         "ympäristölupa",
         "muut"
       ],
-      "verify": true
+      "verify": false,
+      "notes": "26.10.2026: hyvinkaa.fi/kuulutukset linkittää tähän; rakentamisluvat julkipano.lupapiste.fi (organization=106-R)."
     },
     {
       "id": "kunta_riihimaki",
       "name": "Riihimäki – kuulutukset",
-      "url": "https://www.riihimaki.fi/kuulutukset/",
+      "url": "https://kunta2.riihimaki.fi/ktwebscr/kuullist_tweb.htm",
       "method": "fetch",
       "reach": "Riihimäki (ympäristönsuojelu mahdollisesti myös Hausjärvi ja Loppi – tarkista)",
       "covers": [
@@ -401,12 +405,13 @@
         "ympäristölupa",
         "muut"
       ],
-      "verify": true
+      "verify": false,
+      "notes": "riihimaki.fi/kuulutukset ohjaa tähän (26.10.2026)."
     },
     {
       "id": "kunta_hausjarvi",
       "name": "Hausjärvi – kuulutukset",
-      "url": "https://www.hausjarvi.fi/kuulutukset/",
+      "url": "https://www.hausjarvi.fi/ajankohtaista/kuulutukset/",
       "method": "fetch",
       "reach": "Hausjärvi",
       "covers": [
@@ -414,12 +419,13 @@
         "yleiskaava",
         "muut"
       ],
-      "verify": true
+      "verify": false,
+      "notes": "26.10.2026: vanha osoite 404. Listassa ei nähtävilläoloaikoja, ne ovat kuulutussivuilla."
     },
     {
       "id": "kunta_loppi",
       "name": "Loppi – kuulutukset",
-      "url": "https://www.loppi.fi/kuulutukset/",
+      "url": "https://www.loppi.fi/ajankohtaista/kuulutukset/",
       "method": "fetch",
       "reach": "Loppi",
       "covers": [
@@ -427,7 +433,8 @@
         "yleiskaava",
         "muut"
       ],
-      "verify": true
+      "verify": false,
+      "notes": "26.10.2026: vanha osoite 404. Listassa ei nähtävilläoloaikoja, ne ovat kuulutussivuilla."
     }
   ]
 }
