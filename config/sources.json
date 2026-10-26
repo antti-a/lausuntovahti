@@ -248,7 +248,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "Espoon yleiskaava 2060 -ehdotus nähtäville syksyllä 2026. 26.10.2026: espoo.fi/fi/kuulutukset palautti 404; oikea osoite selvitettävä (verify jää true). 26.10.2026: oikea osoite espoo.fi/fi/palvelut/kuulutukset (luettavissa). Kaavakuulutukset otsikolla 'Kuulutus: Kaavoja nähtävillä <pvm>'."
+      "notes": "Espoon yleiskaava 2060 -ehdotus nähtäville syksyllä 2026. 26.10.2026: espoo.fi/fi/kuulutukset palautti 404; oikea osoite selvitettävä (verify jää true). 26.10.2026: oikea osoite espoo.fi/fi/palvelut/kuulutukset (luettavissa). Kaavakuulutukset otsikolla 'Kuulutus: Kaavoja nähtävillä <pvm>'. Listaus näyttää vain 12 uusinta kuulutusta eikä sivuta (26.10.: 8.10.–22.10.); vanhemmat haulla https://www.espoo.fi/fi/haku?q=kuulutus&sort=publishedTime-desc&page=N. LVV:n Espoota koskevat kuulutukset (esim. Ämmässuo–Kulmakorpi) julkaistaan myös täällä otsikolla 'Kuulutus: ilmoitus kuulutuksesta …'."
     },
     {
       "id": "kunta_kauniainen",
