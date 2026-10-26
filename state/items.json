@@ -12,7 +12,7 @@
     "summary": "Tien tilapäinen sulku rallia varten. Ei liity veteen.",
     "id": "cd95aaf02a4a",
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-10-26",
     "score": -99,
     "priority": "exclude",
     "reasons": [
@@ -34,7 +34,7 @@
     "summary": "Yksityisen luonnonsuojelualueen perustaminen (Peukaloisen korpi). Korpi = kosteikkotyyppi, mutta kyse on päätöksestä, ei kuulemisesta.",
     "id": "753cb17f9b26",
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-10-26",
     "score": 2,
     "priority": "low",
     "reasons": [
@@ -59,11 +59,11 @@
     "summary": "LVV-U/115714/2026. Lähijunaliikenteen varikon YVA-ohjelma Vantaalla. Varikkoalueen hulevedet ja mahdolliset pohjavesivaikutukset kiinnostavat; sijainti suhteessa Keravanjokeen/Vantaanjokeen tarkistettava. Määräpäivä arvioitu (julkaisu + 30 pv).",
     "id": "6e9aa8777c28",
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-02",
-    "score": 7,
+    "last_seen": "2026-10-26",
+    "score": 5,
     "priority": "high",
     "reasons": [
-      "water: hulevede",
+      "water (summary only): pohjavesi*, hulevede*, Vantaanjo*",
       "plan: YVA, arviointiohjelma",
       "action mielipide: +1",
       "kunta match"
@@ -82,11 +82,11 @@
     "summary": "Vesienhoitosuunnitelma ja toimenpideohjelma kaudelle 2028–2033; koskee suoraan Vantaanjoen, Espoonjoen ja Mankinjoen vesimuodostumia. Kuuleminen alkaa 1.12.2026 ja kestää 6 kk (päättymispäivä tarkentuu). Seuranta: Uudenmaan vesienhoidon yhteistyöryhmän pöytäkirja 25.11.2025.",
     "id": "062d3cf437fb",
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-10-26",
     "score": 4,
     "priority": "high",
     "reasons": [
-      "water: vesienhoito, vesienhoitosuunnitelma, Vantaanjoen",
+      "water: vesienhoito, vesienhoitosuunnitelma",
       "action lausunto: +1"
     ]
   },
@@ -106,11 +106,11 @@
     "summary": "LVV-U/42466/2026. YVA-menettely päättyy perusteltuun päätelmään; ei vastausmahdollisuutta tässä vaiheessa. Seuraava vaihe on lupahakemus (jäähdytysvesi, hulevedet, Palojoki/Vantaanjoki).",
     "id": "94c606fbce88",
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-02",
-    "score": 5,
+    "last_seen": "2026-10-26",
+    "score": 3,
     "priority": "low",
     "reasons": [
-      "water: hulevede, Vantaanjoki, Palojoki",
+      "water (summary only): hulevede*, Vantaanjo*, Palojo*",
       "plan: YVA, perusteltu päätelmä, datakeskus",
       "action tiedoksi: -1",
       "kunta match",
@@ -132,11 +132,11 @@
     "summary": "Koko kaupungin yleiskaava; ehdotus on tarkoitus asettaa nähtäville syyskaudella 2026. Espoonjoen ja Mankinjoen valuma-alueiden maankäyttö, hulevesi- ja viheryhteydet. Tarkka nähtävilläoloaika ei vielä tiedossa.",
     "id": "c999a93f6e04",
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-02",
-    "score": 7,
+    "last_seen": "2026-10-26",
+    "score": 5,
     "priority": "high",
     "reasons": [
-      "water: hulevesi, valuma-alue, valuma",
+      "water (summary only): hulevesi*, valuma-alue, valuma",
       "plan: yleiskaava",
       "action muistutus: +1",
       "kunta match"

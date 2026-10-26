@@ -1,4 +1,4 @@
-# Kaikki seurannassa olevat kohteet (2026-11-02)
+# Kaikki seurannassa olevat kohteet (2026-10-26)
 
 | Prio | Määräpäivä | Toimenpide | Otsikko | Kunta | Tyyppi | Lähde |
 |---|---|---|---|---|---|---|

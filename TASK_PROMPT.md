@@ -8,7 +8,7 @@ Etsi Vantaanjoen, Espoonjoen ja Mankinjoen valuma-alueiden kuntia ja viranomaisi
 
 ## Vaiheet
 
-1. **Repo.** Kloonaa tai päivitä repo (`git pull`). Lue `config/sources.json`, `config/kunnat.json`, `config/keywords.json` ja `state/items.json` (jo tiedossa olevat kohteet – älä kirjaa niitä uudelleen ellei määräpäivä tai linkki tarkennu).
+1. **Repo.** Kloonaa tai päivitä repo (`git pull`). Lue `config/sources.json`, `config/kunnat.json`, `config/keywords.json` ja `state/items.json` (jo tiedossa olevat kohteet). Älä kirjaa tunnettua kohdetta uudelleen, ellei sen määräpäivä tai linkki tarkennu. Jos kirjaat, lisää riville kenttä `"id"`, jonka arvo on kohteen `id` tiedostosta `state/items.json` – muuten skripti tekee siitä uuden kohteen ja kalenteriin tulee kaksoiskappale. Sama koskee kuulutusta, joka on jo tiedossa toisesta lähteestä tai eri otsikolla.
 
 2. **Lähteet.** Käy läpi jokainen `config/sources.json`-lähde:
    - `method: fetch` → lue sivu WebFetchillä. Pyydä listaus kaikista kuulutuksista/ilmoituksista, joissa on päivämäärä ja jotka koskevat seurattavia kuntia.
@@ -23,9 +23,10 @@ Etsi Vantaanjoen, Espoonjoen ja Mankinjoen valuma-alueiden kuntia ja viranomaisi
    - `kunta`: lista `config/kunnat.json`-nimiä. Tyhjä lista, jos alueellinen (esim. vesienhoitosuunnitelma).
    - `type`: käytä näitä kun sopii: `vesilupa`, `ympäristölupa`, `maa-aineslupa`, `YVA`, `asemakaava`, `yleiskaava`, `maakuntakaava`, `tiesuunnitelma`, `ratasuunnitelma`, `katusuunnitelma`, `vesienhoito`, `merenhoito`, `tulvariski`, `luonnonsuojelu`, `rakennusjärjestys`, `valitus`, `muu`.
    - `action`: mihin voi vastata: `mielipide` (OAS/luonnos), `muistutus` (ehdotus/lupahakemus), `lausunto` (lausuntopyyntö), `vastine` (hallinto-oikeus), `tiedoksi` (ei vastausmahdollisuutta), `päätös`.
-   - `deadline`: viimeinen päivä, jona voi vastata. Jos kuulutuksessa lukee vain nähtävilläoloaika, määräpäivä = nähtävilläolon viimeinen päivä, `deadline_confidence: exact`. Jos vain julkaisupäivä tiedossa ja kyse on LVV:n lupakuulutuksesta tai kaavaehdotuksesta, saa arvioida julkaisupäivä + 30 pv, `deadline_confidence: estimated`. Muuten `null` ja `unknown`. Älä keksi päivämääriä.
-   - `summary`: 1–2 lausetta: mikä hanke, missä, miksi se voi kiinnostaa vesiensuojeluyhdistystä (vesistö, hulevedet, jätevedet, pohjavesi, ranta). Jos ei liity veteen, sano se.
-   - Ota mukaan myös high/medium-kohteet ilman määräpäivää; ne nostetaan yhteenvedossa käsin tarkistettaviksi.
+   - `deadline`: viimeinen päivä, jona voi vastata, muodossa `YYYY-MM-DD`. Jos kuulutuksessa lukee vain nähtävilläoloaika, määräpäivä = nähtävilläolon viimeinen päivä, `deadline_confidence: exact`. Jos vain julkaisupäivä tiedossa ja kyse on LVV:n lupakuulutuksesta tai kaavaehdotuksesta, saa arvioida julkaisupäivä + 30 pv, `deadline_confidence: estimated`. Muuten `null` ja `unknown`. Älä keksi päivämääriä.
+   - `summary`: 1–2 lausetta: mikä hanke, missä, miksi se voi kiinnostaa vesiensuojeluyhdistystä (vesistö, hulevedet, jätevedet, pohjavesi, ranta). Jos ei liity veteen, kirjoita täsmälleen "Ei liity veteen." – älä luettele vesiasioita, joita kohde ei koske, koska vesisanat nostavat pisteitä kieltolauseessakin.
+   - `id`: vain kun päivität jo tiedossa olevaa kohdetta (ks. vaihe 1).
+   - Ota mukaan myös high/medium-kohteet ilman määräpäivää; ne näkyvät kalenterissa merkinnällä `DL ?` kunkin ajon päivänä, kunnes määräpäivä selviää.
 
 4. **Skripti.** Aja `python3 scripts/build_calendar.py --incoming incoming/<pvm>.json --today <pvm> --failed <epäonnistuneet lähde-id:t>`. Skripti yhdistää, pisteyttää, kirjoittaa `calendar.ics`, `state/items.json`, `docs/summary-<pvm>.md` ja tulostaa yhteenvedon. Jos skripti kaatuu, korjaa JSON (yleensä virheellinen päivämäärä tai puuttuva kenttä) ja aja uudestaan. Älä muuta skriptin logiikkaa ajon aikana.
 

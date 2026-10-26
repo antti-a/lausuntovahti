@@ -7,8 +7,70 @@ X-WR-CALNAME:Lausuntovahti – Vantaanjoki\, Espoonjoki\, Mankinjoki
 X-WR-TIMEZONE:Europe/Helsinki
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
+UID:6e9aa8777c28-uusi@lausuntovahti
+DTSTAMP:20261026T115605Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:!! UUSI\, MIELIPIDE DL 20.11.2026 (arvio): Pääkaupunkiseudun Juna
+ kalusto Oy\, Kehäradan varikon ympäristövaikutusten arviointiohjelma n
+ ähtävillä [Vantaa]
+DESCRIPTION:LVV-U/115714/2026. Lähijunaliikenteen varikon YVA-ohjelma Vant
+ aalla. Varikkoalueen hulevedet ja mahdolliset pohjavesivaikutukset kiinnos
+ tavat\; sijainti suhteessa Keravanjokeen/Vantaanjokeen tarkistettava. Mä
+ äräpäivä arvioitu (julkaisu + 30 pv).\n\nTyyppi: YVA | Toimenpide: mie
+ lipide | Prioriteetti: high (pisteet 5)\nKunta: Vantaa\nJulkaistu: 2026-10
+ -21 | Määräpäivä: 20.11.2026 (arvio)\nLähde: lvv_kuulutukset\nLinkki
+ : https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot\nPerustel
+ ut: water (summary only): pohjavesi*\, hulevede*\, Vantaanjo*\; plan: YVA\
+ , arviointiohjelma\; action mielipide: +1\; kunta match
+URL:https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot
+CATEGORIES:high,YVA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:062d3cf437fb-uusi@lausuntovahti
+DTSTAMP:20261026T115605Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:!! UUSI\, LAUSUNTO DL 1.6.2027 (arvio): Kuuleminen ehdotuksesta Kym
+ ijoen–Suomenlahden vesienhoitosuunnitelmaksi 2028–2033 [alueellinen]
+DESCRIPTION:Vesienhoitosuunnitelma ja toimenpideohjelma kaudelle 2028–203
+ 3\; koskee suoraan Vantaanjoen\, Espoonjoen ja Mankinjoen vesimuodostumia.
+  Kuuleminen alkaa 1.12.2026 ja kestää 6 kk (päättymispäivä tarkentuu
+ ). Seuranta: Uudenmaan vesienhoidon yhteistyöryhmän pöytäkirja 25.11.2
+ 025.\n\nTyyppi: vesienhoito | Toimenpide: lausunto | Prioriteetti: high (p
+ isteet 4)\nKunta: alueellinen\nJulkaistu: 2026-12-01 | Määräpäivä: 1.
+ 6.2027 (arvio)\nLähde: lausuntopalvelu\nLinkki: https://www.lausuntopalve
+ lu.fi/FI/Proposal/List\nPerustelut: water: vesienhoito\, vesienhoitosuunni
+ telma\; action lausunto: +1
+URL:https://www.lausuntopalvelu.fi/FI/Proposal/List
+CATEGORIES:high,vesienhoito
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c999a93f6e04@lausuntovahti
+DTSTAMP:20261026T115605Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:!! MUISTUTUS DL ?: Espoon yleiskaava 2060\, kaavaehdotus nähtävil
+ lä [Espoo]
+DESCRIPTION:Koko kaupungin yleiskaava\; ehdotus on tarkoitus asettaa näht
+ äville syyskaudella 2026. Espoonjoen ja Mankinjoen valuma-alueiden maank
+ äyttö\, hulevesi- ja viheryhteydet. Tarkka nähtävilläoloaika ei viel
+ ä tiedossa.\n\nTyyppi: yleiskaava | Toimenpide: muistutus | Prioriteetti:
+  high (pisteet 5)\nKunta: Espoo\nJulkaistu: ? | Määräpäivä: ei tiedos
+ sa\nLähde: kunta_espoo\nLinkki: https://www.espoo.fi/fi/kuulutukset\nPeru
+ stelut: water (summary only): hulevesi*\, valuma-alue\, valuma\; plan: yle
+ iskaava\; action muistutus: +1\; kunta match\n\nMääräpäivä ei ole vie
+ lä tiedossa – tarkista linkistä. Tapahtuma siirtyy joka viikko ajopäi
+ välle\, kunnes määräpäivä selviää.
+URL:https://www.espoo.fi/fi/kuulutukset
+CATEGORIES:high,yleiskaava
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6e9aa8777c28@lausuntovahti
-DTSTAMP:20261026T110550Z
+DTSTAMP:20261026T115605Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:!! MIELIPIDE DL (arvio): Pääkaupunkiseudun Junakalusto Oy\, Kehä
@@ -17,19 +79,19 @@ SUMMARY:!! MIELIPIDE DL (arvio): Pääkaupunkiseudun Junakalusto Oy\, Kehä
 DESCRIPTION:LVV-U/115714/2026. Lähijunaliikenteen varikon YVA-ohjelma Vant
  aalla. Varikkoalueen hulevedet ja mahdolliset pohjavesivaikutukset kiinnos
  tavat\; sijainti suhteessa Keravanjokeen/Vantaanjokeen tarkistettava. Mä
- äräpäivä arvioitu (julkaisu + 30 pv).\nTyyppi: YVA | Toimenpide: mieli
- pide | Prioriteetti: high (pisteet 7)\nKunta: Vantaa\nJulkaistu: 2026-10-2
- 1 | Määräpäivä: 2026-11-20 (arvio)\nLähde: lvv_kuulutukset\nLinkki: 
- https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot\nPerustelut
- : water: hulevede\; plan: YVA\, arviointiohjelma\; action mielipide: +1\; 
- kunta match
+ äräpäivä arvioitu (julkaisu + 30 pv).\n\nTyyppi: YVA | Toimenpide: mie
+ lipide | Prioriteetti: high (pisteet 5)\nKunta: Vantaa\nJulkaistu: 2026-10
+ -21 | Määräpäivä: 20.11.2026 (arvio)\nLähde: lvv_kuulutukset\nLinkki
+ : https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot\nPerustel
+ ut: water (summary only): pohjavesi*\, hulevede*\, Vantaanjo*\; plan: YVA\
+ , arviointiohjelma\; action mielipide: +1\; kunta match
 URL:https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot
 CATEGORIES:high,YVA
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:062d3cf437fb@lausuntovahti
-DTSTAMP:20261026T110550Z
+DTSTAMP:20261026T115605Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:!! LAUSUNTO DL (arvio): Kuuleminen ehdotuksesta Kymijoen–Suomenla
@@ -38,11 +100,11 @@ DESCRIPTION:Vesienhoitosuunnitelma ja toimenpideohjelma kaudelle 2028–203
  3\; koskee suoraan Vantaanjoen\, Espoonjoen ja Mankinjoen vesimuodostumia.
   Kuuleminen alkaa 1.12.2026 ja kestää 6 kk (päättymispäivä tarkentuu
  ). Seuranta: Uudenmaan vesienhoidon yhteistyöryhmän pöytäkirja 25.11.2
- 025.\nTyyppi: vesienhoito | Toimenpide: lausunto | Prioriteetti: high (pis
- teet 4)\nKunta: alueellinen\nJulkaistu: 2026-12-01 | Määräpäivä: 2027
- -06-01 (arvio)\nLähde: lausuntopalvelu\nLinkki: https://www.lausuntopalve
+ 025.\n\nTyyppi: vesienhoito | Toimenpide: lausunto | Prioriteetti: high (p
+ isteet 4)\nKunta: alueellinen\nJulkaistu: 2026-12-01 | Määräpäivä: 1.
+ 6.2027 (arvio)\nLähde: lausuntopalvelu\nLinkki: https://www.lausuntopalve
  lu.fi/FI/Proposal/List\nPerustelut: water: vesienhoito\, vesienhoitosuunni
- telma\, Vantaanjoen\; action lausunto: +1
+ telma\; action lausunto: +1
 URL:https://www.lausuntopalvelu.fi/FI/Proposal/List
 CATEGORIES:high,vesienhoito
 TRANSP:TRANSPARENT

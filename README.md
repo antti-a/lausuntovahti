@@ -1,6 +1,6 @@
 # Lausuntovahti
 
-Viikoittainen seuranta kuulutuksista, joihin voi vastata: Vantaanjoen, Espoonjoen ja Mankinjoen valuma-alueiden kunnat (15 kpl), Lupa- ja valvontavirasto, elinvoimakeskukset, Väylävirasto, maakuntien liitot, lausuntopalvelu.fi. Tulos on Outlookiin tilattava kalenteri, jossa jokainen määräpäivä on oma tapahtumansa.
+Viikoittainen seuranta kuulutuksista, joihin voi vastata: Vantaanjoen, Espoonjoen ja Mankinjoen valuma-alueiden kunnat (16 kpl), Lupa- ja valvontavirasto, elinvoimakeskukset, Väylävirasto, maakuntien liitot, lausuntopalvelu.fi. Tulos on Outlookiin tilattava kalenteri, jossa jokainen määräpäivä on oma tapahtumansa.
 
 ## Miten se toimii
 
@@ -19,7 +19,13 @@ Raw-osoite: `https://raw.githubusercontent.com/antti-a/lausuntovahti/main/calend
 - **Outlook (klassinen työpöytä):** Kalenteri → Avaa kalenteri → Internetistä → liitä osoite.
 - Jaa osoite muille yhdistyksen jäsenille; kukin tilaa sen itse. Outlook päivittää tilatut kalenterit tyypillisesti kerran vuorokaudessa, joten maanantain ajo näkyy viimeistään tiistaina.
 
-Tapahtumien nimeäminen: `!! MUISTUTUS DL: <otsikko> [kunta]` = high, `! LAUSUNTO DL: …` = medium. `(arvio)` tarkoittaa, että määräpäivä on päätelty julkaisupäivästä (+30 pv) eikä luettu kuulutuksesta – tarkista linkistä.
+Tapahtumat (`!!` = high, `!` = medium):
+
+- `!! MUISTUTUS DL: <otsikko> [kunta]` määräpäivänä.
+- `!! UUSI, MUISTUTUS DL 20.11.2026: <otsikko> [kunta]` sinä maanantaina, jona kohde löytyi – jotta uusi kohde näkyy kuluvalla viikolla eikä vasta määräpäivänä.
+- `!! MUISTUTUS DL ?: <otsikko> [kunta]`, jos määräpäivää ei vielä tiedetä. Tapahtuma siirtyy joka maanantai kuluvalle viikolle, kunnes määräpäivä selviää.
+
+`(arvio)` tarkoittaa, että määräpäivä on päätelty julkaisupäivästä (+30 pv) eikä luettu kuulutuksesta – tarkista linkistä.
 
 ## Mitä kalenteriin menee
 
@@ -27,7 +33,8 @@ Pisteytys (`config/keywords.json`):
 
 | Tekijä | Pisteet |
 |---|---|
-| Vesiaiheinen avainsana otsikossa/tiivistelmässä | +3 |
+| Vesiaiheinen avainsana otsikossa tai tyypissä | +3 |
+| … tai vain tiivistelmässä (tiivistelmä kirjoitetaan aina vesinäkökulmasta) | +1 |
 | Suuri suunnitelma (yleiskaava, maakuntakaava, YVA, ympäristölupa, rata/tie…) | +2 |
 | Toimenpide mielipide/muistutus/lausunto/vastine | +1 |
 | Seurattava kunta | +1 (vaatimus, paitsi alueelliset tyypit) |
@@ -36,7 +43,8 @@ Pisteytys (`config/keywords.json`):
 
 Säätäminen:
 - Liian paljon tavaraa → nosta `thresholds.medium` arvoon 3 tai poista avainsanoja.
-- Liian vähän → laske kynnyksiä tai lisää avainsanoja (muista: lyhyet sanat osuvat herkästi; `suo` osui sanaan "suoraan").
+- Liian vähän → laske kynnyksiä tai lisää avainsanoja.
+- Avainsana osuu sanan alkuun, ja perässä saa olla enintään 5 kirjainta taivutusta (`joki` → "jokea", ei "Vantaanjoki"). `sana*` = mikä tahansa jatko (`Vantaanjo*` → "Vantaanjokeen"), `*sana` = myös yhdyssanan loppuosa (`*joki` → "Mätäjoki"). Lyhyet sanat osuvat herkästi: `järven` osui sanaan "Järvenpää".
 - Halutaan seurata myös päätösten valitusaikoja → `non_response_actions_max_priority.päätös: "medium"`.
 - Yksittäinen kohde → lisää `state/items.json`-riville `"manual_priority": "high" | "medium" | "low" | "exclude"`. Säilyy ajosta toiseen.
 
@@ -46,7 +54,7 @@ Kaikki muutokset `config/`-kansioon tulevat voimaan seuraavassa ajossa; skripti 
 
 ```
 config/sources.json    seurattavat lähteet (url, lukutapa, hakukyselyt, verify-lippu)
-config/kunnat.json     15 kuntaa, aliakset
+config/kunnat.json     16 kuntaa, aliakset
 config/keywords.json   pisteytyssäännöt
 scripts/build_calendar.py
 state/items.json       seurannassa olevat kohteet (tila)

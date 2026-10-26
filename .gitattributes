@@ -1,0 +1,2 @@
+# ICS must keep CRLF line endings byte for byte
+calendar.ics -text
