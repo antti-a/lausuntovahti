@@ -10,7 +10,7 @@ Etsi Vantaanjoen, Espoonjoen ja Mankinjoen valuma-alueiden kuntia ja viranomaisi
 
 1. **Repo.** Kloonaa tai päivitä repo (`git pull`). Lue `config/sources.json`, `config/kunnat.json`, `config/keywords.json` ja `state/items.json` (jo tiedossa olevat kohteet). Älä kirjaa tunnettua kohdetta uudelleen, ellei sen määräpäivä tai linkki tarkennu. Jos kirjaat, lisää riville kenttä `"id"`, jonka arvo on kohteen `id` tiedostosta `state/items.json` – muuten skripti tekee siitä uuden kohteen ja kalenteriin tulee kaksoiskappale. Sama koskee kuulutusta, joka on jo tiedossa toisesta lähteestä tai eri otsikolla.
 
-2. **Lähteet.** Käy läpi jokainen `config/sources.json`-lähde:
+2. **Lähteet.** Käy läpi jokainen `config/sources.json`-lähde joka ajossa, myös jos samana päivänä on jo ajettu – aiempi ajo ei korvaa tätä. Ajo, joka ohittaa lähteitä, on kesken.
    - `method: fetch` → lue sivu WebFetchillä. Pyydä listaus kaikista kuulutuksista/ilmoituksista, joissa on päivämäärä ja jotka koskevat seurattavia kuntia.
    - `method: search` tai `fetch_then_search` (kun fetch epäonnistuu) → aja `search_queries` korvaten `{kunta}` seurattavilla kunnilla. Riittää, että kyselyt ajetaan 4–6 kunnalle, jotka osuvat todennäköisimmin (Vantaa, Espoo, Nurmijärvi, Tuusula, Hyvinkää, Riihimäki), plus kyselyt ilman kuntaa. Käytä `mode: standard`.
    - `verify: true` → jos osoite ei toimi, etsi oikea (WebSearch: "<kunta> kuulutukset"), päivitä `config/sources.json` (url, `verify: false`) ja jatka. Kirjaa muutos yhteenvetoon.
@@ -26,13 +26,14 @@ Etsi Vantaanjoen, Espoonjoen ja Mankinjoen valuma-alueiden kuntia ja viranomaisi
    - `deadline`: viimeinen päivä, jona voi vastata, muodossa `YYYY-MM-DD`. Jos kuulutuksessa lukee vain nähtävilläoloaika, määräpäivä = nähtävilläolon viimeinen päivä, `deadline_confidence: exact`. Jos vain julkaisupäivä tiedossa ja kyse on LVV:n lupakuulutuksesta tai kaavaehdotuksesta, saa arvioida julkaisupäivä + 30 pv, `deadline_confidence: estimated`. Muuten `null` ja `unknown`. Älä keksi päivämääriä.
    - `summary`: 1–2 lausetta: mikä hanke, missä, miksi se voi kiinnostaa vesiensuojeluyhdistystä (vesistö, hulevedet, jätevedet, pohjavesi, ranta). Kaavat liittyvät aina veteen hulevesien hallinnan kautta. Jos kohde ei liity veteen, kirjoita täsmälleen "Ei liity veteen." – älä luettele vesiasioita, joita kohde ei koske, koska vesisanat nostavat pisteitä kieltolauseessakin.
    - `id`: vain kun päivität jo tiedossa olevaa kohdetta (ks. vaihe 1).
+   - Jos kohde on vastattavissa (mielipide/muistutus/lausunto/vastine) eikä listaussivulla ole määräpäivää, avaa itse kuulutus (usein PDF) ja etsi nähtävilläolon tai vastausajan päättymispäivä ennen kuin jätät sen `null`:ksi.
    - Ota mukaan myös high/medium-kohteet ilman määräpäivää; ne näkyvät kalenterissa merkinnällä `DL ?` kunkin ajon päivänä, kunnes määräpäivä selviää.
 
 4. **Skripti.** Aja `python3 scripts/build_calendar.py --incoming incoming/<pvm>.json --today <pvm> --failed <epäonnistuneet lähde-id:t>`. Skripti yhdistää, pisteyttää, kirjoittaa `calendar.ics`, `state/items.json`, `docs/summary-<pvm>.md` ja tulostaa yhteenvedon. Jos skripti kaatuu, korjaa JSON (yleensä virheellinen päivämäärä tai puuttuva kenttä) ja aja uudestaan. Älä muuta skriptin logiikkaa ajon aikana.
 
 5. **Commit ja push.** `git add -A && git commit -m "Viikkoajo <pvm>: +N uutta, M päivitettyä" && git push`. Jos push epäonnistuu, raportoi se yhteenvedossa. Committaa ja pushaa myös silloin, kun uusia kohteita ei löytynyt: päivitetty `calendar.ics` siirtää `DL ?` -tapahtumat kuluvalle viikolle. Saman päivän uusinta-ajo korvaa `docs/summary-<pvm>.md`:n, ja se on tarkoituksellista.
 
-6. **Yhteenveto.** Lähetä `PushNotification`-työkalulla (jos käytettävissä) `docs/summary-<pvm>.md`-sisältö tiivistettynä: uudet high- ja medium-kohteet taulukkona (otsikko, kunta, määräpäivä, linkki), määräpäivät seuraavan 14 päivän sisällä, high/medium-kohteet ilman määräpäivää, ja lähteet, joiden luku epäonnistui. Low-kohteista vain lukumäärä. Jos mitään uutta ei löytynyt, sano se yhdellä rivillä. Linkki kalenteriin: `https://raw.githubusercontent.com/antti-a/lausuntovahti/main/calendar.ics`.
+6. **Yhteenveto.** Lähetä `PushNotification`-työkalulla (jos käytettävissä) `docs/summary-<pvm>.md`-sisältö tiivistettynä: uudet high- ja medium-kohteet taulukkona (otsikko, kunta, määräpäivä, linkki), määräpäivät seuraavan 14 päivän sisällä, high/medium-kohteet ilman määräpäivää, ja lähteet, joiden luku epäonnistui. Low-kohteista vain lukumäärä. Jos mitään uutta ei löytynyt, sano se yhdellä rivillä. Linkki kalenteriin: `https://raw.githubusercontent.com/antti-a/lausuntovahti/main/calendar.ics`. Lopeta ajo viestiin, jossa on sama yhteenveto ja lisäksi taulukko kaikista lähteistä: `id`, mitä tehtiin (luettu / haettu / epäonnistui ja miksi), löydettyjen kohteiden määrä ja mahdollinen korjattu osoite.
 
 ## Rajat
 

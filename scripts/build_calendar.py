@@ -421,6 +421,7 @@ def main():
     args = ap.parse_args()
 
     today = parse_date(args.today) or dt.date.today()
+    failed = [s for arg in args.failed for s in arg.split(",") if s.strip()]  # "a b" and "a,b" both work
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     rules = load_json(CONFIG / "keywords.json", None)
@@ -477,7 +478,7 @@ def main():
     (DOCS / "all-items.md").write_text(
         f"# Kaikki seurannassa olevat kohteet ({today.isoformat()})\n\n" + md_table(items) + "\n", encoding="utf-8")
     summary = write_summary(DOCS / f"summary-{today.isoformat()}.md", today, new, updated, items,
-                            archived, args.failed, ics_count)
+                            archived, failed, ics_count)
     print(summary)
 
 
