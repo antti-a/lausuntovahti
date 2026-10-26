@@ -15,7 +15,7 @@ Outputs
   state/items.json       updated (merged, rescored)
   state/archive.json     items whose deadline passed > ARCHIVE_AFTER_DAYS ago
   calendar.ics           high + medium priority items: an event on the deadline (or on the run
-                         day while the deadline is unknown) and a "UUSI" event on the day found
+                         day while the deadline is unknown) and a "uusi" event on the day found
   docs/summary-<date>.md run summary for the weekly message
   docs/all-items.md      human-readable table of everything currently tracked
 
@@ -320,7 +320,7 @@ def vevent(uid, day, summary, desc, it, stamp):
 
 def build_ics(items, today, stamp):
     """Each high/medium item gets an event on its deadline, or on the run day while the deadline is
-    unknown (so it moves forward every week), plus a "UUSI" event on the day it was first seen."""
+    unknown (so it moves forward every week), plus a "uusi" event on the day it was first seen."""
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -338,10 +338,10 @@ def build_ics(items, today, stamp):
             continue
         d = parse_date(it.get("deadline"))
         found = parse_date(it.get("first_seen"))
-        prio_tag = "!!" if it["priority"] == "high" else "!"
         est = " (arvio)" if it.get("deadline_confidence") == "estimated" else ""
         kunta = ", ".join(it.get("kunta") or []) or "alueellinen"
         action = it.get("action") or "lausunto"
+        label = f"{it['title']} ({kunta})"  # lead with what it is; priority and action are in the description
         desc = "\n".join(([it["summary"], ""] if it.get("summary") else []) + [
             f"Tyyppi: {it.get('type','')} | Toimenpide: {action} | Prioriteetti: {it['priority']} (pisteet {it['score']})",
             f"Kunta: {kunta}",
@@ -352,16 +352,13 @@ def build_ics(items, today, stamp):
         ] + ([] if d else ["", "Määräpäivä ei ole vielä tiedossa – tarkista linkistä. Tapahtuma siirtyy "
                                "joka viikko ajopäivälle, kunnes määräpäivä selviää."]))
         if not d:
-            events.append((today, vevent(it["id"], today,
-                                         f"{prio_tag} {action.upper()} DL ?: {it['title']} [{kunta}]", desc, it, stamp)))
+            events.append((today, vevent(it["id"], today, f"{label} – DL ?", desc, it, stamp)))
             continue
         if d >= cutoff:
-            events.append((d, vevent(it["id"], d,
-                                     f"{prio_tag} {action.upper()} DL{est}: {it['title']} [{kunta}]", desc, it, stamp)))
+            events.append((d, vevent(it["id"], d, f"{label} – DL{est}", desc, it, stamp)))
         if found and cutoff <= found < d:
-            events.append((found, vevent(f"{it['id']}-uusi", found,
-                                         f"{prio_tag} UUSI, {action.upper()} DL {fi_date(d)}{est}: {it['title']} [{kunta}]",
-                                         desc, it, stamp)))
+            dl = f"{d.day}.{d.month}." if d.year == found.year else fi_date(d)
+            events.append((found, vevent(f"{it['id']}-uusi", found, f"{label} – uusi, DL {dl}{est}", desc, it, stamp)))
     for _, ev in sorted(events, key=lambda e: e[0]):
         lines += ev
     lines.append("END:VCALENDAR")
