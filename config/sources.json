@@ -1,0 +1,141 @@
+{
+  "_comment": "Seurattavat lähteet. method: 'fetch' = sivu luettavissa suoraan; 'search' = sivu estää automaattisen haun, käytä WebSearch-kyselyjä; 'fetch_then_search' = yritä ensin fetch, sitten search. 'verify': true = osoite on arvaus, ensimmäinen ajo vahvistaa ja korjaa (kirjoita korjattu url ja verify:false). 'reach': mitä alueita lähde kattaa.",
+
+  "sources": [
+    {
+      "id": "lvv_kuulutukset",
+      "name": "Lupa- ja valvontavirasto – kuulutukset ja yleistiedoksiannot",
+      "url": "https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot",
+      "method": "fetch_then_search",
+      "search_queries": ["lvv.fi kuulutus {kunta}", "Lupa- ja valvontavirasto kuulutus {kunta} nähtävillä"],
+      "reach": "valtakunnallinen",
+      "covers": ["YVA", "perusteltu päätelmä", "pilaantunut maa", "tarkkailupäätös", "Natura", "luonnonsuojelu"],
+      "verify": false,
+      "notes": "Sivu esti WebFetchin 26.10.2026. Hakukoneindeksi sisälsi sivun otsikot muutaman päivän viiveellä."
+    },
+    {
+      "id": "lvv_tietopalvelu",
+      "name": "LVV – Ympäristöasioiden tietopalvelu (vesi- ja ympäristöluvat)",
+      "url": "https://ylupa.avi.fi/",
+      "method": "search",
+      "search_queries": ["ylupa.avi.fi {kunta}", "Lupa- ja valvontavirasto vesilupa kuulutus {kunta}", "Lupa- ja valvontavirasto ympäristölupa hakemus kuulutus {kunta}"],
+      "reach": "valtakunnallinen",
+      "covers": ["vesilupa", "ympäristölupa"],
+      "verify": true,
+      "notes": "Vanha osoite ylupa.avi.fi; LVV on nimennyt palvelun uudelleen 1.1.2026. Oikea osoite löytyy lvv.fi/ymparisto/vesilupa -sivulta (linkki 'Ympäristöasioiden tietopalvelu'). Kirjaa löydetty osoite tähän."
+    },
+    {
+      "id": "evk_uusimaa",
+      "name": "Uudenmaan elinvoimakeskus – kuulutukset",
+      "url": "https://elinvoimakeskus.fi/-/uud-kuulutukset",
+      "method": "fetch",
+      "reach": "Uusimaa",
+      "covers": ["luonnonsuojelu", "tiesuunnitelma", "Väyläviraston ilmoitukset", "Traficomin ilmoitukset", "kuntien ilmoitukset"],
+      "verify": false,
+      "notes": "Käsin ylläpidetty HTML-lista, PDF-linkit. Luettavissa suoraan. Ohita osiot 'Tien tilapäinen sulku', 'Liikennepalvelulain mukaiset päätökset', 'Maantielle jätetyn ajoneuvon siirtäminen'."
+    },
+    {
+      "id": "evk_sisasuomi",
+      "name": "Sisä-Suomen elinvoimakeskus – kuulutukset (Kanta-Häme: Riihimäki, Hausjärvi, Loppi)",
+      "url": "https://elinvoimakeskus.fi/kuulutukset",
+      "method": "fetch",
+      "reach": "Kanta-Häme, Pirkanmaa",
+      "covers": ["luonnonsuojelu", "tiesuunnitelma"],
+      "verify": true,
+      "notes": "Alueellinen sivu on todennäköisesti muotoa elinvoimakeskus.fi/-/sis-kuulutukset (vrt. uud-, kas-, var-). Hae hub-sivulta aluevalinta 'Sisä-Suomen elinvoimakeskus' ja kirjaa oikea url."
+    },
+    {
+      "id": "vayliensuunnittelu",
+      "name": "Valtion liikenneväylien suunnittelu (Väylävirasto / elinvoimakeskukset)",
+      "url": "https://vayliensuunnittelu.fi/",
+      "method": "fetch_then_search",
+      "search_queries": ["vayliensuunnittelu.fi nähtävillä {kunta}", "vayliensuunnittelu.fi aloituskuulutus {kunta}"],
+      "reach": "valtakunnallinen",
+      "covers": ["ratasuunnitelma", "tiesuunnitelma", "yleissuunnitelma"],
+      "verify": false,
+      "notes": "Next.js-sovellus; WebFetch palautti vain rungon. Hankekohtaiset sivut muotoa vayliensuunnittelu.fi/s/<id>/nahtavillaolo. Lisäksi vayla.fi/tietoa-meista/ajankohtaista/kuulutukset."
+    },
+    {
+      "id": "vayla_kuulutukset",
+      "name": "Väylävirasto – kuulutukset",
+      "url": "https://vayla.fi/tietoa-meista/ajankohtaista/kuulutukset",
+      "method": "fetch_then_search",
+      "search_queries": ["Väylävirasto kuulutus ratasuunnitelma {kunta}"],
+      "reach": "valtakunnallinen",
+      "covers": ["ratasuunnitelma", "tiesuunnitelma"],
+      "verify": false
+    },
+    {
+      "id": "vaasa_hao",
+      "name": "Vaasan hallinto-oikeus – julkiset kuulutukset (valitukset vesi-/ympäristölupapäätöksistä)",
+      "url": "https://www.tuomioistuimet.fi/fi/hallinto-oikeudet/vaasan-hallinto-oikeus/yleistiedoksiannot-ja-julkiset-kuulutukset/hallinto-oikeuden-julkiset-kuulutukset/",
+      "method": "fetch_then_search",
+      "search_queries": ["Vaasan hallinto-oikeus julkinen kuulutus valitus {kunta}"],
+      "reach": "valtakunnallinen",
+      "covers": ["valitus", "vastine"],
+      "verify": true,
+      "notes": "Polku päätelty kuulutus-PDF:ien tekstistä; vahvista."
+    },
+    {
+      "id": "lausuntopalvelu",
+      "name": "Lausuntopalvelu.fi",
+      "url": "https://www.lausuntopalvelu.fi/FI/Proposal/List",
+      "method": "search",
+      "search_queries": ["lausuntopalvelu.fi vesienhoito", "lausuntopalvelu.fi Uusimaa kaava", "lausuntopalvelu.fi maakuntakaava Kanta-Häme", "lausuntopalvelu.fi tulvariskien hallintasuunnitelma Vantaanjoki", "lausuntopalvelu.fi hulevesi"],
+      "reach": "valtakunnallinen",
+      "covers": ["vesienhoito", "merenhoito", "maakuntakaava", "maakuntaohjelma", "lakihankkeet", "tulvariski"],
+      "verify": true,
+      "notes": "Sivusto esti WebFetchin 26.10.2026. Tiedossa: vesienhoitosuunnitelmien 2028–2033 kuuleminen alkaa 1.12.2026 ja päättyy 6/2027."
+    },
+    {
+      "id": "uudenmaan_liitto",
+      "name": "Uudenmaan liitto – maakuntakaavat",
+      "url": "https://www.uudenmaanliitto.fi/visio-kaava",
+      "method": "fetch_then_search",
+      "search_queries": ["Uudenmaan liitto VISIO-kaava ehdotus nähtävillä", "Uudenmaan liitto maakuntakaava lausuntopyyntö"],
+      "reach": "Uusimaa",
+      "covers": ["maakuntakaava"],
+      "verify": true,
+      "notes": "Myös uml10fi.oncloudos.com (kokousasiakirjat ja kuulutukset)."
+    },
+    {
+      "id": "hameen_liitto",
+      "name": "Hämeen liitto – maakuntakaava 2040",
+      "url": "https://www.hameenliitto.fi/",
+      "method": "fetch_then_search",
+      "search_queries": ["Hämeen liitto maakuntakaava 2040 ehdotus nähtävillä", "Kanta-Hämeen maakuntakaava 2040 lausunto"],
+      "reach": "Kanta-Häme",
+      "covers": ["maakuntakaava"],
+      "verify": true
+    },
+    {
+      "id": "keski_uudenmaan_ymparistokeskus",
+      "name": "Keski-Uudenmaan ympäristökeskus (Järvenpää, Kerava, Mäntsälä, Nurmijärvi, Tuusula)",
+      "url": "https://www.keskiuudenmaanymparistokeskus.fi/",
+      "method": "fetch_then_search",
+      "search_queries": ["Keski-Uudenmaan ympäristökeskus kuulutus ympäristölupa", "Keski-Uudenmaan ympäristölautakunta kuulutus nähtävillä"],
+      "reach": "Järvenpää, Kerava, Mäntsälä, Nurmijärvi, Tuusula",
+      "covers": ["ympäristölupa", "maa-aineslupa", "vesilain ilmoitukset", "ympäristönsuojelumääräykset"],
+      "verify": true,
+      "notes": "Kuulutukset löytyvät myös sopimuskuntien Oncloudos-kuulutussivuilta."
+    },
+
+    {"id": "kunta_helsinki", "name": "Helsinki – kaavakuulutukset", "url": "https://www.hel.fi/kaavakuulutukset", "method": "fetch", "reach": "Helsinki", "covers": ["asemakaava", "yleiskaava"], "verify": true, "notes": "Lisäksi paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset (muut kuulutukset, katu- ja puistosuunnitelmat) ja kartta.hel.fi/suunnitelmat."},
+    {"id": "kunta_helsinki_muut", "name": "Helsinki – kuulutukset ja ilmoitukset", "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset", "method": "fetch", "reach": "Helsinki", "covers": ["ympäristölupa", "katusuunnitelma", "puistosuunnitelma", "muut"], "verify": false},
+    {"id": "kunta_vantaa", "name": "Vantaa – kuulutukset", "url": "https://www.vantaa.fi/fi/kuulutukset", "method": "fetch", "reach": "Vantaa", "covers": ["asemakaava", "yleiskaava", "ympäristölupa", "muut"], "verify": true, "notes": "vantaa.fi tarjoaa RSS:n ajankohtaissisällöstä (vantaa.fi/fi/rss/...). Tarkista onko kuulutuksille oma syöte."},
+    {"id": "kunta_espoo", "name": "Espoo – kuulutukset", "url": "https://www.espoo.fi/fi/kuulutukset", "method": "fetch", "reach": "Espoo, Kauniainen (ympäristönsuojelu)", "covers": ["asemakaava", "yleiskaava", "ympäristölupa", "muut"], "verify": true, "notes": "Espoon yleiskaava 2060 -ehdotus nähtäville syksyllä 2026."},
+    {"id": "kunta_kauniainen", "name": "Kauniainen – kuulutukset", "url": "https://www.kauniainen.fi/kaupunki-ja-paatoksenteko/kuulutukset/", "method": "fetch", "reach": "Kauniainen", "covers": ["asemakaava", "muut"], "verify": true, "notes": "Myös kauniainen10se.oncloudos.com."},
+    {"id": "kunta_kirkkonummi", "name": "Kirkkonummi – kuulutukset", "url": "https://www.kirkkonummi.fi/kuulutukset", "method": "fetch", "reach": "Kirkkonummi", "covers": ["asemakaava", "yleiskaava", "ympäristölupa", "muut"], "verify": true, "notes": "Myös kirkkonummi.oncloudos.com."},
+    {"id": "kunta_vihti", "name": "Vihti – kuulutukset", "url": "https://www.vihti.fi/kuulutukset/", "method": "fetch", "reach": "Vihti", "covers": ["asemakaava", "yleiskaava", "ympäristölupa", "muut"], "verify": true, "notes": "Myös vihti.oncloudos.com."},
+    {"id": "kunta_nurmijarvi", "name": "Nurmijärvi – kuulutukset", "url": "https://www.nurmijarvi.fi/kuulutukset/", "method": "fetch", "reach": "Nurmijärvi", "covers": ["asemakaava", "yleiskaava", "muut"], "verify": true, "notes": "Kuulutus-PDF:t osoitteessa nurmijarvi10.oncloudos.com/kuulutus/<id>.PDF."},
+    {"id": "kunta_tuusula", "name": "Tuusula – kuulutukset", "url": "https://www.tuusula.fi/kuulutukset", "method": "fetch", "reach": "Tuusula", "covers": ["asemakaava", "yleiskaava", "muut"], "verify": true, "notes": "Myös tuusula.cloudnc.fi."},
+    {"id": "kunta_kerava", "name": "Kerava – kuulutukset", "url": "https://www.kerava.fi/kuulutukset", "method": "fetch", "reach": "Kerava", "covers": ["asemakaava", "yleiskaava", "muut"], "verify": true},
+    {"id": "kunta_jarvenpaa", "name": "Järvenpää – kuulutukset", "url": "https://www.jarvenpaa.fi/kuulutukset", "method": "fetch", "reach": "Järvenpää", "covers": ["asemakaava", "yleiskaava", "muut"], "verify": true, "notes": "Myös jarvenpaa.cloudnc.fi."},
+    {"id": "kunta_sipoo", "name": "Sipoo – kuulutukset", "url": "https://www.sipoo.fi/kuulutukset/", "method": "fetch", "reach": "Sipoo", "covers": ["asemakaava", "yleiskaava", "ympäristölupa", "muut"], "verify": true},
+    {"id": "kunta_mantsala", "name": "Mäntsälä – kuulutukset", "url": "https://www.mantsala.fi/kuulutukset", "method": "fetch", "reach": "Mäntsälä", "covers": ["asemakaava", "yleiskaava", "muut"], "verify": true, "notes": "Myös mantsalad10.oncloudos.com."},
+    {"id": "kunta_hyvinkaa", "name": "Hyvinkää – kuulutukset", "url": "https://www.hyvinkaa.fi/kuulutukset/", "method": "fetch", "reach": "Hyvinkää", "covers": ["asemakaava", "yleiskaava", "ympäristölupa", "muut"], "verify": true},
+    {"id": "kunta_riihimaki", "name": "Riihimäki – kuulutukset", "url": "https://www.riihimaki.fi/kuulutukset/", "method": "fetch", "reach": "Riihimäki (ympäristönsuojelu mahdollisesti myös Hausjärvi ja Loppi – tarkista)", "covers": ["asemakaava", "yleiskaava", "ympäristölupa", "muut"], "verify": true},
+    {"id": "kunta_hausjarvi", "name": "Hausjärvi – kuulutukset", "url": "https://www.hausjarvi.fi/kuulutukset/", "method": "fetch", "reach": "Hausjärvi", "covers": ["asemakaava", "yleiskaava", "muut"], "verify": true},
+    {"id": "kunta_loppi", "name": "Loppi – kuulutukset", "url": "https://www.loppi.fi/kuulutukset/", "method": "fetch", "reach": "Loppi", "covers": ["asemakaava", "yleiskaava", "muut"], "verify": true}
+  ]
+}

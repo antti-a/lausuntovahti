@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lausuntovahti//FI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lausuntovahti – Vantaanjoki\, Espoonjoki\, Mankinjoki
+X-WR-TIMEZONE:Europe/Helsinki
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+UID:6e9aa8777c28@lausuntovahti
+DTSTAMP:20261026T110550Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:!! MIELIPIDE DL (arvio): Pääkaupunkiseudun Junakalusto Oy\, Kehä
+ radan varikon ympäristövaikutusten arviointiohjelma nähtävillä [Vanta
+ a]
+DESCRIPTION:LVV-U/115714/2026. Lähijunaliikenteen varikon YVA-ohjelma Vant
+ aalla. Varikkoalueen hulevedet ja mahdolliset pohjavesivaikutukset kiinnos
+ tavat\; sijainti suhteessa Keravanjokeen/Vantaanjokeen tarkistettava. Mä
+ äräpäivä arvioitu (julkaisu + 30 pv).\nTyyppi: YVA | Toimenpide: mieli
+ pide | Prioriteetti: high (pisteet 7)\nKunta: Vantaa\nJulkaistu: 2026-10-2
+ 1 | Määräpäivä: 2026-11-20 (arvio)\nLähde: lvv_kuulutukset\nLinkki: 
+ https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot\nPerustelut
+ : water: hulevede\; plan: YVA\, arviointiohjelma\; action mielipide: +1\; 
+ kunta match
+URL:https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot
+CATEGORIES:high,YVA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:062d3cf437fb@lausuntovahti
+DTSTAMP:20261026T110550Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:!! LAUSUNTO DL (arvio): Kuuleminen ehdotuksesta Kymijoen–Suomenla
+ hden vesienhoitosuunnitelmaksi 2028–2033 [alueellinen]
+DESCRIPTION:Vesienhoitosuunnitelma ja toimenpideohjelma kaudelle 2028–203
+ 3\; koskee suoraan Vantaanjoen\, Espoonjoen ja Mankinjoen vesimuodostumia.
+  Kuuleminen alkaa 1.12.2026 ja kestää 6 kk (päättymispäivä tarkentuu
+ ). Seuranta: Uudenmaan vesienhoidon yhteistyöryhmän pöytäkirja 25.11.2
+ 025.\nTyyppi: vesienhoito | Toimenpide: lausunto | Prioriteetti: high (pis
+ teet 4)\nKunta: alueellinen\nJulkaistu: 2026-12-01 | Määräpäivä: 2027
+ -06-01 (arvio)\nLähde: lausuntopalvelu\nLinkki: https://www.lausuntopalve
+ lu.fi/FI/Proposal/List\nPerustelut: water: vesienhoito\, vesienhoitosuunni
+ telma\, Vantaanjoen\; action lausunto: +1
+URL:https://www.lausuntopalvelu.fi/FI/Proposal/List
+CATEGORIES:high,vesienhoito
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

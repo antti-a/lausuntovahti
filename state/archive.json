@@ -1,0 +1,27 @@
+[
+  {
+    "source_id": "keski_uudenmaan_ymparistokeskus",
+    "title": "Kiviaineksen louhinta ja murskaus, Ilvesvuori, Nurmijärvi – ympäristölupa ja aloituslupa, päätöskuulutus",
+    "url": "https://nurmijarvi10.oncloudos.com/kuulutus/202565842.PDF",
+    "kunta": [
+      "Nurmijärvi"
+    ],
+    "type": "ympäristölupa",
+    "action": "päätös",
+    "published": "2025-10-03",
+    "deadline": "2025-11-10",
+    "deadline_confidence": "exact",
+    "summary": "Vanha päätös (valitusaika päättyi 10.11.2025). Testikohde arkistoinnille.",
+    "id": "638fa232a1b1",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: ympäristölupa, louhinta, murskaus",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  }
+]

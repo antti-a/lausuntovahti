@@ -1,0 +1,145 @@
+[
+  {
+    "source_id": "evk_uusimaa",
+    "title": "Yleistiedoksianto päätöksestä: Maanrakennus Sjöberg Rallisprint -tapahtuma, Raasepori",
+    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/yleistiedoksianto_paatoksesta_maanrakennus_sjoberg_rallisprint_4-10-2026_uud_6756_2026-pdf",
+    "kunta": [],
+    "type": "muu",
+    "action": "päätös",
+    "published": "2026-08-24",
+    "deadline": "2026-09-30",
+    "deadline_confidence": "exact",
+    "summary": "Tien tilapäinen sulku rallia varten. Ei liity veteen.",
+    "id": "cd95aaf02a4a",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-11-02",
+    "score": -99,
+    "priority": "exclude",
+    "reasons": [
+      "exclude_keyword: ralli"
+    ]
+  },
+  {
+    "source_id": "evk_uusimaa",
+    "title": "Ilmoitus luonnonsuojelualueen perustamispäätöksen yleistiedoksiannosta, Takametsä, Tuusula",
+    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/yleistiedoksianto_peukaloisen-korpi_uud_6275_2026",
+    "kunta": [
+      "Tuusula"
+    ],
+    "type": "luonnonsuojelu",
+    "action": "päätös",
+    "published": "2026-10-01",
+    "deadline": "2026-11-07",
+    "deadline_confidence": "estimated",
+    "summary": "Yksityisen luonnonsuojelualueen perustaminen (Peukaloisen korpi). Korpi = kosteikkotyyppi, mutta kyse on päätöksestä, ei kuulemisesta.",
+    "id": "753cb17f9b26",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-11-02",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: luonnonsuojelualue",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "lvv_kuulutukset",
+    "title": "Pääkaupunkiseudun Junakalusto Oy, Kehäradan varikon ympäristövaikutusten arviointiohjelma nähtävillä",
+    "url": "https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "YVA",
+    "action": "mielipide",
+    "published": "2026-10-21",
+    "deadline": "2026-11-20",
+    "deadline_confidence": "estimated",
+    "summary": "LVV-U/115714/2026. Lähijunaliikenteen varikon YVA-ohjelma Vantaalla. Varikkoalueen hulevedet ja mahdolliset pohjavesivaikutukset kiinnostavat; sijainti suhteessa Keravanjokeen/Vantaanjokeen tarkistettava. Määräpäivä arvioitu (julkaisu + 30 pv).",
+    "id": "6e9aa8777c28",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-11-02",
+    "score": 7,
+    "priority": "high",
+    "reasons": [
+      "water: hulevede",
+      "plan: YVA, arviointiohjelma",
+      "action mielipide: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "lausuntopalvelu",
+    "title": "Kuuleminen ehdotuksesta Kymijoen–Suomenlahden vesienhoitosuunnitelmaksi 2028–2033",
+    "url": "https://www.lausuntopalvelu.fi/FI/Proposal/List",
+    "kunta": [],
+    "type": "vesienhoito",
+    "action": "lausunto",
+    "published": "2026-12-01",
+    "deadline": "2027-06-01",
+    "deadline_confidence": "estimated",
+    "summary": "Vesienhoitosuunnitelma ja toimenpideohjelma kaudelle 2028–2033; koskee suoraan Vantaanjoen, Espoonjoen ja Mankinjoen vesimuodostumia. Kuuleminen alkaa 1.12.2026 ja kestää 6 kk (päättymispäivä tarkentuu). Seuranta: Uudenmaan vesienhoidon yhteistyöryhmän pöytäkirja 25.11.2025.",
+    "id": "062d3cf437fb",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-11-02",
+    "score": 4,
+    "priority": "high",
+    "reasons": [
+      "water: vesienhoito, vesienhoitosuunnitelma, Vantaanjoen",
+      "action lausunto: +1"
+    ]
+  },
+  {
+    "source_id": "lvv_kuulutukset",
+    "title": "Perusteltu päätelmä, Jokelan datakeskushanke, Tuusula ja Nurmijärvi",
+    "url": "https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot",
+    "kunta": [
+      "Tuusula",
+      "Nurmijärvi"
+    ],
+    "type": "YVA",
+    "action": "tiedoksi",
+    "published": "2026-10-22",
+    "deadline": null,
+    "deadline_confidence": "unknown",
+    "summary": "LVV-U/42466/2026. YVA-menettely päättyy perusteltuun päätelmään; ei vastausmahdollisuutta tässä vaiheessa. Seuraava vaihe on lupahakemus (jäähdytysvesi, hulevedet, Palojoki/Vantaanjoki).",
+    "id": "94c606fbce88",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-11-02",
+    "score": 5,
+    "priority": "low",
+    "reasons": [
+      "water: hulevede, Vantaanjoki, Palojoki",
+      "plan: YVA, perusteltu päätelmä, datakeskus",
+      "action tiedoksi: -1",
+      "kunta match",
+      "action tiedoksi → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_espoo",
+    "title": "Espoon yleiskaava 2060, kaavaehdotus nähtävillä",
+    "url": "https://www.espoo.fi/fi/kuulutukset",
+    "kunta": [
+      "Espoo"
+    ],
+    "type": "yleiskaava",
+    "action": "muistutus",
+    "published": null,
+    "deadline": null,
+    "deadline_confidence": "unknown",
+    "summary": "Koko kaupungin yleiskaava; ehdotus on tarkoitus asettaa nähtäville syyskaudella 2026. Espoonjoen ja Mankinjoen valuma-alueiden maankäyttö, hulevesi- ja viheryhteydet. Tarkka nähtävilläoloaika ei vielä tiedossa.",
+    "id": "c999a93f6e04",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-11-02",
+    "score": 7,
+    "priority": "high",
+    "reasons": [
+      "water: hulevesi, valuma-alue, valuma",
+      "plan: yleiskaava",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  }
+]

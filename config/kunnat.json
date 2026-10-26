@@ -1,0 +1,21 @@
+{
+  "_comment": "Kunnat joiden kuulutuksia seurataan. 'aliases' auttaa tekstihakua (sv-nimet, taivutusmuodot). 'code' = kuntanumero (Ryhti/Tilastokeskus).",
+  "kunnat": [
+    {"name": "Helsinki", "code": "091", "aliases": ["Helsingin", "Helsingfors"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Vantaa", "code": "092", "aliases": ["Vantaan", "Vanda"], "valuma_alue": ["Vantaanjoki", "Espoonjoki"]},
+    {"name": "Espoo", "code": "049", "aliases": ["Espoon", "Esbo"], "valuma_alue": ["Vantaanjoki", "Espoonjoki", "Mankinjoki"]},
+    {"name": "Kauniainen", "code": "235", "aliases": ["Kauniaisten", "Grankulla"], "valuma_alue": ["Espoonjoki"]},
+    {"name": "Kirkkonummi", "code": "257", "aliases": ["Kirkkonummen", "Kyrkslätt"], "valuma_alue": ["Mankinjoki"]},
+    {"name": "Vihti", "code": "927", "aliases": ["Vihdin"], "valuma_alue": ["Vantaanjoki", "Mankinjoki"]},
+    {"name": "Nurmijärvi", "code": "543", "aliases": ["Nurmijärven"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Tuusula", "code": "858", "aliases": ["Tuusulan", "Tusby"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Kerava", "code": "245", "aliases": ["Keravan", "Kervo"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Järvenpää", "code": "186", "aliases": ["Järvenpään", "Träskända"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Sipoo", "code": "753", "aliases": ["Sipoon", "Sibbo"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Mäntsälä", "code": "505", "aliases": ["Mäntsälän"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Hyvinkää", "code": "106", "aliases": ["Hyvinkään"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Riihimäki", "code": "694", "aliases": ["Riihimäen"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Hausjärvi", "code": "086", "aliases": ["Hausjärven"], "valuma_alue": ["Vantaanjoki"]},
+    {"name": "Loppi", "code": "433", "aliases": ["Lopen"], "valuma_alue": ["Vantaanjoki"]}
+  ]
+}
