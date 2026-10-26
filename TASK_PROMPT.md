@@ -14,10 +14,10 @@ Etsi Vantaanjoen, Espoonjoen ja Mankinjoen valuma-alueiden kuntia ja viranomaisi
    - `method: fetch` → lue sivu WebFetchillä. Pyydä listaus kaikista kuulutuksista/ilmoituksista, joissa on päivämäärä ja jotka koskevat seurattavia kuntia.
    - `method: search` tai `fetch_then_search` (kun fetch epäonnistuu) → aja `search_queries` korvaten `{kunta}` seurattavilla kunnilla. Riittää, että kyselyt ajetaan 4–6 kunnalle, jotka osuvat todennäköisimmin (Vantaa, Espoo, Nurmijärvi, Tuusula, Hyvinkää, Riihimäki), plus kyselyt ilman kuntaa. Käytä `mode: standard`.
    - `verify: true` → jos osoite ei toimi, etsi oikea (WebSearch: "<kunta> kuulutukset"), päivitä `config/sources.json` (url, `verify: false`) ja jatka. Kirjaa muutos yhteenvetoon.
-   - Jos lähde ei aukea millään tavalla, lisää sen `id` epäonnistuneisiin ja jatka. Älä yritä kiertää estoja curlilla tai muilla keinoilla.
+   - Jos WebFetch ei saa sivua auki (esim. `ENOTFOUND` tai 403), kokeile sille lähteelle WebSearchia (`site:<domain> kuulutus`) ennen kuin luovutat. Jos lähde ei aukea millään tavalla, lisää sen `id` epäonnistuneisiin ja jatka seuraavaan. Käy kaikki lähteet läpi, vaikka useampi epäonnistuisi. Älä yritä kiertää estoja curlilla tai muilla keinoilla.
    - Ohita selvästi epäolennaiset: rallit, triathlonit, laajakaistahankkeet, joukkoliikennepäätökset, ajoneuvojen siirrot, virkailmoitukset. Skripti suodattaa nämä joka tapauksessa, mutta niitä ei tarvitse kirjata.
 
-3. **Poiminta.** Kirjoita löydökset tiedostoon `incoming/<YYYY-MM-DD>.json` muodossa `{"items": [ ... ]}`. Kenttäkuvaus on `scripts/build_calendar.py`-tiedoston alussa. Säännöt:
+3. **Poiminta.** Kirjoita löydökset tiedostoon `incoming/<YYYY-MM-DD>.json` muodossa `{"items": [ ... ]}`. Jos tiedosto on jo olemassa (saman päivän aiempi ajo), lisää kohteet sen `items`-listaan. Kenttäkuvaus on `scripts/build_calendar.py`-tiedoston alussa. Säännöt:
    - `title`: julkaistu otsikko lyhennettynä (max ~120 merkkiä), ei päivämääriä otsikkoon.
    - `url`: suorin linkki kuulutukseen tai asiakirjoihin (PDF käy). Ei etusivuja.
    - `kunta`: lista `config/kunnat.json`-nimiä. Tyhjä lista, jos alueellinen (esim. vesienhoitosuunnitelma).
@@ -30,9 +30,9 @@ Etsi Vantaanjoen, Espoonjoen ja Mankinjoen valuma-alueiden kuntia ja viranomaisi
 
 4. **Skripti.** Aja `python3 scripts/build_calendar.py --incoming incoming/<pvm>.json --today <pvm> --failed <epäonnistuneet lähde-id:t>`. Skripti yhdistää, pisteyttää, kirjoittaa `calendar.ics`, `state/items.json`, `docs/summary-<pvm>.md` ja tulostaa yhteenvedon. Jos skripti kaatuu, korjaa JSON (yleensä virheellinen päivämäärä tai puuttuva kenttä) ja aja uudestaan. Älä muuta skriptin logiikkaa ajon aikana.
 
-5. **Commit ja push.** `git add -A && git commit -m "Viikkoajo <pvm>: +N uutta, M päivitettyä" && git push`. Jos push epäonnistuu, raportoi se yhteenvedossa.
+5. **Commit ja push.** `git add -A && git commit -m "Viikkoajo <pvm>: +N uutta, M päivitettyä" && git push`. Jos push epäonnistuu, raportoi se yhteenvedossa. Committaa ja pushaa myös silloin, kun uusia kohteita ei löytynyt: päivitetty `calendar.ics` siirtää `DL ?` -tapahtumat kuluvalle viikolle. Saman päivän uusinta-ajo korvaa `docs/summary-<pvm>.md`:n, ja se on tarkoituksellista.
 
-6. **Yhteenveto.** Lähetä `SendUserMessage`-työkalulla (jos käytettävissä) `docs/summary-<pvm>.md`-sisältö tiivistettynä: uudet high- ja medium-kohteet taulukkona (otsikko, kunta, määräpäivä, linkki), määräpäivät seuraavan 14 päivän sisällä, high/medium-kohteet ilman määräpäivää, ja lähteet, joiden luku epäonnistui. Low-kohteista vain lukumäärä. Jos mitään uutta ei löytynyt, sano se yhdellä rivillä. Linkki kalenteriin: `https://raw.githubusercontent.com/antti-a/lausuntovahti/main/calendar.ics`.
+6. **Yhteenveto.** Lähetä `PushNotification`-työkalulla (jos käytettävissä) `docs/summary-<pvm>.md`-sisältö tiivistettynä: uudet high- ja medium-kohteet taulukkona (otsikko, kunta, määräpäivä, linkki), määräpäivät seuraavan 14 päivän sisällä, high/medium-kohteet ilman määräpäivää, ja lähteet, joiden luku epäonnistui. Low-kohteista vain lukumäärä. Jos mitään uutta ei löytynyt, sano se yhdellä rivillä. Linkki kalenteriin: `https://raw.githubusercontent.com/antti-a/lausuntovahti/main/calendar.ics`.
 
 ## Rajat
 
