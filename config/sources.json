@@ -20,7 +20,7 @@
         "luonnonsuojelu"
       ],
       "verify": false,
-      "notes": "Sivu esti WebFetchin 26.10.2026. Hakukoneindeksi sisälsi sivun otsikot muutaman päivän viiveellä."
+      "notes": "Sivu esti WebFetchin 26.10.2026. Hakukoneindeksi sisälsi sivun otsikot muutaman päivän viiveellä. 26.10.2026 (takautuva 60 pv haku): lvv.fi estää WebFetchin. Yksittäisen kuulutuksen sivu on muotoa lvv.fi/-/kuulutus-lvv-u-<nro>-2026-<otsikko>; osoite löytyy kuntien julkaisemista 'Ilmoitus kuulutuksesta' -PDF:istä. Toimivimmat reitit: espoo.fi/fi/haku?q=Lupa-%20ja%20valvontavirasto&sort=publishedTime-desc ja kuntien oncloudos-kuulutuslistat (Kirkkonummi, Vihti, Tuusula, Nurmijärvi, Mäntsälä). PDF:t ovat usein pakattuja: WebFetch ei lue niitä, mutta tallennettu PDF aukeaa pdftotext-ohjelmalla."
     },
     {
       "id": "lvv_tietopalvelu",
@@ -54,20 +54,20 @@
         "kuntien ilmoitukset"
       ],
       "verify": false,
-      "notes": "Käsin ylläpidetty HTML-lista, PDF-linkit. Luettavissa suoraan. Ohita osiot 'Tien tilapäinen sulku', 'Liikennepalvelulain mukaiset päätökset', 'Maantielle jätetyn ajoneuvon siirtäminen'."
+      "notes": "Käsin ylläpidetty HTML-lista, PDF-linkit. Luettavissa suoraan. Ohita osiot 'Tien tilapäinen sulku', 'Liikennepalvelulain mukaiset päätökset', 'Maantielle jätetyn ajoneuvon siirtäminen'. 26.10.2026 (takautuva 60 pv haku): Sivulla ei ole sivutusta eikä arkistolinkkiä; kaikki (myös 2021-2022) kuulutukset ovat samalla sivulla. Luonnonsuojelupäätösten valitusaika = julkaisupäivä + 7 pv (tiedoksisaanti) + 30 pv; tarkka päivä löytyy vain PDF:stä. WebFetch ei lue PDF:n tekstiä, mutta tallentaa tiedoston, jonka saa auki pdftotextillä."
     },
     {
       "id": "evk_sisasuomi",
       "name": "Sisä-Suomen elinvoimakeskus – kuulutukset (Kanta-Häme: Riihimäki, Hausjärvi, Loppi)",
-      "url": "https://elinvoimakeskus.fi/kuulutukset",
+      "url": "https://elinvoimakeskus.fi/-/pir-kuulutukset",
       "method": "fetch",
       "reach": "Kanta-Häme, Pirkanmaa",
       "covers": [
         "luonnonsuojelu",
         "tiesuunnitelma"
       ],
-      "verify": true,
-      "notes": "Alueellinen sivu on todennäköisesti muotoa elinvoimakeskus.fi/-/sis-kuulutukset (vrt. uud-, kas-, var-). Hae hub-sivulta aluevalinta 'Sisä-Suomen elinvoimakeskus' ja kirjaa oikea url. 26.10.2026: elinvoimakeskus.fi/-/sis-kuulutukset palautti 404; hub-sivulla eikä elinvoimakeskus.fi/sisa-suomi -sivulla ole alueellista kuulutuslinkkiä. Uud-kuulutukset-sivulla on myös Hämeen kohteita (Janakkala, Hollola)."
+      "verify": false,
+      "notes": "Alueellinen sivu on todennäköisesti muotoa elinvoimakeskus.fi/-/sis-kuulutukset (vrt. uud-, kas-, var-). Hae hub-sivulta aluevalinta 'Sisä-Suomen elinvoimakeskus' ja kirjaa oikea url. 26.10.2026: elinvoimakeskus.fi/-/sis-kuulutukset palautti 404; hub-sivulla eikä elinvoimakeskus.fi/sisa-suomi -sivulla ole alueellista kuulutuslinkkiä. Uud-kuulutukset-sivulla on myös Hämeen kohteita (Janakkala, Hollola). 26.10.2026 (takautuva 60 pv haku): 26.10.2026: oikea url on elinvoimakeskus.fi/-/pir-kuulutukset ('pir' = Sisä-Suomi, Pirkanmaa ja Kanta-Häme). Sivulla vain yleistiedoksiantoja ja luonnonsuojelupäätöksiä (Hattula, Forssa, Humppila, Urjala, Sastamala, Vesilahti, Pälkäne, Virrat); Liikenne-, vesilaki-, ojitus- ja pohjavesiosiot tyhjiä. Riihimäkeä, Hausjärveä tai Loppea ei esiinny lainkaan."
     },
     {
       "id": "vayliensuunnittelu",
@@ -85,7 +85,7 @@
         "yleissuunnitelma"
       ],
       "verify": false,
-      "notes": "Next.js-sovellus; WebFetch palautti vain rungon. Hankekohtaiset sivut muotoa vayliensuunnittelu.fi/s/<id>/nahtavillaolo. Lisäksi vayla.fi/tietoa-meista/ajankohtaista/kuulutukset."
+      "notes": "Next.js-sovellus; WebFetch palautti vain rungon. Hankekohtaiset sivut muotoa vayliensuunnittelu.fi/s/<id>/nahtavillaolo. Lisäksi vayla.fi/tietoa-meista/ajankohtaista/kuulutukset. 26.10.2026 (takautuva 60 pv haku): 26.10.2026: etusivun suunnitelmahaku on kokonaan JS:n varassa, eikä WebFetch näe sitä; myös hankesivut (/s/<id>/aloituskuulutus, /nahtavillaolo) jäävät 'Ladataan...'-tilaan. Sivuston oman ohjeen mukaan maanteiden kuulutusten julkaisu on vuoden 2026 alusta siirtynyt elinvoimakeskuksille, joten evk_*-sivut kattavat nämä paremmin."
     },
     {
       "id": "vayla_kuulutukset",
@@ -100,7 +100,8 @@
         "ratasuunnitelma",
         "tiesuunnitelma"
       ],
-      "verify": false
+      "verify": false,
+      "notes": "26.10.2026 (takautuva 60 pv haku): 26.10.2026: vayla.fi estää WebFetchin (403) kaikilla poluilla. Uusimaan ratahankkeiden kuulutukset näkyvät käytännössä evk_uusimaa-sivun 'Väylävirasto'- ja 'Liikenne- ja viestintävirasto'-osioissa, ja Traficom kuuluttaa ratalain mukaiset suunnitelmat itse (traficom.fi > Ajankohtaiset > Kuulutukset ja yleistiedoksiannot > Raideliikenne) - harkitse traficom.fi:n lisäämistä omaksi lähteeksi."
     },
     {
       "id": "vaasa_hao",
@@ -116,7 +117,7 @@
         "vastine"
       ],
       "verify": false,
-      "notes": "Polku päätelty kuulutus-PDF:ien tekstistä; vahvista. 26.10.2026: vanha polku /fi/hallinto-oikeudet/... palautti 404; uusi osoite luettavissa WebFetchillä."
+      "notes": "Polku päätelty kuulutus-PDF:ien tekstistä; vahvista. 26.10.2026: vanha polku /fi/hallinto-oikeudet/... palautti 404; uusi osoite luettavissa WebFetchillä. 26.10.2026 (takautuva 60 pv haku): Sivu ei sivuta; nähtävilläolonsa päättäneet poistuvat listalta. Osa PDF:istä on skannattuja kuvia (esim. Vihti 1214/2026): tiedot vain renderöimällä sivu kuvaksi."
     },
     {
       "id": "lausuntopalvelu",
@@ -140,7 +141,7 @@
         "tulvariski"
       ],
       "verify": true,
-      "notes": "Sivusto esti WebFetchin 26.10.2026. Tiedossa: vesienhoitosuunnitelmien 2028–2033 kuuleminen alkaa 1.12.2026 ja päättyy 6/2027."
+      "notes": "Sivusto esti WebFetchin 26.10.2026. Tiedossa: vesienhoitosuunnitelmien 2028–2033 kuuleminen alkaa 1.12.2026 ja päättyy 6/2027. 26.10.2026 (takautuva 60 pv haku): Hakukone ei indeksoi lausuntopalvelu.fi:n avoimia pyyntöjä; asiakirjat näkyvät joskus api.hankeikkuna.fi-osoitteissa."
     },
     {
       "id": "uudenmaan_liitto",
@@ -156,7 +157,7 @@
         "maakuntakaava"
       ],
       "verify": false,
-      "notes": "Myös uml10fi.oncloudos.com (kokousasiakirjat ja kuulutukset). 26.10.2026: sivu luettavissa; VISIO-kaavan luonnos oli nähtävillä 11.3.–8.5.2026, ehdotus nähtäville keväällä 2027."
+      "notes": "Myös uml10fi.oncloudos.com (kokousasiakirjat ja kuulutukset). 26.10.2026: sivu luettavissa; VISIO-kaavan luonnos oli nähtävillä 11.3.–8.5.2026, ehdotus nähtäville keväällä 2027. 26.10.2026 (takautuva 60 pv haku): Kuulutuslista: uml10fi.oncloudos.com/cgi/DREQUEST.PHP?alo=1&page=announcement_search (tyhjä 26.10.2026). uudenmaanliitto.fi/kuulutukset/ antaa 404."
     },
     {
       "id": "hameen_liitto",
@@ -172,7 +173,7 @@
         "maakuntakaava"
       ],
       "verify": false,
-      "notes": "26.10.2026: 1. vaihemaakuntakaavan ehdotus nähtäville alustavasti loppuvuodesta 2026. Kuulutuslista hameenliitto.tweb.fi/ktwebbin/dbisa.dll/ktwebscr/kuullist_tweb.htm (503 26.10.2026)."
+      "notes": "26.10.2026: 1. vaihemaakuntakaavan ehdotus nähtäville alustavasti loppuvuodesta 2026. Kuulutuslista hameenliitto.tweb.fi/ktwebbin/dbisa.dll/ktwebscr/kuullist_tweb.htm (503 26.10.2026). 26.10.2026 (takautuva 60 pv haku): hameenliitto.tweb.fi-kuulutuslista palautti 503 myös 2. ajossa 26.10.2026."
     },
     {
       "id": "keski_uudenmaan_ymparistokeskus",
@@ -191,7 +192,7 @@
         "ympäristönsuojelumääräykset"
       ],
       "verify": false,
-      "notes": "Kuulutukset löytyvät myös sopimuskuntien Oncloudos-kuulutussivuilta. 26.10.2026: KUYK:n oma sivu linkittää tähän Tuusulan Dynasty-hakuun (kas=4)."
+      "notes": "Kuulutukset löytyvät myös sopimuskuntien Oncloudos-kuulutussivuilta. 26.10.2026: KUYK:n oma sivu linkittää tähän Tuusulan Dynasty-hakuun (kas=4). 26.10.2026 (takautuva 60 pv haku): Tuusulan kas=4-haku ei näytä kaikkia KUYK:n kuulutuksia: 118 §:n ilmoituspäätökset (201/2026, 198/2026, 191/2026) ovat vain Tuusulan pääkuulutuslistalla, ja Nurmijärven kohteet (esim. VK-Bioenergia 91/2026) vain Nurmijärven Dynastyssa."
     },
     {
       "id": "kunta_helsinki",
@@ -204,7 +205,7 @@
         "yleiskaava"
       ],
       "verify": false,
-      "notes": "Lisäksi paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset (muut kuulutukset, katu- ja puistosuunnitelmat) ja kartta.hel.fi/suunnitelmat. hel.fi/kaavakuulutukset ohjaa tähän (26.10.2026)."
+      "notes": "Lisäksi paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset (muut kuulutukset, katu- ja puistosuunnitelmat) ja kartta.hel.fi/suunnitelmat. hel.fi/kaavakuulutukset ohjaa tähän (26.10.2026). 26.10.2026 (takautuva 60 pv haku): Listaus sivuttaa ?page=N (0-alkuinen), 10/sivu. Kaavaehdotusten muistutusaika ~30 pv, joten 2–3 sivua riittää. Kategoria 'nahtavilla-olevat-suunnitelmat' kokoaa kaavat sekä katu- ja puistosuunnitelmat."
     },
     {
       "id": "kunta_helsinki_muut",
@@ -218,7 +219,8 @@
         "puistosuunnitelma",
         "muut"
       ],
-      "verify": false
+      "verify": false,
+      "notes": "26.10.2026 (takautuva 60 pv haku): Pääsivu on täynnä tupakointikieltoja ja liikennepäätöksiä; lue mieluummin kategoriat /fi/kuulutukset-ja-ilmoitukset/katu-ja-puistosuunnitelmat, /fi/kuulutukset-ja-ilmoitukset/ymparistoasiat ja /fi/kuulutukset-ilmoitukset-ja-julkipanot/muiden-viranomaisten-kuulutukset (RSS: /fi/taxonomy/term/26/feed). Muiden viranomaisten ilmoitusten PDF:issä on LVV-asiatunnus ja suora ytietopalvelu-linkki (esim. vesilupahakemukset merialueelle)."
     },
     {
       "id": "kunta_vantaa",
@@ -233,7 +235,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "vantaa.fi tarjoaa RSS:n ajankohtaissisällöstä (vantaa.fi/fi/rss/...). Tarkista onko kuulutuksille oma syöte. 26.10.2026: osoite toimii, listaa paatokset.vantaa.fi-kuulutukset ja Lupapisteen rakentamiskuulutukset."
+      "notes": "vantaa.fi tarjoaa RSS:n ajankohtaissisällöstä (vantaa.fi/fi/rss/...). Tarkista onko kuulutuksille oma syöte. 26.10.2026: osoite toimii, listaa paatokset.vantaa.fi-kuulutukset ja Lupapisteen rakentamiskuulutukset. 26.10.2026 (takautuva 60 pv haku): vantaa.fi/fi/kuulutukset näyttää vain 20 uusinta; paatokset.vantaa.fi/ktwebscr/kuullist_tweb.htm listaa kaikki parhaillaan nähtävillä olevat (ei sivutusta) ja RSS: paatokset.vantaa.fi/ktwebscr/kuul_rssfeed.htm. Osa PDF:istä on kuvia (esim. HaO-kuulutukset)."
     },
     {
       "id": "kunta_espoo",
@@ -248,7 +250,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "Espoon yleiskaava 2060 -ehdotus nähtäville syksyllä 2026. 26.10.2026: espoo.fi/fi/kuulutukset palautti 404; oikea osoite selvitettävä (verify jää true). 26.10.2026: oikea osoite espoo.fi/fi/palvelut/kuulutukset (luettavissa). Kaavakuulutukset otsikolla 'Kuulutus: Kaavoja nähtävillä <pvm>'. Listaus näyttää vain 12 uusinta kuulutusta eikä sivuta (26.10.: 8.10.–22.10.); vanhemmat haulla https://www.espoo.fi/fi/haku?q=kuulutus&sort=publishedTime-desc&page=N. LVV:n Espoota koskevat kuulutukset (esim. Ämmässuo–Kulmakorpi) julkaistaan myös täällä otsikolla 'Kuulutus: ilmoitus kuulutuksesta …'."
+      "notes": "Espoon yleiskaava 2060 -ehdotus nähtäville syksyllä 2026. 26.10.2026: espoo.fi/fi/kuulutukset palautti 404; oikea osoite selvitettävä (verify jää true). 26.10.2026: oikea osoite espoo.fi/fi/palvelut/kuulutukset (luettavissa). Kaavakuulutukset otsikolla 'Kuulutus: Kaavoja nähtävillä <pvm>'. Listaus näyttää vain 12 uusinta kuulutusta eikä sivuta (26.10.: 8.10.–22.10.); vanhemmat haulla https://www.espoo.fi/fi/haku?q=kuulutus&sort=publishedTime-desc&page=N. LVV:n Espoota koskevat kuulutukset (esim. Ämmässuo–Kulmakorpi) julkaistaan myös täällä otsikolla 'Kuulutus: ilmoitus kuulutuksesta …'. 26.10.2026 (takautuva 60 pv haku): Haun sivutus alkaa page=1:stä (page=0 palauttaa 'Ei tuloksia'); 10 tulosta/sivu, sivun 2 osoite /fi/haku?page=2&q=kuulutus&sort=publishedTime-desc. 60 päivää ≈ 6 sivua. Haku ei näytä kaikkia syyskuun alun 'Kaavoja nähtävillä' -kuulutuksia (vain 30.9. ja 14.10.). LVV:n kuulutukset (Ämmässuo–Kulmakorpi, Soukka, atNorth, VTT) löytyvät haulla otsikoilla 'Kuulutus: Ilmoitus kuulutuksesta/päätöksestä …'. Yleiskaava 2060 -ehdotus tavoitteena nähtäville alkuvuonna 2027 (uutinen 7.10.2026)."
     },
     {
       "id": "kunta_kauniainen",
@@ -261,7 +263,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "Myös kauniainen10se.oncloudos.com. 26.10.2026: vanha osoite 404; kauniainen.fi:n listaus on JS-sovellus. Dynasty-haku (kauniainen10fi ja kauniainen10se) palautti 'ei kuulutuksia' – tarkista seuraavalla ajolla, onko listaus oikeasti tyhjä."
+      "notes": "Myös kauniainen10se.oncloudos.com. 26.10.2026: vanha osoite 404; kauniainen.fi:n listaus on JS-sovellus. Dynasty-haku (kauniainen10fi ja kauniainen10se) palautti 'ei kuulutuksia' – tarkista seuraavalla ajolla, onko listaus oikeasti tyhjä. 26.10.2026 (takautuva 60 pv haku): 26.10.2026: Dynasty (kauniainen10fi) ja sen RSS ovat oikeasti tyhjiä – Kauniainen ei käytä niitä kuulutuksiin. Kuulutukset ovat kauniainen.fi:ssä (JS-listaus), mutta ne saa luettavaksi WP-API:lla https://www.kauniainen.fi/wp-json/wp/v2/posts?categories=23&per_page=25&_fields=date,title,link tai haulla https://www.kauniainen.fi/?s=kuulutus. Kaavat: https://www.kauniainen.fi/asuminen-ja-ymparisto/kaavoitus-ja-maankaytto/kaavoitus/kaavoitushankkeet/ (osio 'Nähtävillä olevat asemakaavat'; 26.10. tyhjä). 26.10. ainoat vastattavat: YSL 202 § poikkeamispäätös Magnus Hagelstamin tie 4 (oikaisuvaatimus 18.11.), aihe ei selvinnyt – ei kirjattu. Luettava listaus: https://www.kauniainen.fi/wp-json/wp/v2/posts?categories=23&per_page=25&_fields=date,title,link"
     },
     {
       "id": "kunta_kirkkonummi",
@@ -276,7 +278,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "Myös kirkkonummi.oncloudos.com. kirkkonummi.fi/kuulutukset ohjaa tähän (26.10.2026). Sisältää myös LVV:n 'Ilmoitus kuulutuksesta' -PDF:t Espoon/Kirkkonummen hankkeista."
+      "notes": "Myös kirkkonummi.oncloudos.com. kirkkonummi.fi/kuulutukset ohjaa tähän (26.10.2026). Sisältää myös LVV:n 'Ilmoitus kuulutuksesta' -PDF:t Espoon/Kirkkonummen hankkeista. 26.10.2026 (takautuva 60 pv haku): Dynasty-lista näyttää kaikki nähtävillä olevat kuulutukset yhdellä sivulla (ei sivutusta); nähtävilläolon päättyneet poistuvat listalta. Sisältää myös LVV:n ja Vaasan HaO:n kuulutukset."
     },
     {
       "id": "kunta_vihti",
@@ -291,7 +293,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "Myös vihti.oncloudos.com. vihti.fi/kuulutukset ohjaa tähän (26.10.2026)."
+      "notes": "Myös vihti.oncloudos.com. vihti.fi/kuulutukset ohjaa tähän (26.10.2026). 26.10.2026 (takautuva 60 pv haku): Dynasty-lista näyttää kaikki nähtävillä olevat kuulutukset yhdellä sivulla (ei sivutusta). Vaasan HaO:n PDF:t ovat skannattuja kuvia (WebFetch ei saa tekstiä)."
     },
     {
       "id": "kunta_nurmijarvi",
@@ -305,7 +307,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "Kuulutus-PDF:t osoitteessa nurmijarvi10.oncloudos.com/kuulutus/<id>.PDF. 26.10.2026: nurmijarvi.fi/kuulutukset sisältää vain linkit; varsinainen lista Dynastyssa."
+      "notes": "Kuulutus-PDF:t osoitteessa nurmijarvi10.oncloudos.com/kuulutus/<id>.PDF. 26.10.2026: nurmijarvi.fi/kuulutukset sisältää vain linkit; varsinainen lista Dynastyssa. 26.10.2026 (takautuva 60 pv haku): Dynasty-listaus ei sivuta, vaan näyttää kaikki nähtävillä olevat kuulutukset, joten 60 päivän selaus ei tarvitse lisähakuja. Maisematyölupahakemukset (muistutusaika noin 2 vk) tulevat myös tänne."
     },
     {
       "id": "kunta_tuusula",
@@ -319,7 +321,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "Myös tuusula.cloudnc.fi. tuusula.fi/kuulutukset ohjaa tähän (26.10.2026). Sisältää myös Keski-Uudenmaan ympäristökeskuksen ja LVV:n kuulutukset."
+      "notes": "Myös tuusula.cloudnc.fi. tuusula.fi/kuulutukset ohjaa tähän (26.10.2026). Sisältää myös Keski-Uudenmaan ympäristökeskuksen ja LVV:n kuulutukset. 26.10.2026 (takautuva 60 pv haku): Dynasty-lista ei sivuta (näyttää kaikki voimassa olevat). Kaavojen nähtävilläolot: tuusula.fi/kaavatvireilla."
     },
     {
       "id": "kunta_kerava",
@@ -333,7 +335,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "26.10.2026: kerava.fi/kuulutukset 404; kaupungin kuulutukset osoitteessa kerava-julkaisu.tweb.fi (palautti 503 26.10.2026), kaava- ja rakennusvalvontakuulutukset kerava.fi/asuminen-ja-rakentaminen/rakennusvalvonta/rakennusvalvonnan-ja-kaavoituksen-kuulutukset/."
+      "notes": "26.10.2026: kerava.fi/kuulutukset 404; kaupungin kuulutukset osoitteessa kerava-julkaisu.tweb.fi (palautti 503 26.10.2026), kaava- ja rakennusvalvontakuulutukset kerava.fi/asuminen-ja-rakentaminen/rakennusvalvonta/rakennusvalvonnan-ja-kaavoituksen-kuulutukset/. 26.10.2026 (takautuva 60 pv haku): 26.10.2026 uusinta: tweb 503 edelleen. Kaavojen nähtävilläolot: kerava.fi/asuminen-ja-rakentaminen/kaupunkisuunnittelu/kaavahankkeet/nahtavilla-olevat-hankkeet/. Rakennusvalvonnan RSS: kuulutukset.lupapiste.fi/rss/kuulutus?organization=245-R&lang=fi. Ympäristöluvat tulevat KUYK:n kautta."
     },
     {
       "id": "kunta_jarvenpaa",
@@ -347,7 +349,7 @@
         "muut"
       ],
       "verify": true,
-      "notes": "Myös jarvenpaa.cloudnc.fi. 26.10.2026: jarvenpaa.fi/kuulutukset on JS-sovellus, WebFetch näkee vain navigaation; ei toimivaa vaihtoehtoa löytynyt (jarvenpaa.cloudnc.fi = pöytäkirjat). Haku löysi vain vanhoja kaavakuulutus-PDF:iä (jarvenpaa.fi/files/...)."
+      "notes": "Myös jarvenpaa.cloudnc.fi. 26.10.2026: jarvenpaa.fi/kuulutukset on JS-sovellus, WebFetch näkee vain navigaation; ei toimivaa vaihtoehtoa löytynyt (jarvenpaa.cloudnc.fi = pöytäkirjat). Haku löysi vain vanhoja kaavakuulutus-PDF:iä (jarvenpaa.fi/files/...). 26.10.2026 (takautuva 60 pv haku): Käytä https://www.jarvenpaa.fi/sitemap.xml: yksittäiset kuulutukset ovat osoitteissa jarvenpaa.fi/announcement/<slug>, ja ne aukeavat WebFetchillä. Tulevat kaavat näkyvät myös kaupunkikehityslautakunnan uutisissa (jarvenpaa.fi/a/...)."
     },
     {
       "id": "kunta_sipoo",
@@ -362,7 +364,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "26.10.2026: sipoo.fi/kuulutukset linkittää Dynasty-hakuun."
+      "notes": "26.10.2026: sipoo.fi/kuulutukset linkittää Dynasty-hakuun. 26.10.2026 (takautuva 60 pv haku): Dynasty-lista näyttää kaikki parhaillaan nähtävillä olevat kuulutukset yhdellä sivulla, ei sivutusta. PDF-linkit muotoa https://sipoofi.oncloudos.com/kuulutus/<id>.PDF."
     },
     {
       "id": "kunta_mantsala",
@@ -376,7 +378,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "Myös mantsalad10.oncloudos.com. 26.10.2026: mantsala.fi/kuulutukset 404; Dynasty-haku toimii."
+      "notes": "Myös mantsalad10.oncloudos.com. 26.10.2026: mantsala.fi/kuulutukset 404; Dynasty-haku toimii. 26.10.2026 (takautuva 60 pv haku): Lista näyttää vain nähtävillä olevat kuulutukset, ei sivutusta. Linkit https://mantsalad10.oncloudos.com/kuulutus/<id>.PDF."
     },
     {
       "id": "kunta_hyvinkaa",
@@ -391,7 +393,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "26.10.2026: hyvinkaa.fi/kuulutukset linkittää tähän; rakentamisluvat julkipano.lupapiste.fi (organization=106-R)."
+      "notes": "26.10.2026: hyvinkaa.fi/kuulutukset linkittää tähän; rakentamisluvat julkipano.lupapiste.fi (organization=106-R). 26.10.2026 (takautuva 60 pv haku): KTweb-lista näyttää vain nähtävillä olevat kuulutukset, ei sivutusta."
     },
     {
       "id": "kunta_riihimaki",
@@ -406,7 +408,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "riihimaki.fi/kuulutukset ohjaa tähän (26.10.2026)."
+      "notes": "riihimaki.fi/kuulutukset ohjaa tähän (26.10.2026). 26.10.2026 (takautuva 60 pv haku): KTweb-lista näyttää vain nähtävillä olevat kuulutukset (max 50), ei sivutusta. PDF:t eivät aukea WebFetchin tekstinä, mutta tallentuvat ja pdftotext lukee ne."
     },
     {
       "id": "kunta_hausjarvi",
@@ -420,7 +422,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "26.10.2026: vanha osoite 404. Listassa ei nähtävilläoloaikoja, ne ovat kuulutussivuilla."
+      "notes": "26.10.2026: vanha osoite 404. Listassa ei nähtävilläoloaikoja, ne ovat kuulutussivuilla. 26.10.2026 (takautuva 60 pv haku): Sivutus ?current_page=2..4. Nähtävilläolo- ja valitusajat ovat yksittäisillä kuulutussivuilla."
     },
     {
       "id": "kunta_loppi",
@@ -434,7 +436,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "26.10.2026: vanha osoite 404. Listassa ei nähtävilläoloaikoja, ne ovat kuulutussivuilla."
+      "notes": "26.10.2026: vanha osoite 404. Listassa ei nähtävilläoloaikoja, ne ovat kuulutussivuilla. 26.10.2026 (takautuva 60 pv haku): Sivutus ?current_page=2..3. Kaava-asiakirjat linkitetään loppi.tweb.fi-pöytäkirjaliitteisiin."
     }
   ]
 }

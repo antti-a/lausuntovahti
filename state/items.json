@@ -20,6 +20,152 @@
     ]
   },
   {
+    "source_id": "lvv_kuulutukset",
+    "title": "Ämmässuon–Kulmakorven alueen vesien yhteistarkkailuohjelman päivityksen hyväksyminen (YSL 64–65 §), LVV-U/32179/2026",
+    "url": "https://lvv.fi/-/kuulutus-lvv-u-32179-2026-ymparistonsuojelulain-64-ja-65-n-mukainen-tarkkailusuunnitelman-paivitys-ammassuon-kulmakorven-vesien-yhteistarkkailu-espoo-ja-kirkkonummi",
+    "kunta": [
+      "Espoo",
+      "Kirkkonummi"
+    ],
+    "type": "muu",
+    "action": "muistutus",
+    "published": "2026-09-18",
+    "deadline": "2026-10-26",
+    "deadline_confidence": "exact",
+    "summary": "Ämmässuon jätekeskuksen ja Kulmakorven teollisuusalueen pinta- ja pohjavesien yhteistarkkailuohjelman päivitys; alue sijoittuu Espoonjoen ja Mankinjoen valuma-alueiden latvoille, joten tarkkailun kattavuus on vesiensuojelun kannalta keskeinen.",
+    "notes": "Kuulutus ja tarkkailuohjelma nähtävillä 18.9.–26.10.2026 LVV:n sivulla (lvv.fi estää WebFetchin, linkki poimittu kuulutus-PDF:stä). Vaihtoehtoiset linkit: https://kirkkonummi.oncloudos.com/kuulutus/2026149150.PDF ja https://www.espoo.fi/fi/artikkelit/kuulutus-ilmoitus-kuulutuksesta-ymparistonsuojelulain-64-ss-ja-65-ssn-mukainen-ammassuon-kulmakorven",
+    "id": "2d049d628791",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water: vesi",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki_muut",
+    "title": "JMV-Research Oy, kelluvien talojen rakentaminen Verkkosaaren edustan merialueelle, vesilain mukainen hakemus (LVV-U/92000/2026)",
+    "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3430908",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "vesilupa",
+    "action": "muistutus",
+    "published": "2026-09-18",
+    "deadline": "2026-10-26",
+    "deadline_confidence": "exact",
+    "summary": "Vesilupahakemus kelluvien talojen rakentamiseksi Verkkosaaren (Kalasatama) edustan merialueelle Helsingissä; vaikuttaa vesialueeseen, rantaan ja vesirakentamisen aikaiseen veden laatuun.",
+    "id": "ca281bbd2c9b",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water: vesi, vesilupa, vesilain",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki_muut",
+    "title": "Kluuvi: Töölönlahdenpuiston ja Makasiinipuiston puistosuunnitelmaehdotukset",
+    "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/kluuvi-toolonlahdenpuiston-ja-makasiinipuiston-puistosuunnitelmaehdotuksia-nahtavilla-14-27102026",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "puistosuunnitelma",
+    "action": "muistutus",
+    "published": "2026-10-14",
+    "deadline": "2026-10-27",
+    "deadline_confidence": "exact",
+    "summary": "Puistosuunnitelmaehdotukset Töölönlahden rantapuistoon ja Makasiinipuistoon (lisää kasvillisuutta, polkujen uudelleenlinjaus); vaikuttaa Töölönlahden rantaan ja hulevesien imeyttämiseen.",
+    "id": "b21a98dbca48",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki_muut",
+    "title": "Pakila: Länsi-Pakilan katujen katusuunnitelmaluonnokset",
+    "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/pakila-lansi-pakilan-katujen-katusuunnitelmaluonnoksia-esilla-14-27102026",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "katusuunnitelma",
+    "action": "mielipide",
+    "published": "2026-10-14",
+    "deadline": "2026-10-27",
+    "deadline_confidence": "exact",
+    "summary": "Katusuunnitelmaluonnokset Länsi-Pakilan kaduille Vantaanjoen valuma-alueella; katujen hulevesien hallinta ja johtaminen.",
+    "id": "8433e315ff84",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): *joen, hulevesi*, valuma-alue",
+      "action mielipide: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki_muut",
+    "title": "Suurmetsä ja Mellunkylä: Jakomäenbaanan katusuunnitelmaluonnos",
+    "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/suurmetsa-ja-mellunkyla-jakomaenbaanan-katusuunnitelmaluonnos-esilla-14-27102026",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "katusuunnitelma",
+    "action": "mielipide",
+    "published": "2026-10-14",
+    "deadline": "2026-10-27",
+    "deadline_confidence": "exact",
+    "summary": "Pyöräbaanan katusuunnitelmaluonnos Jakomäen ja Mellunkylän välille; uudet päällystetyt alueet vaikuttavat hulevesiin.",
+    "id": "f8c35fc39fc8",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action mielipide: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki_muut",
+    "title": "Vartiokylä: katusuunnitelmaehdotuksia",
+    "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/vartiokyla-katusuunnitelmaehdotuksia-nahtavilla-14-27102026",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "katusuunnitelma",
+    "action": "muistutus",
+    "published": "2026-10-14",
+    "deadline": "2026-10-27",
+    "deadline_confidence": "exact",
+    "summary": "Katusuunnitelmaehdotuksia Vartiokylässä; katujen hulevesien hallinta.",
+    "id": "2539e6ff80a7",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
     "source_id": "lvv_tietopalvelu",
     "title": "Ämmässuon jätteenkäsittelylaitoksen ympäristöluvan muuttaminen ja aloittamislupa, Rudus Oy, Espoo",
     "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3431635",
@@ -46,6 +192,130 @@
   },
   {
     "source_id": "kunta_vihti",
+    "title": "Puistosuunnitelma, jalankulku- ja pyöräilyväylä Haapakylä–Tuohivehmaa",
+    "url": "https://vihti.oncloudos.com/cgi/DREQUEST.PHP?page=announcement&id=3F1CD074X6F65X4B32XB16FXBFB538FED140",
+    "kunta": [
+      "Vihti"
+    ],
+    "type": "katusuunnitelma",
+    "action": "muistutus",
+    "published": "2026-10-14",
+    "deadline": "2026-10-28",
+    "deadline_confidence": "exact",
+    "summary": "Jalankulku- ja pyöräilyväylän puistosuunnitelma Haapakylän ja Tuohivehmaan välillä Vihdissä. Väylän rakentaminen voi vaikuttaa hulevesien johtamiseen.",
+    "id": "d343b735e60a",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_vantaa",
+    "title": "Halkotie ja Hirsipuisto (002491) sekä Linnankalliontie (002303), asemakaavamuutosehdotukset, Askisto ja Kivistö",
+    "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3465485",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "asemakaava",
+    "action": "muistutus",
+    "published": "2026-09-30",
+    "deadline": "2026-10-29",
+    "deadline_confidence": "exact",
+    "summary": "Kaksi asemakaavamuutosehdotusta Askistossa (katu-, virkistys- ja erityisalueita, Hirsipuisto) ja Kivistössä/Lapinkylässä Vantaanjoen valuma-alueella; hulevesien hallinta ja viheralueet.",
+    "id": "de042444f9cc",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): *joen, hulevesi*, valuma-alue",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_vantaa",
+    "title": "Vantaan Energia Oy, Långmossebergenin jätevoimalan ympäristöluvan olennainen muuttaminen ja aloittamislupa (LVV-U/102009/2026)",
+    "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3447508",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "ympäristölupa",
+    "action": "muistutus",
+    "published": "2026-09-22",
+    "deadline": "2026-10-29",
+    "deadline_confidence": "exact",
+    "summary": "Jätevoimalan ympäristöluvan olennainen muutos Vantaalla Vantaanjoen valuma-alueella; ympäristölupa voi koskea myös prosessi- ja hulevesien käsittelyä ja päästöjä vesiin.",
+    "id": "7f912081643b",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water (summary only): vesi, *joen, hulevesi*",
+      "plan: ympäristölupa",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "keski_uudenmaan_ymparistokeskus",
+    "title": "Väylävirasto, ympäristö- ja aloituslupa, ylijäämämaiden loppusijoitus ja välivarastointi, Nuppulinna, Tuusula, päätös",
+    "url": "https://tuusula.oncloudos.com/cgi/DREQUEST.PHP?page=announcement&id=4B97F50FXEF96X46C9X9429XF3249F6E483E",
+    "kunta": [
+      "Tuusula"
+    ],
+    "type": "ympäristölupa",
+    "action": "päätös",
+    "published": "2026-09-22",
+    "deadline": "2026-10-29",
+    "deadline_confidence": "exact",
+    "summary": "Maankaatopaikka pilaantumattomille ja vieraslajeja sisältäville ylijäämämaille Purola–Jokela-radan varressa; päätös sisältää YSL 68 §:n luvan johtaa jätevesiä toisen ojaan, mikä koskee valumavesien laatua.",
+    "id": "3eaf691d4cd8",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): puro, oja, jätevesi*",
+      "plan: ympäristölupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "keski_uudenmaan_ymparistokeskus",
+    "title": "Antti Metsä Oy, maa-ainesluvan jatkoaika ja aloituslupa, Vanhakartano, Mäntsälä",
+    "url": "https://tuusula.oncloudos.com/cgi/DREQUEST.PHP?page=announcement&id=7B103A7AXBE85X4639XBEBDX95249A33E738",
+    "kunta": [
+      "Mäntsälä"
+    ],
+    "type": "maa-aineslupa",
+    "action": "päätös",
+    "published": "2026-09-22",
+    "deadline": "2026-10-29",
+    "deadline_confidence": "exact",
+    "summary": "Maa-ainesten oton jatkoaika ja aloituslupa Mäntsälässä; ottotoiminta voi vaikuttaa pohjaveteen, mikä on tarkistettava päätöksestä.",
+    "id": "7be07477fcf4",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: maa-aineslupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_vihti",
     "title": "Kaava N216 Asemanseudun I asemakaava, vireilletulo ja OAS",
     "url": "https://vihti.oncloudos.com/cgi/DREQUEST.PHP?page=announcement&id=F365659DX81E3X4D17X8ADFXED6829BEAC8E",
     "kunta": [
@@ -65,6 +335,81 @@
     "reasons": [
       "water (summary only): hulevesi*",
       "action mielipide: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_espoo",
+    "title": "Muovijätteen pyrolyysin koetoiminnan jatkaminen, VTT, Espoo (LVV-U/118901/2026), päätös",
+    "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3475948",
+    "kunta": [
+      "Espoo"
+    ],
+    "type": "ympäristölupa",
+    "action": "päätös",
+    "published": "2026-09-23",
+    "deadline": "2026-10-30",
+    "deadline_confidence": "estimated",
+    "summary": "LVV:n ympäristönsuojelulain mukainen päätös (450/2026) VTT:n muovijätteen pyrolyysikoetoiminnan jatkamisesta Espoossa. Määräpäivä on nähtävilläolon loppu (valitusaika).",
+    "id": "b14d033b7573",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: ympäristölupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_vihti",
+    "title": "Metsähallitus: Nuuksion kansallispuiston laajentaminen (Palokallio ja osa Ropakkoa), Vihti",
+    "url": "https://vihti.oncloudos.com/cgi/DREQUEST.PHP?page=announcement&id=BA77CF31X0641X4DE5XA087X4D1EA993B46C",
+    "kunta": [
+      "Vihti"
+    ],
+    "type": "luonnonsuojelu",
+    "action": "tiedoksi",
+    "published": "2026-10-16",
+    "deadline": "2026-10-30",
+    "deadline_confidence": "exact",
+    "summary": "Nuuksion kansallispuistoon liitetään luonnonsuojelulain 121 §:n nojalla Palokallion tila ja noin 0,6 ha Ropakon tilasta Vihdissä. Laajennus suojaa Nuuksion järvi- ja latvavesiympäristöä.",
+    "id": "2cc4a1b3696b",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 1,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): järvi",
+      "action tiedoksi: -1",
+      "kunta match",
+      "action tiedoksi → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki",
+    "title": "Östersundomin osayleiskaavaehdotus (nro 12583)",
+    "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/osayleiskaava-nahtavilla-ostersundom",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "yleiskaava",
+    "action": "muistutus",
+    "published": "2026-09-28",
+    "deadline": "2026-10-30",
+    "deadline_confidence": "exact",
+    "summary": "Laaja osayleiskaava Helsingin Östersundomiin (mm. Salmenkallio, Talosaari, Karhusaari, Ultuna) Sipoon rajalle; uusi rakentaminen vaikuttaa hulevesiin, puroihin, merenrantoihin ja Östersundomin lintuvesien Natura-alueeseen.",
+    "id": "dd503ffb206d",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water (summary only): puro, hulevesi*",
+      "plan: yleiskaava, osayleiskaava, Natura",
+      "action muistutus: +1",
       "kunta match"
     ]
   },
@@ -118,6 +463,30 @@
     ]
   },
   {
+    "source_id": "kunta_espoo",
+    "title": "Katusuunnitelmaehdotukset, Gobbacka osa-alue 3 (Lambertintie, Valssitie, Tangotie, Letikonpolku)",
+    "url": "https://www.espoo.fi/fi/artikkelit/kuulutus-katusuunnitelmaehdotuksia-nahtavilla-1910-2112026",
+    "kunta": [
+      "Espoo"
+    ],
+    "type": "katusuunnitelma",
+    "action": "muistutus",
+    "published": "2026-10-18",
+    "deadline": "2026-11-02",
+    "deadline_confidence": "exact",
+    "summary": "Gobbackan (Perusmäki) katujen katusuunnitelmaehdotukset 8213/002–006. Katurakentaminen vaikuttaa hulevesien johtamiseen.",
+    "id": "66a0cd06fef2",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
     "source_id": "kunta_helsinki_muut",
     "title": "Tapaninkylä, Tapanila: katusuunnitelmaehdotuksia (Sompionpolku, Seunalankuja)",
     "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/tapaninkyla-tapanila-katusuunnitelmaehdotuksia-nahtavilla-2110-3112026",
@@ -166,6 +535,177 @@
     ]
   },
   {
+    "source_id": "kunta_espoo",
+    "title": "Mankkaan opettaja-asuntola (240307), asemakaavan muutos, OAS",
+    "url": "https://www.espoo.fi/fi/hankkeet/asuntoja-suojeltavaan-mankkaan-opettaja-asuntolaan",
+    "kunta": [
+      "Espoo"
+    ],
+    "type": "asemakaava",
+    "action": "mielipide",
+    "published": "2026-09-30",
+    "deadline": "2026-11-03",
+    "deadline_confidence": "exact",
+    "summary": "Asemakaavan muutoksen osallistumis- ja arviointisuunnitelma Mankkaalla Vanhan-Mankkaan tien varressa, asuntoja suojeltavaan opettaja-asuntolaan. Kaava vaikuttaa hulevesien hallintaan.",
+    "id": "d65d7e30f67a",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action mielipide: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_espoo",
+    "title": "Pitkänkallionkuja (230903), Haukilahti, asemakaavan muutos, OAS",
+    "url": "https://www.espoo.fi/fi/hankkeet/asuintontti-haukilahteen",
+    "kunta": [
+      "Espoo"
+    ],
+    "type": "asemakaava",
+    "action": "mielipide",
+    "published": "2026-09-30",
+    "deadline": "2026-11-03",
+    "deadline_confidence": "exact",
+    "summary": "Asemakaavan muutoksen osallistumis- ja arviointisuunnitelma asuintontista Haukilahdessa Pitkänkalliontien ja Pitkänkallionkujan kulmassa. Kaava vaikuttaa hulevesien hallintaan.",
+    "id": "212ea730db12",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action mielipide: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki_muut",
+    "title": "Malmi ja Tapaninkylä: Pohjoisbaanan katu- ja puistosuunnitelmaluonnokset välillä Ruotutorpankuja–Sammaltori",
+    "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/malmi-ja-tapaninkyla-pohjoisbaanan-katu-ja-puistosuunnitelmaluonnoksia-esilla-valilta",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "katusuunnitelma",
+    "action": "mielipide",
+    "published": "2026-10-21",
+    "deadline": "2026-11-03",
+    "deadline_confidence": "exact",
+    "summary": "Pyöräbaanan katu- ja puistosuunnitelmaluonnokset Malmilla ja Tapaninkylässä Vantaanjoen valuma-alueella (Longinojan lähistö); hulevesien hallinta ja viheralueet.",
+    "id": "cf2593352074",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): *joen, hulevesi*, valuma-alue",
+      "action mielipide: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki_muut",
+    "title": "Munkkiniemi, Vanha Munkkiniemi: puistosuunnitelmaehdotuksia",
+    "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/munkkiniemi-vanha-munkkiniemi-puistosuunnitelmaehdotuksia-nahtavilla-2110-3112026",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "puistosuunnitelma",
+    "action": "muistutus",
+    "published": "2026-10-21",
+    "deadline": "2026-11-03",
+    "deadline_confidence": "exact",
+    "summary": "Puistosuunnitelmaehdotuksia Vanhassa Munkkiniemessä; viheralueiden hulevesien imeytys ja mahdollisesti rantapuistot.",
+    "id": "75d01f78bbef",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "evk_uusimaa",
+    "title": "Ilmoitus luonnonsuojelualueen perustamispäätöksen yleistiedoksiannosta, Takametsä, Tuusula",
+    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/yleistiedoksianto_peukaloisen-korpi_uud_6275_2026",
+    "kunta": [
+      "Tuusula"
+    ],
+    "type": "luonnonsuojelu",
+    "action": "päätös",
+    "published": "2026-10-01",
+    "deadline": "2026-11-05",
+    "deadline_confidence": "exact",
+    "summary": "Yksityisen luonnonsuojelualueen perustaminen (Peukaloisen korpi). Korpi = kosteikkotyyppi, mutta kyse on päätöksestä, ei kuulemisesta.",
+    "id": "753cb17f9b26",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: luonnonsuojelualue",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "lvv_kuulutukset",
+    "title": "Vesilain 2:5a §:n mukainen ilmoitus johdon sijoittamisesta Vihtijärven osakaskunnan vesialueelle, Vihti (LVV-U/131301/2026)",
+    "url": "https://vihti.oncloudos.com/kuulutus/05316E35X196AX4D65X9165XE6C17CBD8A02.PDF",
+    "kunta": [
+      "Vihti"
+    ],
+    "type": "vesilupa",
+    "action": "tiedoksi",
+    "published": "2026-10-05",
+    "deadline": "2026-11-05",
+    "deadline_confidence": "exact",
+    "summary": "Johdon sijoittaminen Vihtijärven yhteiselle vesialueelle (927-452-876-3) Vantaanjoen valuma-alueella ilman vesilupaa; tiedoksianto nähtävillä 5.11.2026 asti.",
+    "id": "932fa600837d",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water: vesi, vesilupa, vesilain",
+      "action tiedoksi: -1",
+      "kunta match",
+      "action tiedoksi → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_espoo",
+    "title": "Pilaantuneen maaperän ja pohjaveden puhdistaminen, Soukanväylä–Amiraalin puistotie, Espoo (LVV-U/122033/2026), päätös",
+    "url": "https://lvv.fi/-/kuulutus-lvv-u-122033-2026-ymparistonsuojelulain-527-2014-136-n-mukainen-paatos-pilaantuneen-maaperan-ja-pohjaveden-puhdistamisesta-soukanvayla-amiraalin-puistotie-espoo",
+    "kunta": [
+      "Espoo"
+    ],
+    "type": "muu",
+    "action": "päätös",
+    "published": "2026-09-29",
+    "deadline": "2026-11-05",
+    "deadline_confidence": "estimated",
+    "summary": "LVV:n YSL 136 §:n mukainen päätös Espoon kaupungille pilaantuneen maaperän ja pohjaveden puhdistamisesta Soukassa. Pohjavesi ja lähellä oleva merenranta; määräpäivä on nähtävilläolon loppu (valitusaika).",
+    "id": "072828bbb753",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water: pohjavede*",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
     "source_id": "kunta_hyvinkaa",
     "title": "Asfalttikallio Oy:n yhteislupahakemus (maa-aines- ja ympäristölupa), Karjulamminvuori, Kytäjärvi",
     "url": "https://asianhallintavhp.hyvinkaa.fi/ktwebscr/fileshow?doctype=7&docid=1091038",
@@ -191,28 +731,51 @@
     ]
   },
   {
-    "source_id": "evk_uusimaa",
-    "title": "Ilmoitus luonnonsuojelualueen perustamispäätöksen yleistiedoksiannosta, Takametsä, Tuusula",
-    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/yleistiedoksianto_peukaloisen-korpi_uud_6275_2026",
+    "source_id": "lvv_kuulutukset",
+    "title": "Vesilain 2:5a §:n mukainen ilmoitus johdon sijoittamisesta yhteiselle vesialueelle 257-464-876-4, Kirkkonummi (LVV-U/132554/2026)",
+    "url": "https://kirkkonummi.oncloudos.com/kuulutus/2026149631.PDF",
     "kunta": [
-      "Tuusula"
+      "Kirkkonummi"
     ],
-    "type": "luonnonsuojelu",
-    "action": "päätös",
-    "published": "2026-10-01",
-    "deadline": "2026-11-07",
-    "deadline_confidence": "estimated",
-    "summary": "Yksityisen luonnonsuojelualueen perustaminen (Peukaloisen korpi). Korpi = kosteikkotyyppi, mutta kyse on päätöksestä, ei kuulemisesta.",
-    "id": "753cb17f9b26",
+    "type": "vesilupa",
+    "action": "tiedoksi",
+    "published": "2026-09-29",
+    "deadline": "2026-11-06",
+    "deadline_confidence": "exact",
+    "summary": "Johdon (vesi-, viemäri-, voima- tai tietoliikennejohto) sijoittaminen järjestäytymättömän osakaskunnan vesialueelle Kirkkonummella ilman vesilupaa; tiedoksianto nähtävillä 6.11.2026 asti.",
+    "id": "ce5f8735f94f",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water: vesi, vesilupa, vesilain",
+      "action tiedoksi: -1",
+      "kunta match",
+      "action tiedoksi → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_sipoo",
+    "title": "Vesiliikennelain mukainen esitys 10 km/h nopeusrajoituksesta Kitön ja Navarholmen väliselle vesialueelle, Sipoo",
+    "url": "https://sipoofi.oncloudos.com/kuulutus/202668622.PDF",
+    "kunta": [
+      "Sipoo"
+    ],
+    "type": "muu",
+    "action": "muistutus",
+    "published": "2026-10-16",
+    "deadline": "2026-11-06",
+    "deadline_confidence": "exact",
+    "summary": "Traficomille tehty esitys veneiden 10 km/h nopeusrajoituksesta Sipoon saaristossa; vaikuttaa aallokkoon ja rantojen eroosioon merialueella. Muistutukset Traficomin kuulutuksen ohjeiden mukaan.",
+    "id": "9e7a23945c44",
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 2,
-    "priority": "low",
+    "priority": "medium",
     "reasons": [
-      "plan: luonnonsuojelualue",
-      "action päätös: -1",
-      "kunta match",
-      "action päätös → max low"
+      "action muistutus: +1",
+      "kunta match"
     ]
   },
   {
@@ -260,6 +823,31 @@
     "priority": "low",
     "reasons": [
       "water: pohjavesi*",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "vaasa_hao",
+    "title": "Vaasan HaO:n päätös 1214/2026: Lautojan pohjavedenottamon suoja-alue ja suoja-aluemääräykset, Vihdin Vesi, Vihti",
+    "url": "https://www.tuomioistuimet.fi/app/uploads/sites/12/2026/10/VHaO-paatos-1.10.2026-nro-1214_2026-dnro-1280_2025.pdf",
+    "kunta": [
+      "Vihti"
+    ],
+    "type": "valitus",
+    "action": "päätös",
+    "published": "2026-10-01",
+    "deadline": "2026-11-09",
+    "deadline_confidence": "exact",
+    "summary": "Hallinto-oikeuden ratkaisu Saint-Gobain Finland Oy:n valitukseen Lautojan pohjavedenottamon noin 87 ha:n suoja-alueesta ja sen määräyksistä; koskee suoraan pohjaveden suojelua Vihdissä. Valitusaika KHO:een päättyy 9.11.2026.",
+    "id": "9990aba30e59",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water: vesi, pohjavede*",
       "action päätös: -1",
       "kunta match",
       "action päätös → max low"
@@ -339,6 +927,76 @@
     ]
   },
   {
+    "source_id": "kunta_helsinki",
+    "title": "Kaartinkaupunki, Eteläesplanadi 10, asemakaavaehdotus (nro 13052)",
+    "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/asemakaava-nahtavilla-kaartinkaupunki-etelaesplanadi-10",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "asemakaava",
+    "action": "muistutus",
+    "published": "2026-10-13",
+    "deadline": "2026-11-11",
+    "deadline_confidence": "exact",
+    "summary": "Asemakaavaehdotus yhdelle tontille Helsingin keskustassa (kortteli 48 tontti 3); vesiasiat lähinnä tonttitason hulevesien hallinnan kautta.",
+    "id": "163d8c198d2c",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): vesi, hulevesi*",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_nurmijarvi",
+    "title": "Maisematyölupahakemus, metsänhoidolliset harvennushakkuut, Periäisen metsä, Solttilantie",
+    "url": "https://nurmijarvi10.oncloudos.com/kuulutus/202676089.PDF",
+    "kunta": [
+      "Nurmijärvi"
+    ],
+    "type": "muu",
+    "action": "muistutus",
+    "published": "2026-10-26",
+    "deadline": "2026-11-11",
+    "deadline_confidence": "exact",
+    "summary": "Ei liity veteen.",
+    "id": "3a02047829ee",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "medium",
+    "reasons": [
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_nurmijarvi",
+    "title": "Maisematyölupahakemus, metsänhoidollinen hakkuu, Kylänpää, Astrakanintien eteläpuoli",
+    "url": "https://nurmijarvi10.oncloudos.com/kuulutus/202676090.PDF",
+    "kunta": [
+      "Nurmijärvi"
+    ],
+    "type": "muu",
+    "action": "muistutus",
+    "published": "2026-10-26",
+    "deadline": "2026-11-11",
+    "deadline_confidence": "exact",
+    "summary": "Ei liity veteen.",
+    "id": "0e0ee2882e72",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "medium",
+    "reasons": [
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
     "source_id": "kunta_nurmijarvi",
     "title": "Haaran vesiosuuskunnan vesihuollon toiminta-alue, ehdotus",
     "url": "https://nurmijarvi10.oncloudos.com/kuulutus/202675577.PDF",
@@ -384,6 +1042,57 @@
       "water: jätevesi*, vesihuol*",
       "action muistutus: +1",
       "kunta match"
+    ]
+  },
+  {
+    "source_id": "evk_uusimaa",
+    "title": "Yleistiedoksianto luonnonsuojelualueen perustamispäätöksestä, Mansku, Sipoo",
+    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/yleistiedoksianto_mansku",
+    "kunta": [
+      "Sipoo"
+    ],
+    "type": "luonnonsuojelu",
+    "action": "päätös",
+    "published": "2026-10-06",
+    "deadline": "2026-11-12",
+    "deadline_confidence": "exact",
+    "summary": "Noin 4,2 hehtaarin METSO-kohteen rauhoitus Sipoon Immersbackassa (UUD/7154/2026); kohde on kangasmetsää ja lehtoa. Ei liity veteen.",
+    "id": "27e08ff657c7",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: luonnonsuojelualue",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_espoo",
+    "title": "Datakeskuksen laajennuksen ympäristölupa ja aloittamislupa, atNorth Oy, Sinimäentie 6a (LVV-U/18794/2026), päätös",
+    "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3313005",
+    "kunta": [
+      "Espoo"
+    ],
+    "type": "ympäristölupa",
+    "action": "päätös",
+    "published": "2026-10-06",
+    "deadline": "2026-11-12",
+    "deadline_confidence": "estimated",
+    "summary": "LVV:n ympäristölupapäätös (468/2026) atNorth Oy:n datakeskuksen laajennukselle Espoon Sinimäentiellä. Datakeskuksen jäähdytys- ja jätevesiratkaisut kannattaa tarkistaa päätöksestä; määräpäivä on nähtävilläolon loppu (valitusaika).",
+    "id": "e8c9509a4970",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): jätevesi*",
+      "plan: ympäristölupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
     ]
   },
   {
@@ -506,6 +1215,31 @@
       "plan: maa-aineslupa",
       "action muistutus: +1",
       "kunta match"
+    ]
+  },
+  {
+    "source_id": "lvv_kuulutukset",
+    "title": "Päätös Mäntsälän Biovoima Oy:n biokaasulaitoksen käyttö- ja päästötarkkailusuunnitelman hyväksymisestä (LVV-U/39052/2026)",
+    "url": "https://mantsalad10.oncloudos.com/kuulutus/202631593.PDF",
+    "kunta": [
+      "Mäntsälä"
+    ],
+    "type": "ympäristölupa",
+    "action": "päätös",
+    "published": "2026-10-12",
+    "deadline": "2026-11-18",
+    "deadline_confidence": "exact",
+    "summary": "LVV hyväksyi YSL 64 §:n mukaisen tarkkailusuunnitelman Mäntsälän biokaasulaitokselle; päästötarkkailu koskee myös laitoksen vesipäästöjä ja häiriötilanteita. Oikaisuvaatimusaika päättyy 18.11.2026.",
+    "id": "fb55f78f460f",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: ympäristölupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
     ]
   },
   {
@@ -632,6 +1366,57 @@
     ]
   },
   {
+    "source_id": "vaasa_hao",
+    "title": "Vaasan HaO:n päätös 1260/2026: Vantaan Energia Oy:n vaarallisen jätteen polttolaitoksen ympäristölupa, Långmossebergen, Vantaa",
+    "url": "https://www.tuomioistuimet.fi/app/uploads/sites/12/2026/01/VHaO-paatos-13.10.2026-nro-777_2025-dnro-1260_2026.pdf",
+    "kunta": [
+      "Vantaa"
+    ],
+    "type": "valitus",
+    "action": "päätös",
+    "published": "2026-10-13",
+    "deadline": "2026-11-19",
+    "deadline_confidence": "exact",
+    "summary": "Hallinto-oikeus hylkäsi valitukset 45 000 t/a vaarallisen jätteen polttolaitoksen ympäristöluvasta; päätös käsittelee myös toiminnan vaikutuksia pinta- ja pohjavesiin. Valitusaika KHO:een päättyy 19.11.2026.",
+    "id": "0c657f47a103",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): pohjavesi*",
+      "plan: ympäristölupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_hausjarvi",
+    "title": "Maa-aines- ja ympäristöluvan muuttamista koskeva päätös, Huhtainnummen Sora Oy, Erkylä",
+    "url": "https://www.hausjarvi.fi/ajankohtaista/kuulutukset/kuulutus-maa-aines-ja-ymparistoluvan-muuttamista-koskevasta-paatoksesta-huhtainnummen-sora-oy-2/",
+    "kunta": [
+      "Hausjärvi"
+    ],
+    "type": "maa-aineslupa",
+    "action": "päätös",
+    "published": "2026-10-13",
+    "deadline": "2026-11-19",
+    "deadline_confidence": "exact",
+    "summary": "Lupa poiketa hyväksytystä ottosuunnitelmasta ja vaiheistuksesta Huhtainnummen soranottoalueella Erkylässä; soranotto harjualueella voi vaikuttaa pohjaveteen. Valitusaika Hämeenlinnan hallinto-oikeuteen päättyy 19.11.2026.",
+    "id": "3bad649696ac",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: maa-aineslupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
     "source_id": "lvv_kuulutukset",
     "title": "Pääkaupunkiseudun Junakalusto Oy, Kehäradan varikon ympäristövaikutusten arviointiohjelma nähtävillä",
     "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3479843",
@@ -709,6 +1494,59 @@
     ]
   },
   {
+    "source_id": "kunta_hausjarvi",
+    "title": "Maa-aineslupaa koskeva päätös, pohjavesitarkkailu ja lupamääräys 17, SCHWENK Betoni Oy, Ryttylä",
+    "url": "https://www.hausjarvi.fi/ajankohtaista/kuulutukset/kuulutus-maa-aineslupaa-koskevasta-paatoksesta-schwenk-betoni-oy/",
+    "kunta": [
+      "Hausjärvi"
+    ],
+    "type": "maa-aineslupa",
+    "action": "päätös",
+    "published": "2026-10-14",
+    "deadline": "2026-11-20",
+    "deadline_confidence": "exact",
+    "summary": "Ympäristö- ja elinvoimalautakunta muutti SCHWENK Betonin soranoton pohjavesitarkkailua ja lupamääräystä Ryttylässä; koskee suoraan pohjaveden suojelua. Valitusaika Hämeenlinnan hallinto-oikeuteen päättyy 20.11.2026.",
+    "id": "46b964f23baa",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "low",
+    "reasons": [
+      "water: pohjavesi*",
+      "plan: maa-aineslupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "lvv_kuulutukset",
+    "title": "Perusteltu päätelmä, Jokelan datakeskushanke, Tuusula ja Nurmijärvi",
+    "url": "https://tuusula.oncloudos.com/kuulutus/786CD11DXFD80X4C89X9EB3XEE5E32FD0C01.249635.PDF",
+    "kunta": [
+      "Tuusula",
+      "Nurmijärvi"
+    ],
+    "type": "YVA",
+    "action": "tiedoksi",
+    "published": "2026-10-22",
+    "deadline": "2026-11-23",
+    "deadline_confidence": "exact",
+    "summary": "LVV-U/42466/2026. YVA-menettely päättyy perusteltuun päätelmään; ei vastausmahdollisuutta tässä vaiheessa. Seuraava vaihe on lupahakemus (jäähdytysvesi, hulevedet, Palojoki/Vantaanjoki).",
+    "id": "94c606fbce88",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): *joki, hulevede*, Vantaanjo*",
+      "plan: YVA, perusteltu päätelmä, datakeskus",
+      "action tiedoksi: -1",
+      "kunta match",
+      "action tiedoksi → max low"
+    ]
+  },
+  {
     "source_id": "kunta_riihimaki",
     "title": "Ympäristölupahakemus ja maa-aineslupahakemus, Rappukallio, Rudus Oy",
     "url": "https://kunta2.riihimaki.fi/ktwebscr/fileshow?doctype=3&docid=596336",
@@ -754,6 +1592,107 @@
     "reasons": [
       "water: puro",
       "plan: ympäristölupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "vaasa_hao",
+    "title": "Vaasan HaO:n päätös 1312/2026: Prysmian Group Finland Oy:n kaapelitehtaan ympäristöluvan muutos, Kirkkonummi",
+    "url": "https://www.tuomioistuimet.fi/app/uploads/sites/12/2026/01/VHaO-paatos-20.10.2026-nro-1312_2026-dnro-880_2025.pdf",
+    "kunta": [
+      "Kirkkonummi"
+    ],
+    "type": "valitus",
+    "action": "päätös",
+    "published": "2026-10-20",
+    "deadline": "2026-11-26",
+    "deadline_confidence": "exact",
+    "summary": "Ratkaisu naapurin valitukseen meren rannalla sijaitsevan kaapelitehtaan laajennuksen ympäristöluvasta; valitus koski pääosin melua ja YVA-tarvetta, merialueella tehty ruoppaus mainitaan taustana. Valitusaika päättyy 26.11.2026.",
+    "notes": "Sama kuulutus myös https://kirkkonummi.oncloudos.com/kuulutus/2026150552.PDF",
+    "id": "f6e4403df474",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): ruoppaus",
+      "plan: YVA",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki_muut",
+    "title": "Kiinteistö Oy Kulosaaren Casino, kelluvan paviljonkirakennuksen rakentaminen, vesilain mukainen hakemus (LVV-U/30598/2026)",
+    "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3331959",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "vesilupa",
+    "action": "muistutus",
+    "published": "2026-10-20",
+    "deadline": "2026-11-26",
+    "deadline_confidence": "exact",
+    "summary": "Vesilupahakemus kelluvan paviljongin rakentamiseksi Kulosaaren Casinon edustan merialueelle Helsingissä; vaikuttaa rantaan, vesialueen käyttöön ja ruoppaus-/ankkurointitöiden kautta veden laatuun.",
+    "id": "6264b6aa5e9c",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water: vesi, vesilupa, vesilain",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "keski_uudenmaan_ymparistokeskus",
+    "title": "VK-Bioenergiajalosteet Oy, ympäristöluvan rauettaminen, Periäistentie 70, Rajamäki, päätöskuulutus",
+    "url": "https://nurmijarvi10.oncloudos.com/kuulutus/202675937.PDF",
+    "kunta": [
+      "Nurmijärvi"
+    ],
+    "type": "ympäristölupa",
+    "action": "päätös",
+    "published": "2026-10-20",
+    "deadline": "2026-11-26",
+    "deadline_confidence": "exact",
+    "summary": "Ei liity veteen.",
+    "id": "a95c55092f4e",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: ympäristölupa",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_mantsala",
+    "title": "Maa-aineslupapäätös, Antti Seppälä, Eerikkilä, Sääksjärvi, Mäntsälä",
+    "url": "https://mantsalad10.oncloudos.com/kuulutus/202631741.PDF",
+    "kunta": [
+      "Mäntsälä"
+    ],
+    "type": "maa-aineslupa",
+    "action": "päätös",
+    "published": "2026-10-20",
+    "deadline": "2026-11-26",
+    "deadline_confidence": "exact",
+    "summary": "Keski-Uudenmaan ympäristölautakunnan myöntämä maa-aineslupa ottamiselle ja jälkihoidolle Sääksjärven kylässä; maa-ainesten otto voi vaikuttaa pohjaveteen ja valumavesiin. Ympäristöyhdistyksellä valitusoikeus Helsingin hallinto-oikeuteen 26.11.2026 asti.",
+    "id": "0cc4cad3cbdf",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 2,
+    "priority": "low",
+    "reasons": [
+      "plan: maa-aineslupa",
       "action päätös: -1",
       "kunta match",
       "action päätös → max low"
@@ -859,6 +1798,32 @@
     ]
   },
   {
+    "source_id": "evk_uusimaa",
+    "title": "Yleistiedoksianto luonnonsuojelualueen perustamispäätöksestä, Tovisäng, Espoo",
+    "url": "https://elinvoimakeskus.fi/documents/d/elinvoimakeskus/yleistiedoksianto_tovisskog",
+    "kunta": [
+      "Espoo"
+    ],
+    "type": "luonnonsuojelu",
+    "action": "päätös",
+    "published": "2026-10-26",
+    "deadline": "2026-12-02",
+    "deadline_confidence": "exact",
+    "summary": "Uudenmaan elinvoimakeskus perusti noin 3 hehtaarin yksityisen luonnonsuojelualueen Espoon Tovisängissä (UUD/4361/2026); alueella on kallio- ja lehtometsää sekä puronotko, joten suojelu turvaa pienvesien varjostusta ja valuma-alueen luonnontilaa. Päätöksestä voi valittaa Helsingin hallinto-oikeuteen 30 päivän kuluessa tiedoksisaannista (2.11.2026).",
+    "id": "f4bea78e7763",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): puro, valuma-alue, valuma",
+      "plan: luonnonsuojelualue",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
     "source_id": "kunta_kirkkonummi",
     "title": "Keskusmetsän yleissuunnitelma nähtävillä",
     "url": "https://kirkkonummi.oncloudos.com/kuulutus/2026150593.PDF",
@@ -905,33 +1870,6 @@
     ]
   },
   {
-    "source_id": "lvv_kuulutukset",
-    "title": "Perusteltu päätelmä, Jokelan datakeskushanke, Tuusula ja Nurmijärvi",
-    "url": "https://lvv.fi/ajankohtaista/kuulutukset-ja-yleistiedoksiannot",
-    "kunta": [
-      "Tuusula",
-      "Nurmijärvi"
-    ],
-    "type": "YVA",
-    "action": "tiedoksi",
-    "published": "2026-10-22",
-    "deadline": null,
-    "deadline_confidence": "unknown",
-    "summary": "LVV-U/42466/2026. YVA-menettely päättyy perusteltuun päätelmään; ei vastausmahdollisuutta tässä vaiheessa. Seuraava vaihe on lupahakemus (jäähdytysvesi, hulevedet, Palojoki/Vantaanjoki).",
-    "id": "94c606fbce88",
-    "first_seen": "2026-10-26",
-    "last_seen": "2026-10-26",
-    "score": 3,
-    "priority": "low",
-    "reasons": [
-      "water (summary only): *joki, hulevede*, Vantaanjo*",
-      "plan: YVA, perusteltu päätelmä, datakeskus",
-      "action tiedoksi: -1",
-      "kunta match",
-      "action tiedoksi → max low"
-    ]
-  },
-  {
     "source_id": "kunta_espoo",
     "title": "Espoon yleiskaava 2060, kaavaehdotus nähtävillä",
     "url": "https://www.espoo.fi/fi/kuulutukset",
@@ -940,7 +1878,7 @@
     ],
     "type": "yleiskaava",
     "action": "muistutus",
-    "published": null,
+    "published": "2026-10-07",
     "deadline": null,
     "deadline_confidence": "unknown",
     "summary": "Koko kaupungin yleiskaava; ehdotus on tarkoitus asettaa nähtäville syyskaudella 2026. Espoonjoen ja Mankinjoen valuma-alueiden maankäyttö, hulevesi- ja viheryhteydet. Tarkka nähtävilläoloaika ei vielä tiedossa.",
@@ -953,6 +1891,130 @@
       "water (summary only): *joen, hulevesi*, valuma-alue",
       "plan: yleiskaava",
       "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_helsinki_muut",
+    "title": "Kt 51 satamatunneliin liittyvät liikennejärjestelyt välillä Lemissaarentie–Porkkalankatu, tiesuunnitelman hyväksymispäätös",
+    "url": "https://vayliensuunnittelu.fi/s/na4x/hyvaksymispaatos",
+    "kunta": [
+      "Helsinki"
+    ],
+    "type": "tiesuunnitelma",
+    "action": "päätös",
+    "published": "2026-10-21",
+    "deadline": null,
+    "deadline_confidence": "unknown",
+    "summary": "Uudenmaan elinvoimakeskuksen hyväksymispäätös Länsisataman satamatunnelin liikennejärjestelyjen tiesuunnitelmasta (kuulutus nähtävillä 21.10.–27.11.2026); merenrannan rakentaminen ja tiealueen hulevedet.",
+    "id": "3da6c46e1478",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): hulevede*",
+      "plan: tiesuunnitelma",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_jarvenpaa",
+    "title": "Laaksokatu 10 ja 12, asemakaavan muutosehdotus nähtäville",
+    "url": "https://www.jarvenpaa.fi/a/asemakaavamuutoksia-ja-hankintoja-kaupunkikehityslautakunnan-kasittelyssa-20-10-2026",
+    "kunta": [
+      "Järvenpää"
+    ],
+    "type": "asemakaava",
+    "action": "muistutus",
+    "published": "2026-10-20",
+    "deadline": null,
+    "deadline_confidence": "unknown",
+    "summary": "Kaupunkikehityslautakunta päätti 20.10.2026 asettaa asemakaavan muutosehdotuksen nähtäville; kuulutus ja nähtävilläoloaika eivät vielä julkaistu. Täydennysrakentaminen vaikuttaa hulevesien hallintaan.",
+    "id": "272b8d1354bd",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action muistutus: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_hausjarvi",
+    "title": "Rutajärven ranta-asemakaavan hyväksyminen",
+    "url": "https://www.hausjarvi.fi/ajankohtaista/kuulutukset/ranta-asemakaavan-hyvaksyminen/",
+    "kunta": [
+      "Hausjärvi"
+    ],
+    "type": "asemakaava",
+    "action": "päätös",
+    "published": "2026-10-03",
+    "deadline": null,
+    "deadline_confidence": "unknown",
+    "summary": "Valtuusto hyväksyi 21.9.2026 Rutajärven ranta-asemakaavan (lomarakennuspaikat, maa- ja metsätalousalue); rantarakentaminen vaikuttaa järven rantoihin ja vedenlaatuun. Valitusaika 30 pv tiedoksisaannista, tarkkaa päättymispäivää ei kuulutuksessa.",
+    "id": "820cd9d47932",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 1,
+    "priority": "low",
+    "reasons": [
+      "water (summary only): rantarakentaminen",
+      "action päätös: -1",
+      "kunta match",
+      "action päätös → max low"
+    ]
+  },
+  {
+    "source_id": "kunta_hausjarvi",
+    "title": "Asemakaava vireille, Monnin uusi alakoulu",
+    "url": "https://www.hausjarvi.fi/ajankohtaista/kuulutukset/asemakaava-vireille/",
+    "kunta": [
+      "Hausjärvi"
+    ],
+    "type": "asemakaava",
+    "action": "mielipide",
+    "published": "2026-07-04",
+    "deadline": null,
+    "deadline_confidence": "unknown",
+    "summary": "Asemakaavan laatiminen Monnin uudelle alakoululle Monninlinjan länsipuolelle; uusi rakentaminen vaikuttaa hulevesien hallintaan. Mielipideaikaa ei kuulutuksessa ilmoitettu.",
+    "id": "b9a12f5be501",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 3,
+    "priority": "medium",
+    "reasons": [
+      "water (summary only): hulevesi*",
+      "action mielipide: +1",
+      "kunta match"
+    ]
+  },
+  {
+    "source_id": "kunta_loppi",
+    "title": "Lopen kunnan rakennusjärjestyksen uusiminen, osallistumis- ja arviointisuunnitelma",
+    "url": "https://www.loppi.fi/ajankohtaista/kuulutukset/lopen-kunnan-rakennusjarjestyksen-uusiminen-2/",
+    "kunta": [
+      "Loppi"
+    ],
+    "type": "rakennusjärjestys",
+    "action": "mielipide",
+    "published": "2026-05-07",
+    "deadline": null,
+    "deadline_confidence": "unknown",
+    "summary": "Lopen rakennusjärjestys uusitaan rakentamislain mukaiseksi; määräykset koskevat mm. hulevesiä, haja-asutuksen jätevesiä ja ranta-rakentamista. OAS nähtävillä koko uusimistyön ajan, mielipiteen voi esittää valmistelun aikana.",
+    "id": "a736a78e18ce",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "score": 5,
+    "priority": "high",
+    "reasons": [
+      "water (summary only): hulevesi*, jätevesi*",
+      "plan: rakennusjärjestys",
+      "action mielipide: +1",
       "kunta match"
     ]
   }
