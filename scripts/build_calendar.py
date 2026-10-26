@@ -193,9 +193,13 @@ def score_item(item, rules, kunnat):
 
     th = rules["thresholds"]
     cap = rules.get("non_response_actions_max_priority", {})
+    low = contains_any(head, rules.get("low_keywords", []))
     if mp in ("high", "medium", "low"):
         priority = mp
         reasons.append(f"manual_priority={mp}")
+    elif low:
+        priority = "low"
+        reasons.append(f"low_keyword: {low[0]}")
     elif action in cap:
         priority = cap[action]
         reasons.append(f"action {action} → max {priority}")

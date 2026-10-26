@@ -4,7 +4,7 @@ Viikoittainen seuranta kuulutuksista, joihin voi vastata: Vantaanjoen, Espoonjoe
 
 ## Miten se toimii
 
-1. Maanantaisin n. klo 12 (Helsinki) Claude-ajo lukee `config/sources.json`-lähteet ja poimii uudet kuulutukset JSON-muotoon (`incoming/<pvm>.json`). Ohje: `TASK_PROMPT.md`.
+1. Sunnuntaisin n. klo 8 (Helsinki) Claude-ajo lukee `config/sources.json`-lähteet ja poimii uudet kuulutukset JSON-muotoon (`incoming/<pvm>.json`). Ohje: `TASK_PROMPT.md`.
 2. `scripts/build_calendar.py` yhdistää poiminnan tilaan (`state/items.json`), pisteyttää kohteet sääntöjen mukaan (`config/keywords.json`), kirjoittaa `calendar.ics`-tiedoston ja viikkoyhteenvedon (`docs/summary-<pvm>.md`).
 3. Muutokset commitataan tähän repoon. Outlook hakee `calendar.ics`-tiedoston raw-osoitteesta.
 4. Ajo lähettää lyhyen yhteenvedon: uudet high/medium-kohteet, lähestyvät määräpäivät, lähteet joiden luku epäonnistui.
@@ -17,7 +17,7 @@ Raw-osoite: `https://raw.githubusercontent.com/antti-a/lausuntovahti/main/calend
 
 - **Outlook (uusi / web):** Kalenteri → Lisää kalenteri → Tilaa verkosta → liitä osoite → nimi "Lausuntovahti".
 - **Outlook (klassinen työpöytä):** Kalenteri → Avaa kalenteri → Internetistä → liitä osoite.
-- Jaa osoite muille yhdistyksen jäsenille; kukin tilaa sen itse. Outlook päivittää tilatut kalenterit tyypillisesti kerran vuorokaudessa, joten maanantain ajo näkyy viimeistään tiistaina.
+- Jaa osoite muille yhdistyksen jäsenille; kukin tilaa sen itse. Outlook päivittää tilatut kalenterit tyypillisesti kerran vuorokaudessa, joten sunnuntain ajo näkyy viimeistään maanantaina.
 
 Jokainen kohde on yksi tapahtuma määräpäivänään: `<otsikko> (kunta)`. Prioriteetti (high/medium) ja toimenpide (mielipide, muistutus, lausunto, vastine) ovat tapahtuman kuvauksessa ja luokassa (category). Kohteet, joiden määräpäivää ei vielä tiedetä, eivät ole kalenterissa; viikkoyhteenveto listaa ne joka kerta.
 
@@ -35,7 +35,7 @@ Pisteytys (`config/keywords.json`):
 | Toimenpide mielipide/muistutus/lausunto/vastine | +1 |
 | Seurattava kunta | +1 (vaatimus, paitsi alueelliset tyypit) |
 
-≥4 = **high**, ≥2 = **medium** → kalenteriin. Alle 2 = low → vain yhteenvetoon. Päätökset ja tiedoksiannot (ei vastausmahdollisuutta) ovat aina low. Poissulkulista pudottaa rallit, triathlonit, laajakaistat ja virat.
+≥4 = **high**, ≥2 = **medium** → kalenteriin. Alle 2 = low → vain yhteenvetoon. Päätökset ja tiedoksiannot (ei vastausmahdollisuutta) ovat aina low, samoin katu- ja puistosuunnitelmat (`low_keywords`). Poissulkulista pudottaa rallit, triathlonit, laajakaistat ja virat kokonaan.
 
 Säätäminen:
 - Liian paljon tavaraa → nosta `thresholds.medium` arvoon 3 tai poista avainsanoja.

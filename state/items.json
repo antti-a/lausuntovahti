@@ -86,11 +86,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): hulevesi*",
       "action muistutus: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: puistosuunnitelm*"
     ]
   },
   {
@@ -110,11 +111,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): *joen, hulevesi*, valuma-alue",
       "action mielipide: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: katusuunnitelm*"
     ]
   },
   {
@@ -134,11 +136,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): hulevesi*",
       "action mielipide: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: katusuunnitelm*"
     ]
   },
   {
@@ -158,11 +161,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): hulevesi*",
       "action muistutus: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: katusuunnitelm*"
     ]
   },
   {
@@ -207,11 +211,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): hulevesi*",
       "action muistutus: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: katusuunnitelm*"
     ]
   },
   {
@@ -430,11 +435,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): hulevesi*",
       "action muistutus: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: katusuunnitelm*"
     ]
   },
   {
@@ -479,11 +485,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): hulevesi*",
       "action muistutus: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: katusuunnitelm*"
     ]
   },
   {
@@ -503,11 +510,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): *joen, hulevede*, valuma-alue",
       "action muistutus: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: katusuunnitelm*"
     ]
   },
   {
@@ -527,11 +535,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): *joki, *joen, hulevede*",
       "action mielipide: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: katusuunnitelm*"
     ]
   },
   {
@@ -599,11 +608,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): *joen, hulevesi*, valuma-alue",
       "action mielipide: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: katusuunnitelm*"
     ]
   },
   {
@@ -623,11 +633,12 @@
     "first_seen": "2026-10-26",
     "last_seen": "2026-10-26",
     "score": 3,
-    "priority": "medium",
+    "priority": "low",
     "reasons": [
       "water (summary only): hulevesi*",
       "action muistutus: +1",
-      "kunta match"
+      "kunta match",
+      "low_keyword: puistosuunnitelm*"
     ]
   },
   {
