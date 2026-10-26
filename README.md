@@ -13,7 +13,7 @@ Vain ihmiselle tarkoitettu osa: lausuntojen kirjoittaminen. Vahti ei lähetä mi
 
 ## Kalenterin tilaaminen Outlookiin
 
-Raw-osoite: `https://raw.githubusercontent.com/<OWNER>/<REPO>/main/calendar.ics`
+Raw-osoite: `https://raw.githubusercontent.com/antti-a/lausuntovahti/main/calendar.ics`
 
 - **Outlook (uusi / web):** Kalenteri → Lisää kalenteri → Tilaa verkosta → liitä osoite → nimi "Lausuntovahti".
 - **Outlook (klassinen työpöytä):** Kalenteri → Avaa kalenteri → Internetistä → liitä osoite.

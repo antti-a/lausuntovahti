@@ -31,7 +31,7 @@ Etsi Vantaanjoen, Espoonjoen ja Mankinjoen valuma-alueiden kuntia ja viranomaisi
 
 5. **Commit ja push.** `git add -A && git commit -m "Viikkoajo <pvm>: +N uutta, M päivitettyä" && git push`. Jos push epäonnistuu, raportoi se yhteenvedossa.
 
-6. **Yhteenveto.** Lähetä `SendUserMessage`-työkalulla (jos käytettävissä) `docs/summary-<pvm>.md`-sisältö tiivistettynä: uudet high- ja medium-kohteet taulukkona (otsikko, kunta, määräpäivä, linkki), määräpäivät seuraavan 14 päivän sisällä, high/medium-kohteet ilman määräpäivää, ja lähteet, joiden luku epäonnistui. Low-kohteista vain lukumäärä. Jos mitään uutta ei löytynyt, sano se yhdellä rivillä. Linkki kalenteriin: `<RAW_ICS_URL>`.
+6. **Yhteenveto.** Lähetä `SendUserMessage`-työkalulla (jos käytettävissä) `docs/summary-<pvm>.md`-sisältö tiivistettynä: uudet high- ja medium-kohteet taulukkona (otsikko, kunta, määräpäivä, linkki), määräpäivät seuraavan 14 päivän sisällä, high/medium-kohteet ilman määräpäivää, ja lähteet, joiden luku epäonnistui. Low-kohteista vain lukumäärä. Jos mitään uutta ei löytynyt, sano se yhdellä rivillä. Linkki kalenteriin: `https://raw.githubusercontent.com/antti-a/lausuntovahti/main/calendar.ics`.
 
 ## Rajat
 
