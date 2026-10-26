@@ -19,15 +19,9 @@ Raw-osoite: `https://raw.githubusercontent.com/antti-a/lausuntovahti/main/calend
 - **Outlook (klassinen työpöytä):** Kalenteri → Avaa kalenteri → Internetistä → liitä osoite.
 - Jaa osoite muille yhdistyksen jäsenille; kukin tilaa sen itse. Outlook päivittää tilatut kalenterit tyypillisesti kerran vuorokaudessa, joten maanantain ajo näkyy viimeistään tiistaina.
 
-Tapahtumat:
+Jokainen kohde on yksi tapahtuma määräpäivänään: `<otsikko> (kunta)`. Prioriteetti (high/medium) ja toimenpide (mielipide, muistutus, lausunto, vastine) ovat tapahtuman kuvauksessa ja luokassa (category). Kohteet, joiden määräpäivää ei vielä tiedetä, eivät ole kalenterissa; viikkoyhteenveto listaa ne joka kerta.
 
-- `<otsikko> (kunta) – DL` määräpäivänä.
-- `<otsikko> (kunta) – uusi, DL 20.11.` sinä maanantaina, jona kohde löytyi – jotta uusi kohde näkyy kuluvalla viikolla eikä vasta määräpäivänä.
-- `<otsikko> (kunta) – DL ?`, jos määräpäivää ei vielä tiedetä. Tapahtuma siirtyy joka maanantai kuluvalle viikolle, kunnes määräpäivä selviää.
-
-Prioriteetti (high/medium) ja toimenpide (mielipide, muistutus, lausunto, vastine) ovat tapahtuman kuvauksessa ja luokassa (category).
-
-`(arvio)` tarkoittaa, että määräpäivä on päätelty julkaisupäivästä (+30 pv) eikä luettu kuulutuksesta – tarkista linkistä.
+`– arvioitu DL` otsikon perässä tarkoittaa, että määräpäivä on päätelty julkaisupäivästä (+30 pv) eikä luettu kuulutuksesta – tarkista linkistä.
 
 ## Mitä kalenteriin menee
 

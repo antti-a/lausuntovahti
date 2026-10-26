@@ -14,8 +14,7 @@ Inputs
 Outputs
   state/items.json       updated (merged, rescored)
   state/archive.json     items whose deadline passed > ARCHIVE_AFTER_DAYS ago
-  calendar.ics           high + medium priority items: an event on the deadline (or on the run
-                         day while the deadline is unknown) and a "uusi" event on the day found
+  calendar.ics           high + medium priority items, one event on each deadline day
   docs/summary-<date>.md run summary for the weekly message
   docs/all-items.md      human-readable table of everything currently tracked
 
@@ -319,8 +318,8 @@ def vevent(uid, day, summary, desc, it, stamp):
 
 
 def build_ics(items, today, stamp):
-    """Each high/medium item gets an event on its deadline, or on the run day while the deadline is
-    unknown (so it moves forward every week), plus a "uusi" event on the day it was first seen."""
+    """One event per high/medium item, on its deadline day. Items without a deadline stay out
+    (the weekly summary lists them)."""
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -337,28 +336,22 @@ def build_ics(items, today, stamp):
         if it["priority"] not in ("high", "medium"):
             continue
         d = parse_date(it.get("deadline"))
-        found = parse_date(it.get("first_seen"))
-        est = " (arvio)" if it.get("deadline_confidence") == "estimated" else ""
+        if not d or d < cutoff:
+            continue
+        estimated = it.get("deadline_confidence") == "estimated"
         kunta = ", ".join(it.get("kunta") or []) or "alueellinen"
         action = it.get("action") or "lausunto"
-        label = f"{it['title']} ({kunta})"  # lead with what it is; priority and action are in the description
         desc = "\n".join(([it["summary"], ""] if it.get("summary") else []) + [
             f"Tyyppi: {it.get('type','')} | Toimenpide: {action} | Prioriteetti: {it['priority']} (pisteet {it['score']})",
             f"Kunta: {kunta}",
-            f"Julkaistu: {it.get('published') or '?'} | Määräpäivä: {fi_date(d) + est if d else 'ei tiedossa'}",
+            f"Julkaistu: {it.get('published') or '?'} | Määräpäivä: {fi_date(d)}{' (arvio)' if estimated else ''}",
             f"Lähde: {it['source_id']}",
             f"Linkki: {it.get('url','')}",
             f"Perustelut: {'; '.join(it.get('reasons', []))}",
-        ] + ([] if d else ["", "Määräpäivä ei ole vielä tiedossa – tarkista linkistä. Tapahtuma siirtyy "
-                               "joka viikko ajopäivälle, kunnes määräpäivä selviää."]))
-        if not d:
-            events.append((today, vevent(it["id"], today, f"{label} – DL ?", desc, it, stamp)))
-            continue
-        if d >= cutoff:
-            events.append((d, vevent(it["id"], d, f"{label} – DL{est}", desc, it, stamp)))
-        if found and cutoff <= found < d:
-            dl = f"{d.day}.{d.month}." if d.year == found.year else fi_date(d)
-            events.append((found, vevent(f"{it['id']}-uusi", found, f"{label} – uusi, DL {dl}{est}", desc, it, stamp)))
+        ])
+        # lead with what it is; priority and action are in the description
+        title = f"{it['title']} ({kunta})" + (" – arvioitu DL" if estimated else "")
+        events.append((d, vevent(it["id"], d, title, desc, it, stamp)))
     for _, ev in sorted(events, key=lambda e: e[0]):
         lines += ev
     lines.append("END:VCALENDAR")
@@ -390,7 +383,8 @@ def write_summary(path, today, new, updated, items, archived, failed_sources, ic
     new_excl = [i for i in new if i["priority"] == "exclude"]
     upcoming = [i for i in items if i["priority"] in ("high", "medium") and parse_date(i.get("deadline"))
                 and today <= parse_date(i["deadline"]) <= today + dt.timedelta(days=14)]
-    nodl = [i for i in new if i["priority"] in ("high", "medium") and not i.get("deadline")]
+    # all of them, not just new ones: without a deadline they never reach the calendar
+    nodl = [i for i in items if i["priority"] in ("high", "medium") and not i.get("deadline")]
     txt = f"""# Lausuntovahti – ajo {today.isoformat()}
 
 Kalenterissa nyt {ics_count} tapahtumaa. Uusia: {len(new)} (high {len(new_high)}, medium {len(new_med)}, low {len(new_low)}, poissuljettu {len(new_excl)}). Päivitettyjä: {len(updated)}. Arkistoitu: {len(archived)}.
@@ -398,7 +392,7 @@ Kalenterissa nyt {ics_count} tapahtumaa. Uusia: {len(new)} (high {len(new_high)}
 {sec("Uudet – HIGH (kalenteriin)", new_high)}
 {sec("Uudet – MEDIUM (kalenteriin)", new_med)}
 {sec("Määräpäivä seuraavan 14 päivän sisällä", upcoming, "_ei kohteita_")}
-{sec("Uudet high/medium ILMAN määräpäivää – tarkista käsin", nodl)}
+{sec("High/medium ILMAN määräpäivää (ei kalenterissa) – tarkista käsin", nodl, "_ei kohteita_")}
 {sec("Uudet – LOW (vain tämä yhteenveto)", new_low)}
 ### Lähteet joiden luku epäonnistui
 {chr(10).join('- ' + s for s in failed_sources) if failed_sources else '_ei ongelmia_'}
