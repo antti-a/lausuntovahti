@@ -1,0 +1,327 @@
+{
+ "items": [
+  {
+   "source_id": "kunta_tuusula",
+   "title": "Pilaantuneen maaperän puhdistaminen, Patteristontie 2, Tuusula, Master Kodit Oy (LVV-U/142045/2026), YSL 136 § päätös",
+   "url": "https://lvv.fi/-/kuulutus-lvv-u-142045-2026-ymparistonsuojelulain-136-n-mukainen-paatos-pilaantuneen-maaperan-puhdistamisesta-tuusula",
+   "kunta": [
+    "Tuusula"
+   ],
+   "type": "muu",
+   "action": "päätös",
+   "published": "2026-10-29",
+   "deadline": "2026-12-07",
+   "deadline_confidence": "exact",
+   "summary": "LVV:n päätös pilaantuneen maaperän puhdistamisesta kiinteistöllä Patteristontie 2 Tuusulassa; maaperän haitta-aineet ja kunnostustyö voivat vaikuttaa pohjaveteen ja hulevesiin."
+  },
+  {
+   "source_id": "keski_uudenmaan_ymparistokeskus",
+   "title": "Maa-aines- ja ympäristöluvan vesientarkkailusuunnitelman hyväksyminen, Destia Oy, Puolimatkanmäki, Mäntsälä",
+   "url": "https://tuusula.oncloudos.com/cgi/DREQUEST.PHP?page=announcement&id=B2F02EC3XC5AFX4D62X9926XDD06F26A43C5",
+   "kunta": [
+    "Mäntsälä"
+   ],
+   "type": "maa-aineslupa",
+   "action": "päätös",
+   "published": "2026-10-28",
+   "deadline": "2026-12-04",
+   "deadline_confidence": "exact",
+   "summary": "Keski-Uudenmaan ympäristökeskuksen päätös Destia Oy:n kalliokiviainesten louhinta- ja murskausalueen vesientarkkailusuunnitelmasta (lupamääräys 25) Puolimatkanmäellä Mäntsälässä; tarkkailu koskee louhosalueen vaikutuksia vesiin."
+  },
+  {
+   "source_id": "kunta_jarvenpaa",
+   "title": "Asemakaavan ja tonttijaon muutoksen hyväksyminen, Vuohikatu 5a, Satukallio (200013)",
+   "url": "https://www.jarvenpaa.fi/announcement/asemakaavan-ja-tonttijaon-muutoksen-hyvaksyminen-vuohikatu-5a",
+   "kunta": [
+    "Järvenpää"
+   ],
+   "type": "asemakaava",
+   "action": "päätös",
+   "published": "2026-10-22",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "summary": "Kaupunkikehityslautakunta hyväksyi 20.10.2026 asemakaavan muutoksen, jolla noin 210 m² Sipoontien katualuetta liitetään pientalotonttiin Satukalliossa; kaava vaikuttaa hulevesien hallintaan."
+  },
+  {
+   "source_id": "kunta_jarvenpaa",
+   "title": "Asemakaavan ja tonttijaon muutoksen hyväksyminen, Yrittäjänkatu 26–28 (110018)",
+   "url": "https://www.jarvenpaa.fi/announcement/asemakaavan-ja-tonttijaon-muutoksen-hyvaksyminen-yrittajankatu-26-28",
+   "kunta": [
+    "Järvenpää"
+   ],
+   "type": "asemakaava",
+   "action": "päätös",
+   "published": "2026-10-22",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "summary": "Kaupunkikehityslautakunta hyväksyi 20.10.2026 asemakaavan muutoksen, joka palauttaa korttelin 1110 teollisuus- ja varastokäyttöön ja nostaa rakennusoikeutta noin 132:sta 660 k-m²:iin; rakentaminen lisää hulevesiä."
+  },
+  {
+   "source_id": "kunta_jarvenpaa",
+   "title": "Mikonpelto II yritysalueen kunnallistekniikan suunnitelmaluonnokset (Jartinkatu, Jartinkuja, Mäyräpuisto, Saukkometsän hulevesialtaat)",
+   "url": "https://www.jarvenpaa.fi/a/mikonpelto-ii-yritysalueen-kunnallistekniikan-suunnitelmaluonnoksia-esitellaan-yleisotilaisuudessa-5-11-2026",
+   "kunta": [
+    "Järvenpää"
+   ],
+   "type": "katusuunnitelma",
+   "action": "mielipide",
+   "published": "2026-10-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "summary": "Mikonkorven Mikonpelto II -yritysalueen katu- ja puistosuunnitelmaluonnokset, joihin kuuluvat Saukkometsän hulevesialtaat; yleisötilaisuus 5.11.2026 ja luonnokset verkossa noin 12.11.2026 alkaen, ehdotukset kuulutetaan myöhemmin."
+  },
+  {
+   "source_id": "kunta_helsinki_muut",
+   "title": "Helsingin kaupunki, Malminkentän esirakentamiseen liittyvän jätteiden hyödyntämisen ja välivarastoinnin ympäristölupa (LVV-U/109525/2026)",
+   "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3459864",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "ympäristölupa",
+   "action": "muistutus",
+   "published": "2026-10-29",
+   "deadline": "2026-12-07",
+   "deadline_confidence": "exact",
+   "summary": "LVV:n ympäristölupahakemus jätteiden hyödyntämisestä ja välivarastoinnista Malmin lentokentän esirakentamisessa; jätemateriaalien käyttö maarakentamisessa voi vaikuttaa pohjaveteen ja hulevesien kautta Longinojaan/Vantaanjokeen."
+  },
+  {
+   "source_id": "kunta_helsinki_muut",
+   "title": "Circulation Oy, Helsingin kierrätyslaitoksen ympäristöluvan muuttaminen (LVV-U/96838/2026)",
+   "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3438452",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "ympäristölupa",
+   "action": "muistutus",
+   "published": "2026-10-28",
+   "deadline": "2026-12-04",
+   "deadline_confidence": "exact",
+   "summary": "LVV:n hakemus kierrätyslaitoksen ympäristöluvan muuttamisesta Helsingissä; jätteenkäsittelyn hulevedet ja jätevedet voivat kuormittaa vesistöjä."
+  },
+  {
+   "id": "3da6c46e1478",
+   "source_id": "kunta_helsinki_muut",
+   "title": "Kt 51 satamatunneliin liittyvät liikennejärjestelyt välillä Lemissaarentie–Porkkalankatu, tiesuunnitelman hyväksymispäätös",
+   "url": "https://vayliensuunnittelu.fi/s/na4x/hyvaksymispaatos",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "tiesuunnitelma",
+   "action": "päätös",
+   "published": "2026-10-21",
+   "deadline": "2026-11-27",
+   "deadline_confidence": "exact",
+   "summary": "Ei liity veteen."
+  },
+  {
+   "source_id": "kunta_helsinki_muut",
+   "title": "Vuosaari, Kallahti: Leppäniementien katusuunnitelmaehdotus",
+   "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/vuosaari-kallahti-katusuunnitelmaehdotus-nahtavilla-2810-10112026",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "katusuunnitelma",
+   "action": "muistutus",
+   "published": "2026-10-28",
+   "deadline": "2026-11-10",
+   "deadline_confidence": "exact",
+   "summary": "Leppäniementien katusuunnitelmaehdotus Kallahdessa lähellä merenrantaa; katualueen hulevesien hallinta voi vaikuttaa rannan vesiin."
+  },
+  {
+   "source_id": "kunta_helsinki_muut",
+   "title": "Laakso: Reijolankadun katusuunnitelmaluonnos",
+   "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/laakso-reijolankadun-katusuunnitelmaluonnos-esilla-2810-10112026",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "katusuunnitelma",
+   "action": "mielipide",
+   "published": "2026-10-28",
+   "deadline": "2026-11-10",
+   "deadline_confidence": "exact",
+   "summary": "Ei liity veteen."
+  },
+  {
+   "source_id": "kunta_helsinki_muut",
+   "title": "Vartiokylä: Puotilan urheilupuiston ulkokuntosalin puistosuunnitelmaluonnos",
+   "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/vartiokyla-puotilan-urheilupuiston-ulkokuntosalin-puistosuunnitelmaluonnos-esilla-2110-3112026",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "puistosuunnitelma",
+   "action": "mielipide",
+   "published": "2026-10-21",
+   "deadline": "2026-11-03",
+   "deadline_confidence": "exact",
+   "summary": "Ei liity veteen."
+  },
+  {
+   "source_id": "kunta_espoo",
+   "title": "Espoon vesihuollon toiminta-alue 2026 ja huleveden viemäröintialue 2026, luonnos",
+   "url": "https://www.espoo.fi/fi/artikkelit/kuulutus-espoon-vesihuollon-toiminta-alue-2026-ja-huleveden-viemarointialue-2026",
+   "kunta": [
+    "Espoo"
+   ],
+   "type": "muu",
+   "action": "mielipide",
+   "published": "2026-10-30",
+   "deadline": "2026-12-02",
+   "deadline_confidence": "exact",
+   "summary": "Luonnos HSY:n vesihuollon toiminta-alueen ja huleveden viemäröintialueen päivityksestä Espoossa (nähtävillä 2.11.–2.12.2026); määrittää missä jätevedet ja hulevedet johdetaan verkostoon, mikä vaikuttaa suoraan vesistökuormitukseen."
+  },
+  {
+   "source_id": "kunta_espoo",
+   "title": "Maisematyölupa: Gräsanojan tulvasuojelu ja uoman ennallistaminen, Hauenkalliontie–Haukilahden venesatama (2026-886)",
+   "url": "https://www.espoo.fi/fi/artikkelit/kuulutus-kaupunkisuunnittelujohtajan-30102026-antamat-paatokset",
+   "kunta": [
+    "Espoo"
+   ],
+   "type": "muu",
+   "action": "päätös",
+   "published": "2026-10-30",
+   "deadline": "2026-12-07",
+   "deadline_confidence": "exact",
+   "summary": "Kaupunkisuunnittelujohtajan myönteinen maisematyölupa Gräsanojan tulvasuojelu- ja uoman ennallistamistöille Hauenkalliontieltä Haukilahden venesatamaan; vaikuttaa suoraan puron uomaan, tulviin ja mereen laskevaan veteen. Valitusaika 7.12.2026."
+  },
+  {
+   "source_id": "kunta_espoo",
+   "title": "Iivisniemen päiväkodit (440105), Kaitaa, asemakaavan muutos, OAS",
+   "url": "https://www.espoo.fi/fi/hankkeet/uusi-paivakoti-iivisniemeen",
+   "kunta": [
+    "Espoo"
+   ],
+   "type": "asemakaava",
+   "action": "mielipide",
+   "published": "2026-10-28",
+   "deadline": "2026-12-01",
+   "deadline_confidence": "exact",
+   "summary": "Asemakaavan muutoksen OAS päiväkodeille Kaitaan koulu- ja päiväkotitontille Iivisniementien ja Hyljemäenpellon puiston välissä; kaava vaikuttaa hulevesien hallintaan."
+  },
+  {
+   "source_id": "kunta_espoo",
+   "title": "Tapiolan urheilupuiston eteläosan puistosuunnitelman hyväksyminen",
+   "url": "https://www.espoo.fi/fi/artikkelit/kuulutus-katu-ja-puistosuunnitelmat-30102026",
+   "kunta": [
+    "Espoo"
+   ],
+   "type": "puistosuunnitelma",
+   "action": "päätös",
+   "published": "2026-10-30",
+   "deadline": "2026-12-07",
+   "deadline_confidence": "estimated",
+   "summary": "Ei liity veteen."
+  },
+  {
+   "source_id": "kunta_espoo",
+   "title": "Poikkeamispäätös: huoltoasema, Gräsanlaakso 2 (2026-768)",
+   "url": "https://www.espoo.fi/fi/artikkelit/kuulutus-kaupunkisuunnittelujohtajan-16102026-antama-paatos",
+   "kunta": [
+    "Espoo"
+   ],
+   "type": "muu",
+   "action": "päätös",
+   "published": "2026-10-16",
+   "deadline": "2026-11-23",
+   "deadline_confidence": "exact",
+   "summary": "Myönteinen ehdollinen poikkeamispäätös huoltoasemalle Gräsanlaaksossa Gräsanojan valuma-alueella; polttoaineiden käsittely voi uhata maaperää, pohjavettä ja hulevesiä. Valitusaika 23.11.2026."
+  },
+  {
+   "source_id": "kunta_sipoo",
+   "title": "S27 Kallbäck I:n asemakaava ja asemakaavan muutos vireille, OAS nähtävillä",
+   "url": "https://sipoofi.oncloudos.com/kuulutus/202668976.PDF",
+   "kunta": [
+    "Sipoo"
+   ],
+   "type": "asemakaava",
+   "action": "mielipide",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30",
+   "deadline_confidence": "exact",
+   "summary": "Kallbäck I:n asemakaava ja asemakaavan muutos Etelä-Sipoossa (Söderkullan suunta) on tullut vireille; OAS:sta voi jättää mielipiteen. Kaavoitus vaikuttaa alueen hulevesien hallintaan."
+  },
+  {
+   "source_id": "kunta_hyvinkaa",
+   "title": "Oskarintie (17:039) asemakaavamuutoksen ehdotus, Hyvinkääkylä",
+   "url": "https://asianhallintavhp.hyvinkaa.fi/ktwebscr/fileshow?doctype=7&docid=1097433",
+   "kunta": [
+    "Hyvinkää"
+   ],
+   "type": "asemakaava",
+   "action": "muistutus",
+   "published": "2026-10-30",
+   "deadline": "2026-11-30",
+   "deadline_confidence": "exact",
+   "summary": "Asemakaavamuutoksella laajennetaan kolmea omakotitonttia viereiselle puistoalueelle korttelissa 1641 Hyvinkääkylässä. Viheralueen muuttuminen tonttimaaksi vaikuttaa hulevesien hallintaan."
+  },
+  {
+   "source_id": "kunta_hyvinkaa",
+   "title": "Mustamännistön pohjoisosa (03:026) asemakaavamuutoksen ehdotus uudelleen nähtävillä",
+   "url": "https://asianhallintavhp.hyvinkaa.fi/ktwebscr/fileshow?doctype=7&docid=1097436",
+   "kunta": [
+    "Hyvinkää"
+   ],
+   "type": "asemakaava",
+   "action": "muistutus",
+   "published": "2026-10-30",
+   "deadline": "2026-11-30",
+   "deadline_confidence": "exact",
+   "summary": "Asemakaavamuutos mahdollistaa täydennysrakentamisen Mustamännistön pohjoisosassa (kortteli 236, osia kortteleista 237 ja 242) kulttuuriympäristöarvot huomioiden. Tiivistyvä rakentaminen vaikuttaa hulevesien hallintaan."
+  },
+  {
+   "source_id": "kunta_riihimaki",
+   "title": "Pellavapuiston puistosuunnitelmaehdotus nähtävillä",
+   "url": "https://kunta2.riihimaki.fi/ktwebscr/fileshow?doctype=3&docid=597750",
+   "kunta": [
+    "Riihimäki"
+   ],
+   "type": "puistosuunnitelma",
+   "action": "muistutus",
+   "published": "2026-10-27",
+   "deadline": "2026-11-10",
+   "deadline_confidence": "exact",
+   "summary": "Ei liity veteen."
+  },
+  {
+   "source_id": "kunta_mantsala",
+   "title": "Perusteltu päätelmä, GRK Suomi Oy:n aurinkovoimahanke, Hirvihaara, Mäntsälä (LVV-U/71717/2026)",
+   "url": "https://mantsalad10.oncloudos.com/kuulutus/202632012.PDF",
+   "kunta": [
+    "Mäntsälä"
+   ],
+   "type": "YVA",
+   "action": "tiedoksi",
+   "published": "2026-10-30",
+   "deadline": "2026-11-30",
+   "deadline_confidence": "exact",
+   "summary": "LVV on antanut perustellun päätelmän GRK Suomi Oy:n Hirvihaaran aurinkovoimahankkeen YVA-menettelyssä; kuulutus nähtävillä 30.11.2026 asti. Laaja aurinkovoimala voi vaikuttaa alueen valumavesiin ja eroosioon rakentamisvaiheessa."
+  },
+  {
+   "source_id": "kunta_kirkkonummi",
+   "title": "Kirkkonummen uusien ympäristönsuojelumääräysten hyväksyminen (rakennus- ja ympäristölautakunta 20.10.2026 § 115)",
+   "url": "https://kirkkonummi.oncloudos.com/kuulutus/2026150902.PDF",
+   "kunta": [
+    "Kirkkonummi"
+   ],
+   "type": "muu",
+   "action": "päätös",
+   "published": "2026-10-28",
+   "deadline": "2026-11-18",
+   "deadline_confidence": "exact",
+   "summary": "Kirkkonummen uudet ympäristönsuojelumääräykset (voimaan 1.1.2027) on hyväksytty; ympäristönsuojelumääräykset koskevat tyypillisesti mm. jätevesiä ja vesistöjen suojavyöhykkeitä. Oikaisuvaatimuksen voi tehdä 14 päivän kuluessa tiedoksisaannista (4.11.2026)."
+  },
+  {
+   "source_id": "kunta_vihti",
+   "title": "Vesilain 2:6 §:n mukainen ilmoitus vesikasvillisuuden niitosta yhteisellä vesialueella 927-403-876-8, Vihti (LVV-U/142677/2026)",
+   "url": "https://vihti.oncloudos.com/kuulutus/7E38CC1CX4FC3X4F14XA6CBXE65D48BEC76A.PDF",
+   "kunta": [
+    "Vihti"
+   ],
+   "type": "vesilupa",
+   "action": "tiedoksi",
+   "published": "2026-10-30",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "summary": "LVV:n yleistiedoksianto vesilain 2 luvun 6 §:n mukaisesta ilmoituksesta vesikasvillisuuden niitosta järjestäytymättömän osakaskunnan vesialueella kiinteistön 927-403-2-280 edustalla Vihdissä. Pienimuotoinen vesistötoimenpide, nähtävillä 7.12.2026 asti."
+  }
+ ]
+}
