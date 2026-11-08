@@ -20,7 +20,7 @@
         "luonnonsuojelu"
       ],
       "verify": false,
-      "notes": "Sivu esti WebFetchin 26.10.2026. Hakukoneindeksi sisälsi sivun otsikot muutaman päivän viiveellä. 26.10.2026 (takautuva 60 pv haku): lvv.fi estää WebFetchin. Yksittäisen kuulutuksen sivu on muotoa lvv.fi/-/kuulutus-lvv-u-<nro>-2026-<otsikko>; osoite löytyy kuntien julkaisemista 'Ilmoitus kuulutuksesta' -PDF:istä. Toimivimmat reitit: espoo.fi/fi/haku?q=Lupa-%20ja%20valvontavirasto&sort=publishedTime-desc ja kuntien oncloudos-kuulutuslistat (Kirkkonummi, Vihti, Tuusula, Nurmijärvi, Mäntsälä). PDF:t ovat usein pakattuja: WebFetch ei lue niitä, mutta tallennettu PDF aukeaa pdftotext-ohjelmalla. 1.11.2026: lvv.fi 403 edelleen. Espoon hakureitin uusin LVV-osuma 6.10.2026; yleishaut eivät löydä Uudenmaan LVV-kuulutuksia, joten kuntien oncloudos/ktweb-listat ja paatokset.hel.fi ovat ainoa luotettava reitti."
+      "notes": "Sivu esti WebFetchin 26.10.2026. Hakukoneindeksi sisälsi sivun otsikot muutaman päivän viiveellä. 26.10.2026 (takautuva 60 pv haku): lvv.fi estää WebFetchin. Yksittäisen kuulutuksen sivu on muotoa lvv.fi/-/kuulutus-lvv-u-<nro>-2026-<otsikko>; osoite löytyy kuntien julkaisemista 'Ilmoitus kuulutuksesta' -PDF:istä. Toimivimmat reitit: espoo.fi/fi/haku?q=Lupa-%20ja%20valvontavirasto&sort=publishedTime-desc ja kuntien oncloudos-kuulutuslistat (Kirkkonummi, Vihti, Tuusula, Nurmijärvi, Mäntsälä). PDF:t ovat usein pakattuja: WebFetch ei lue niitä, mutta tallennettu PDF aukeaa pdftotext-ohjelmalla. 1.11.2026: lvv.fi 403 edelleen. Espoon hakureitin uusin LVV-osuma 6.10.2026; yleishaut eivät löydä Uudenmaan LVV-kuulutuksia, joten kuntien oncloudos/ktweb-listat ja paatokset.hel.fi ovat ainoa luotettava reitti. 8.11.2026: lvv.fi 403 edelleen. LVV:n Helsingin-kuulutukset löytyvät paatokset.hel.fi:n Muiden viranomaisten kuulutuksista (PDF:t pdftotextillä); hausjarvi.fi julkaisee myös LVV:n ilmoituksia."
     },
     {
       "id": "lvv_tietopalvelu",
@@ -235,7 +235,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "vantaa.fi tarjoaa RSS:n ajankohtaissisällöstä (vantaa.fi/fi/rss/...). Tarkista onko kuulutuksille oma syöte. 26.10.2026: osoite toimii, listaa paatokset.vantaa.fi-kuulutukset ja Lupapisteen rakentamiskuulutukset. 26.10.2026 (takautuva 60 pv haku): vantaa.fi/fi/kuulutukset näyttää vain 20 uusinta; paatokset.vantaa.fi/ktwebscr/kuullist_tweb.htm listaa kaikki parhaillaan nähtävillä olevat (ei sivutusta) ja RSS: paatokset.vantaa.fi/ktwebscr/kuul_rssfeed.htm. Osa PDF:istä on kuvia (esim. HaO-kuulutukset)."
+      "notes": "vantaa.fi tarjoaa RSS:n ajankohtaissisällöstä (vantaa.fi/fi/rss/...). Tarkista onko kuulutuksille oma syöte. 26.10.2026: osoite toimii, listaa paatokset.vantaa.fi-kuulutukset ja Lupapisteen rakentamiskuulutukset. 26.10.2026 (takautuva 60 pv haku): vantaa.fi/fi/kuulutukset näyttää vain 20 uusinta; paatokset.vantaa.fi/ktwebscr/kuullist_tweb.htm listaa kaikki parhaillaan nähtävillä olevat (ei sivutusta) ja RSS: paatokset.vantaa.fi/ktwebscr/kuul_rssfeed.htm. Osa PDF:istä on kuvia (esim. HaO-kuulutukset). 8.11.2026: paatokset.vantaa.fi/ktwebscr/kuullist_tweb.htm palautti 503, mutta vantaa.fi/fi/kuulutukset toimi. Ympäristölupakuulutukset ovat nyt .docx-tiedostoja (fileshow) – lue word/document.xml."
     },
     {
       "id": "kunta_espoo",
@@ -335,7 +335,7 @@
         "muut"
       ],
       "verify": false,
-      "notes": "26.10.2026: kerava.fi/kuulutukset 404; kaupungin kuulutukset osoitteessa kerava-julkaisu.tweb.fi (palautti 503 26.10.2026), kaava- ja rakennusvalvontakuulutukset kerava.fi/asuminen-ja-rakentaminen/rakennusvalvonta/rakennusvalvonnan-ja-kaavoituksen-kuulutukset/. 26.10.2026 (takautuva 60 pv haku): 26.10.2026 uusinta: tweb 503 edelleen. Kaavojen nähtävilläolot: kerava.fi/asuminen-ja-rakentaminen/kaupunkisuunnittelu/kaavahankkeet/nahtavilla-olevat-hankkeet/. Rakennusvalvonnan RSS: kuulutukset.lupapiste.fi/rss/kuulutus?organization=245-R&lang=fi. Ympäristöluvat tulevat KUYK:n kautta. 1.11.2026: tweb 503 edelleen. Rakennusvalvonnan ja kaavoituksen kuulutussivulla vain Lupapisteen rakennusluvat; nähtävillä olevia kaavoja ei ollut."
+      "notes": "26.10.2026: kerava.fi/kuulutukset 404; kaupungin kuulutukset osoitteessa kerava-julkaisu.tweb.fi (palautti 503 26.10.2026), kaava- ja rakennusvalvontakuulutukset kerava.fi/asuminen-ja-rakentaminen/rakennusvalvonta/rakennusvalvonnan-ja-kaavoituksen-kuulutukset/. 26.10.2026 (takautuva 60 pv haku): 26.10.2026 uusinta: tweb 503 edelleen. Kaavojen nähtävilläolot: kerava.fi/asuminen-ja-rakentaminen/kaupunkisuunnittelu/kaavahankkeet/nahtavilla-olevat-hankkeet/. Rakennusvalvonnan RSS: kuulutukset.lupapiste.fi/rss/kuulutus?organization=245-R&lang=fi. Ympäristöluvat tulevat KUYK:n kautta. 1.11.2026: tweb 503 edelleen. Rakennusvalvonnan ja kaavoituksen kuulutussivulla vain Lupapisteen rakennusluvat; nähtävillä olevia kaavoja ei ollut. 8.11.2026: tweb 503 neljännessä ajossa peräkkäin; kaavahankkeiden nähtävillä-sivu luettavissa (ei kaavoja). site:kerava.fi-haku ei löydä kuulutuksia."
     },
     {
       "id": "kunta_jarvenpaa",

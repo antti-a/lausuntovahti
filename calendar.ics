@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Helsinki
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
 UID:2d049d628791@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:Ämmässuon–Kulmakorven alueen vesien yhteistarkkailuohjelman pä
@@ -32,7 +32,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ca281bbd2c9b@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:JMV-Research Oy\, kelluvien talojen rakentaminen Verkkosaaren edust
@@ -50,7 +50,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b7c067aa9fce@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:Ämmässuon jätteenkäsittelylaitoksen ympäristöluvan muuttamine
@@ -69,7 +69,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:de042444f9cc@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:Halkotie ja Hirsipuisto (002491) sekä Linnankalliontie (002303)\, 
@@ -88,7 +88,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7f912081643b@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:Vantaan Energia Oy\, Långmossebergenin jätevoimalan ympäristölu
@@ -107,7 +107,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:27c677bddff3@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Kaava N216 Asemanseudun I asemakaava\, vireilletulo ja OAS (Vihti)
@@ -125,7 +125,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dd503ffb206d@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Östersundomin osayleiskaavaehdotus (nro 12583) (Helsinki)
@@ -145,7 +145,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fba6a0f5545b@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Nurmijärven rakennusjärjestysehdotus (Nurmijärvi)
@@ -163,7 +163,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d65d7e30f67a@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Mankkaan opettaja-asuntola (240307)\, asemakaavan muutos\, OAS (Esp
@@ -183,7 +183,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:212ea730db12@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Pitkänkallionkuja (230903)\, Haukilahti\, asemakaavan muutos\, OAS
@@ -201,7 +201,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b9ac46478bc4@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Asfalttikallio Oy:n yhteislupahakemus (maa-aines- ja ympäristölup
@@ -223,7 +223,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9e7a23945c44@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Vesiliikennelain mukainen esitys 10 km/h nopeusrajoituksesta Kitön
@@ -241,7 +241,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:51052fb76938@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:Sahanmäen lämpölaitoksen ympäristöluvan muuttaminen ja aloitta
@@ -260,7 +260,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c7899e209e8c@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Riihimäen keskustan yleissuunnitelma ja suunnitteluperiaatteet\, l
@@ -279,7 +279,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:40a90e4e0112@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Klaukkala\, Teollisuustie 2 (3-356) asemakaavan muutosehdotus (Nurm
@@ -297,7 +297,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9cfc30d5eef4@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Mellunkylä\, Panosaukio 1 ja Sankkikuja 3\, asemakaavaehdotus (nro
@@ -317,7 +317,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:163d8c198d2c@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Kaartinkaupunki\, Eteläesplanadi 10\, asemakaavaehdotus (nro 13052
@@ -337,7 +337,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3a02047829ee@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Maisematyölupahakemus\, metsänhoidolliset harvennushakkuut\, Peri
@@ -353,7 +353,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0e0ee2882e72@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Maisematyölupahakemus\, metsänhoidollinen hakkuu\, Kylänpää\, 
@@ -369,7 +369,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e6a530bb53f5@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Haaran vesiosuuskunnan vesihuollon toiminta-alue\, ehdotus (Nurmij
@@ -387,7 +387,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:043d5f5c05c1@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Nukarin jätevesiosuuskunnan vesihuollon toiminta-alue\, ehdotus (N
@@ -405,7 +405,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:de7e71c03570@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Urheilukadun silta ja sen katuyhteys\, asemakaava- ja asemakaavamuu
@@ -424,7 +424,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1739b15b9470@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Maa-aines- ja ympäristölupahakemus\, RTA-Yhtiöt Oy\, Kormu (Lopp
@@ -444,7 +444,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:af4ee2df1232@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Kiltaveljenmäki (610600) asemakaava ja asemakaavan muutos\, ehdotu
@@ -462,7 +462,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d29b38a89d24@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Ympäristölupahakemus\, Vantaan kaupunki\, Pitkäsentie 23 (Vantaa
@@ -480,7 +480,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22452c44e94c@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Ympäristönsuojelu- ja maa-aineslain asia\, Rudus Oy (Vantaa)
@@ -497,7 +497,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:64e712a0a1df@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Bastukärrin alueen toiminnan muuttaminen\, Rudus Oy\, Sipoo (ympä
@@ -517,7 +517,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9cb476f79e64@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Etelä-Koivurinne (002483) ja Tiilipojanlenkki 4 (002660)\, asemaka
@@ -537,7 +537,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f49612978422@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Ohtolankatu 17 (002563) asemakaavamuutosehdotus\, Koivuhaka (Vantaa
@@ -554,9 +554,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e9aa8777c28@lausuntovahti
-DTSTAMP:20261101T055337Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
 SUMMARY:Pääkaupunkiseudun Junakalusto Oy\, Kehäradan varikon ympäristö
  vaikutusten arviointiohjelma nähtävillä (Vantaa)
 DESCRIPTION:LVV-U/115714/2026. Lähijunaliikenteen varikon YVA-ohjelma Vant
@@ -564,7 +564,7 @@ DESCRIPTION:LVV-U/115714/2026. Lähijunaliikenteen varikon YVA-ohjelma Vant
  tavat\; sijainti suhteessa Keravanjokeen/Vantaanjokeen tarkistettava. Mä
  äräpäivä arvioitu (julkaisu + 30 pv).\n\nTyyppi: YVA | Toimenpide: mie
  lipide | Prioriteetti: high (pisteet 5)\nKunta: Vantaa\nJulkaistu: 2026-10
- -21 | Määräpäivä: 20.11.2026\nLähde: lvv_kuulutukset\nLinkki: http:/
+ -21 | Määräpäivä: 26.11.2026\nLähde: lvv_kuulutukset\nLinkki: http:/
  /paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3479843\nPerustelut
  : water (summary only): pohjavesi*\, hulevede*\, Vantaanjo*\; plan: YVA\, 
  arviointiohjelma\; action mielipide: +1\; kunta match
@@ -574,7 +574,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c131ca64e379@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Ympäristölupahakemus ja maa-aineslupahakemus\, Rappukallio\, Rudu
@@ -594,7 +594,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6264b6aa5e9c@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Kiinteistö Oy Kulosaaren Casino\, kelluvan paviljonkirakennuksen r
@@ -613,7 +613,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ca8ca439d6ab@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Rajamäki\, Puistotie 13–15 ja Kirkonkylä\, Krannila NYK ja luki
@@ -631,7 +631,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dfc577f15cbb@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Fermion Oy\, Espoon koetehdas\, ympäristöluvan muuttaminen (YSL 8
@@ -652,7 +652,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:04f962c06f53@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:S27 Kallbäck I:n asemakaava ja asemakaavan muutos vireille\, OAS n
@@ -670,7 +670,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f14287832bc@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Oskarintie (17:039) asemakaavamuutoksen ehdotus\, Hyvinkääkylä (
@@ -690,7 +690,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:92c3feadfacf@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Mustamännistön pohjoisosa (03:026) asemakaavamuutoksen ehdotus uu
@@ -710,7 +710,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef9e36edc1e8@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Iivisniemen päiväkodit (440105)\, Kaitaa\, asemakaavan muutos\, O
@@ -727,8 +727,28 @@ CATEGORIES:medium,asemakaava
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:6293b9ba7654@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Kaartinkaupunki\, Esplanadien katu- ja puistoalueet\, asemakaavaehd
+ otus (nro 13013) (Helsinki)
+DESCRIPTION:Asemakaavaehdotus Esplanadien katu- ja puistoalueille. Puistoal
+ ueiden ja katujen järjestelyt vaikuttavat hulevesien hallintaan keskustas
+ sa.\n\nTyyppi: asemakaava | Toimenpide: muistutus | Prioriteetti: medium (
+ pisteet 3)\nKunta: Helsinki\nJulkaistu: 2026-11-02 | Määräpäivä: 1.12
+ .2026\nLähde: kunta_helsinki\nLinkki: https://paatokset.hel.fi/fi/kuulutu
+ kset-ja-ilmoitukset/asemakaava-nahtavilla-kaartinkaupunki-esplanadit\nPeru
+ stelut: water (summary only): hulevesi*\; action muistutus: +1\; kunta mat
+ ch
+URL:https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/asemakaava-nahta
+ villa-kaartinkaupunki-esplanadit
+CATEGORIES:medium,asemakaava
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f34b49706268@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Espoon vesihuollon toiminta-alue 2026 ja huleveden viemäröintialu
@@ -748,8 +768,45 @@ CATEGORIES:high,muu
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:39ce6b8e3a03@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Asumista Rälssitien ja Äyritien risteykseen (002571)\, asemakaava
+ muutosehdotus\, Veromies (Vantaa)
+DESCRIPTION:Asemakaavamuutosehdotus asuinkortteleille Äyritie 4–6:ssa Ve
+ romiehessä Kehä III:n pohjoispuolella. Uusi rakentaminen muuttaa huleves
+ ien määrää ja laatua.\n\nTyyppi: asemakaava | Toimenpide: muistutus | 
+ Prioriteetti: medium (pisteet 3)\nKunta: Vantaa\nJulkaistu: 2026-11-04 | M
+ ääräpäivä: 3.12.2026\nLähde: kunta_vantaa\nLinkki: http://paatokset.
+ vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3492388\nPerustelut: water (su
+ mmary only): hulevesi*\; action muistutus: +1\; kunta match
+URL:http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3492388
+CATEGORIES:medium,asemakaava
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4fe70a3279fa@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Liikenteen palvelualueen rakentaminen valtatien 3 ja maantien 132 e
+ ritasoliittymään\, tiesuunnitelma nähtävillä (Vantaa\, Nurmijärvi)
+DESCRIPTION:Uudenmaan elinvoimakeskuksen tiesuunnitelma (UUD/6087/2026) pal
+ velualueesta Hämeenlinnanväylän ja mt 132:n liittymään. Uusi päälly
+ stetty alue ja polttoaineen jakelu lisäävät hulevesiä ja pohjavesirisk
+ iä.\n\nTyyppi: tiesuunnitelma | Toimenpide: muistutus | Prioriteetti: hig
+ h (pisteet 5)\nKunta: Vantaa\, Nurmijärvi\nJulkaistu: 2026-11-03 | Määr
+ äpäivä: 3.12.2026\nLähde: kunta_vantaa\nLinkki: https://vayliensuunnit
+ telu.fi/s/468y/nahtavillaolo\nPerustelut: water (summary only): hulevesi*\
+ , pohjavesi*\; plan: tiesuunnitelma\; action muistutus: +1\; kunta match
+URL:https://vayliensuunnittelu.fi/s/468y/nahtavillaolo
+CATEGORIES:high,tiesuunnitelma
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:72e5a91bc1a4@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Keskusmetsän yleissuunnitelma nähtävillä (Kirkkonummi)
@@ -768,7 +825,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5037e5a784d0@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Circulation Oy\, Helsingin kierrätyslaitoksen ympäristöluvan muu
@@ -786,8 +843,68 @@ CATEGORIES:high,ympäristölupa
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cc2c6c329f75@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Klaukkalan Sudentullin datakeskus\, YVA-ohjelma uudelleen kuulutett
+ u (LVV-U/79337/2026) (Nurmijärvi)
+DESCRIPTION:Noin 96 ha datakeskusalue viidelle rakennukselle (560 MW) ja 1 
+ 360 MW varavoimageneraattorit sekä 400 kV voimajohto ja maakaapeli Passan
+ mäkeen. Laaja rakentaminen vaikuttaa hulevesiin ja Klaukkalan alueen ojii
+ n\; polttoainevarastot pohjavesiriski.\n\nTyyppi: YVA | Toimenpide: mielip
+ ide | Prioriteetti: high (pisteet 5)\nKunta: Nurmijärvi\nJulkaistu: 2026-
+ 11-05 | Määräpäivä: 4.12.2026\nLähde: kunta_nurmijarvi\nLinkki: http
+ s://nurmijarvi10.oncloudos.com/kuulutus/202676435.PDF\nPerustelut: water (
+ summary only): hulevesi*\, pohjavesi*\; plan: YVA\, datakeskus\, voimajoht
+ o\; action mielipide: +1\; kunta match
+URL:https://nurmijarvi10.oncloudos.com/kuulutus/202676435.PDF
+CATEGORIES:high,YVA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5a87dc44841a@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Kirkonkylä\, Helsingintien varsi k2001 (2-254)\, asemakaavan muuto
+ sluonnos ja päivitetty OAS (Nurmijärvi)
+DESCRIPTION:Rakentamattoman pientaloalueen ja puistojen muuttaminen liiketo
+ iminta-alueeksi Kirkonkylän eteläosassa Helsingintien varrella\; pääll
+ ystetyn pinnan lisääntyminen vaikuttaa hulevesiin.\n\nTyyppi: asemakaava
+  | Toimenpide: mielipide | Prioriteetti: medium (pisteet 3)\nKunta: Nurmij
+ ärvi\nJulkaistu: 2026-11-02 | Määräpäivä: 4.12.2026\nLähde: kunta_n
+ urmijarvi\nLinkki: https://nurmijarvi10.oncloudos.com/kuulutus/202676259.P
+ DF\nPerustelut: water (summary only): hulevesi*\; action mielipide: +1\; k
+ unta match
+URL:https://nurmijarvi10.oncloudos.com/kuulutus/202676259.PDF
+CATEGORIES:medium,asemakaava
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fd822fff53e9@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Tuusulan itäväylän työpaikka-alue (3580) asemakaava ja asemakaa
+ vamuutos\, Sula\, sekä yleissuunnitelma (2012)\, OAS (Tuusula)
+DESCRIPTION:Työpaikka-alueen laajennus Tuusulan itäväylän eteläpuolell
+ e Hyrylän kaakkoispuolella ja itäväylän muuttaminen nelikaistaiseksi. 
+ Laaja uusi päällystetty alue vaikuttaa hulevesiin ja Tuusulanjoen valuma
+ -alueeseen.\n\nTyyppi: asemakaava | Toimenpide: mielipide | Prioriteetti: 
+ high (pisteet 5)\nKunta: Tuusula\nJulkaistu: 2026-11-05 | Määräpäivä:
+  4.12.2026\nLähde: kunta_tuusula\nLinkki: https://tuusula.oncloudos.com/c
+ gi/DREQUEST.PHP?page=announcement&id=7229C8EBX125FX4AD0X89C8XAA5E89CB4569\
+ nPerustelut: water (summary only): *joen\, hulevesi*\, valuma-alue\; plan:
+  yleissuunnitelma\; action mielipide: +1\; kunta match
+URL:https://tuusula.oncloudos.com/cgi/DREQUEST.PHP?page=announcement&id=722
+ 9C8EBX125FX4AD0X89C8XAA5E89CB4569
+CATEGORIES:high,asemakaava
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:762004ca82ee@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Helsingin kaupunki\, Malminkentän esirakentamiseen liittyvän jät
@@ -807,8 +924,110 @@ CATEGORIES:high,ympäristölupa
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:8ec82bab27bf@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Kallio\, Ensi linja 1\, asemakaavaehdotus (nro 13058) (Helsinki)
+DESCRIPTION:Asemakaavaehdotus korttelin 11302 tontille 7 ja viereiselle pui
+ stoalueelle Kalliossa. Täydennysrakentaminen ja puistoalueen muutos vaiku
+ ttavat hulevesien hallintaan.\n\nTyyppi: asemakaava | Toimenpide: muistutu
+ s | Prioriteetti: medium (pisteet 3)\nKunta: Helsinki\nJulkaistu: 2026-11-
+ 06 | Määräpäivä: 7.12.2026\nLähde: kunta_helsinki\nLinkki: https://p
+ aatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/asemakaava-nahtavilla-kallio
+ -ensi-linja-1\nPerustelut: water (summary only): hulevesi*\; action muistu
+ tus: +1\; kunta match
+URL:https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/asemakaava-nahta
+ villa-kallio-ensi-linja-1
+CATEGORIES:medium,asemakaava
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:272b8d1354bd@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Laaksokatu 10 ja 12\, asemakaavan muutosehdotus nähtäville (Järv
+ enpää)
+DESCRIPTION:Kaupunkikehityslautakunta päätti 20.10.2026 asettaa asemakaav
+ an muutosehdotuksen nähtäville\; kuulutus ja nähtävilläoloaika eivät
+  vielä julkaistu. Täydennysrakentaminen vaikuttaa hulevesien hallintaan.
+ \n\nTyyppi: asemakaava | Toimenpide: muistutus | Prioriteetti: medium (pis
+ teet 3)\nKunta: Järvenpää\nJulkaistu: 2026-10-20 | Määräpäivä: 10.
+ 12.2026\nLähde: kunta_jarvenpaa\nLinkki: https://www.jarvenpaa.fi/a/asema
+ kaavamuutoksia-ja-hankintoja-kaupunkikehityslautakunnan-kasittelyssa-20-10
+ -2026\nPerustelut: water (summary only): hulevesi*\; action muistutus: +1\
+ ; kunta match
+URL:https://www.jarvenpaa.fi/a/asemakaavamuutoksia-ja-hankintoja-kaupunkike
+ hityslautakunnan-kasittelyssa-20-10-2026
+CATEGORIES:medium,asemakaava
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c3547459d942@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Ympäristölupahakemus\, Vantaan kaupunki\, betonijätteen hyödynt
+ äminen kenttärakenteessa\, Pitkäsuonkuja 2 (Vantaa)
+DESCRIPTION:Jälkikäteinen ympäristölupahakemus vuonna 2015 rakennettuun
+  kenttärakenteeseen\, jossa betonimursketta on jopa 2\,5–3\,6 m paksult
+ i asetuksen enimmäismääriä enemmän. Haitta-aineiden huuhtoutuminen ma
+ aperään\, pohjaveteen ja hulevesiin.\n\nTyyppi: ympäristölupa | Toimen
+ pide: muistutus | Prioriteetti: high (pisteet 5)\nKunta: Vantaa\nJulkaistu
+ : 2026-11-04 | Määräpäivä: 11.12.2026\nLähde: kunta_vantaa\nLinkki: 
+ http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3491226\nPeru
+ stelut: water (summary only): hulevesi*\; plan: ympäristölupa\; action m
+ uistutus: +1\; kunta match
+URL:http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3491226
+CATEGORIES:high,ympäristölupa
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1280e04cf1d3@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Luonnontilaisten lähteiden ja norojen vaarantamiskiellosta poikkea
+ minen Helsinki–Riihimäki-rataosuudella\, Väylävirasto (LVV-U/107439/2
+ 026) (Hausjärvi)
+DESCRIPTION:Väyläviraston hakemus poiketa vesilain 2 luvun 11 §:n mukais
+ ten luonnontilaisten lähteiden ja norojen vaarantamiskiellosta radan lis
+ äraiteiden rakentamisessa Hausjärvellä\, Vantaanjoen latvavesillä.\n\n
+ Tyyppi: vesilupa | Toimenpide: muistutus | Prioriteetti: high (pisteet 5)\
+ nKunta: Hausjärvi\nJulkaistu: 2026-11-04 | Määräpäivä: 11.12.2026\nL
+ ähde: kunta_hausjarvi\nLinkki: https://ytietopalvelu.lvv.fi/fi-FI/asia/34
+ 56533\nPerustelut: water: vesi\, vesilupa\; action muistutus: +1\; kunta m
+ atch
+URL:https://ytietopalvelu.lvv.fi/fi-FI/asia/3456533
+CATEGORIES:high,vesilupa
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bdde374f3eb4@lausuntovahti
+DTSTAMP:20261108T055301Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Helen Ydinvoima Oy:n ydinvoimalaitoksen ympäristövaikutusten arvi
+ ointiohjelma (VN/27510/2026) (Helsinki\, Vantaa\, Sipoo)
+DESCRIPTION:TEM:n YVA-ohjelma ydinvoimalaitokselle Salmisaareen\, Vuosaaree
+ n tai Östersundomin Norrbergetiin\; yhteistuotantovaihtoehdossa jäähdyt
+ ysvettä noin 25 m³/s ja mereen johdettava lämpökuorma enintään noin 
+ 1 000 MW Helsingin ja Sipoon merialueille. Lisäksi laaja louhinta ja läj
+ itys sekä siirtoyhteydet Vantaalle.\n\nTyyppi: YVA | Toimenpide: mielipid
+ e | Prioriteetti: high (pisteet 4)\nKunta: Helsinki\, Vantaa\, Sipoo\nJulk
+ aistu: 2026-11-03 | Määräpäivä: 4.1.2027\nLähde: kunta_espoo\nLinkki
+ : https://www.espoo.fi/fi/artikkelit/kuulutus-helen-ydinvoima-oyn-ydinvoim
+ alaitoksen-ymparistovaikutusten-arviointiohjelma\nPerustelut: plan: YVA\, 
+ arviointiohjelma\, louhinta\; action mielipide: +1\; kunta match
+URL:https://www.espoo.fi/fi/artikkelit/kuulutus-helen-ydinvoima-oyn-ydinvoi
+ malaitoksen-ymparistovaikutusten-arviointiohjelma
+CATEGORIES:high,YVA
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:062d3cf437fb@lausuntovahti
-DTSTAMP:20261101T055337Z
+DTSTAMP:20261108T055301Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:Kuuleminen ehdotuksesta Kymijoen–Suomenlahden vesienhoitosuunnite

@@ -1,0 +1,290 @@
+{
+ "items": [
+  {
+   "source_id": "kunta_espoo",
+   "title": "Helen Ydinvoima Oy:n ydinvoimalaitoksen ympäristövaikutusten arviointiohjelma (VN/27510/2026)",
+   "url": "https://www.espoo.fi/fi/artikkelit/kuulutus-helen-ydinvoima-oyn-ydinvoimalaitoksen-ymparistovaikutusten-arviointiohjelma",
+   "kunta": [
+    "Helsinki",
+    "Vantaa",
+    "Sipoo"
+   ],
+   "type": "YVA",
+   "action": "mielipide",
+   "published": "2026-11-03",
+   "deadline": "2027-01-04",
+   "deadline_confidence": "exact",
+   "summary": "TEM:n YVA-ohjelma ydinvoimalaitokselle Salmisaareen, Vuosaareen tai Östersundomin Norrbergetiin; yhteistuotantovaihtoehdossa jäähdytysvettä noin 25 m³/s ja mereen johdettava lämpökuorma enintään noin 1 000 MW Helsingin ja Sipoon merialueille. Lisäksi laaja louhinta ja läjitys sekä siirtoyhteydet Vantaalle."
+  },
+  {
+   "source_id": "kunta_helsinki_muut",
+   "title": "Kyläsaaren maa-ainesten välivarastointi- ja käsittelyalueen ympäristölupa ja aloittamislupa, Helsingin kaupunki (LVV-U/22655/2026), päätös",
+   "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3319119",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "ympäristölupa",
+   "action": "päätös",
+   "published": "2026-11-04",
+   "deadline": "2026-12-11",
+   "deadline_confidence": "exact",
+   "summary": "LVV:n ympäristölupapäätös maa-ainesten välivarastointi- ja käsittelyalueelle Kyläsaaressa Vanhankaupunginlahden rannalla; alueen hulevedet ja kiintoainekuormitus voivat päätyä lahdelle. Valitusaika nähtävilläolon loppuun."
+  },
+  {
+   "source_id": "kunta_helsinki_muut",
+   "title": "Kulosaarensillan uusiminen ja vesirakentamistyöt, vesijohto merenpohjaan Kulosaari–Kalasatama, kaasuputki Kuorekarin salmen alitse – vesilain päätökset",
+   "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3316416",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "vesilupa",
+   "action": "päätös",
+   "published": "2026-11-02",
+   "deadline": "2026-12-09",
+   "deadline_confidence": "exact",
+   "summary": "LVV:n kolme vesilain mukaista päätöstä (LVV-U/20857, 20780 ja 20784/2026) Helsingin kaupungille, HSY:lle ja Auris Kaasunjakelulle: sillan uusiminen, ruoppaukset ja putkien asentaminen merenpohjaan vaikuttavat vesialueeseen ja sameuteen."
+  },
+  {
+   "source_id": "kunta_helsinki_muut",
+   "title": "Viikin–Malmin pikaraitiotie, päätös YVA-menettelyn soveltamisesta (ei YVA:ta), LVV-U/125929/2026",
+   "url": "https://paatokset.hel.fi/sites/default/files/ilmoitus_kuulutuksesta_4.11.2026-11.12.2026.pdf",
+   "kunta": [
+    "Helsinki",
+    "Vantaa"
+   ],
+   "type": "YVA",
+   "action": "päätös",
+   "published": "2026-11-04",
+   "deadline": "2026-12-11",
+   "deadline_confidence": "exact",
+   "summary": "LVV päätti, ettei Viikin–Malmin pikaraitiotiehen (keskusta–Malmi/Vaarala) sovelleta YVA-menettelyä. Reitti kulkee Viikin ja Malmin alueilla; hulevesivaikutukset Vantaanjoen alaosan valuma-alueella."
+  },
+  {
+   "source_id": "kunta_helsinki",
+   "title": "Kallio, Ensi linja 1, asemakaavaehdotus (nro 13058)",
+   "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/asemakaava-nahtavilla-kallio-ensi-linja-1",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "asemakaava",
+   "action": "muistutus",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07",
+   "deadline_confidence": "exact",
+   "summary": "Asemakaavaehdotus korttelin 11302 tontille 7 ja viereiselle puistoalueelle Kalliossa. Täydennysrakentaminen ja puistoalueen muutos vaikuttavat hulevesien hallintaan."
+  },
+  {
+   "source_id": "kunta_helsinki",
+   "title": "Kaartinkaupunki, Esplanadien katu- ja puistoalueet, asemakaavaehdotus (nro 13013)",
+   "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/asemakaava-nahtavilla-kaartinkaupunki-esplanadit",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "asemakaava",
+   "action": "muistutus",
+   "published": "2026-11-02",
+   "deadline": "2026-12-01",
+   "deadline_confidence": "exact",
+   "summary": "Asemakaavaehdotus Esplanadien katu- ja puistoalueille. Puistoalueiden ja katujen järjestelyt vaikuttavat hulevesien hallintaan keskustassa."
+  },
+  {
+   "source_id": "kunta_helsinki",
+   "title": "Meri-Rastila: Ison Kallahden puiston ja Ullaksenpuiston puistosuunnitelmaluonnokset",
+   "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/meri-rastila-ison-kallahden-puiston-ja-ullaksenpuiston-puistosuunnitelmaluonnokset-esilla-4-17112026",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "puistosuunnitelma",
+   "action": "mielipide",
+   "published": "2026-11-04",
+   "deadline": "2026-11-17",
+   "deadline_confidence": "exact",
+   "summary": "Puistosuunnitelmaluonnokset Meri-Rastilassa Kallahden rannan tuntumassa; puistojen hulevesiratkaisut ja rantavyöhyke."
+  },
+  {
+   "source_id": "kunta_helsinki_muut",
+   "title": "Päätös pilaantuneen maaperän puhdistamisesta, Kuninkaantammentie, Tuomarinkylä",
+   "url": "https://paatokset.hel.fi/fi/kuulutukset-ja-ilmoitukset/ymparistoseuranta-ja-valvonta-yksikon-paallikon-paatos-puhdistamisesta-kuninkaantammentie",
+   "kunta": [
+    "Helsinki"
+   ],
+   "type": "muu",
+   "action": "päätös",
+   "published": "2026-11-05",
+   "deadline": "2026-12-14",
+   "deadline_confidence": "exact",
+   "summary": "Helsingin ympäristövalvonnan päätös pilaantuneen maaperän puhdistamisesta Kuninkaantammessa lähellä Vantaanjokea; kunnostuksen aikaiset valumavedet."
+  },
+  {
+   "source_id": "kunta_vantaa",
+   "title": "Ympäristölupahakemus, Vantaan kaupunki, betonijätteen hyödyntäminen kenttärakenteessa, Pitkäsuonkuja 2",
+   "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3491226",
+   "kunta": [
+    "Vantaa"
+   ],
+   "type": "ympäristölupa",
+   "action": "muistutus",
+   "published": "2026-11-04",
+   "deadline": "2026-12-11",
+   "deadline_confidence": "exact",
+   "summary": "Jälkikäteinen ympäristölupahakemus vuonna 2015 rakennettuun kenttärakenteeseen, jossa betonimursketta on jopa 2,5–3,6 m paksulti asetuksen enimmäismääriä enemmän. Haitta-aineiden huuhtoutuminen maaperään, pohjaveteen ja hulevesiin."
+  },
+  {
+   "source_id": "kunta_vantaa",
+   "title": "Asumista Rälssitien ja Äyritien risteykseen (002571), asemakaavamuutosehdotus, Veromies",
+   "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3492388",
+   "kunta": [
+    "Vantaa"
+   ],
+   "type": "asemakaava",
+   "action": "muistutus",
+   "published": "2026-11-04",
+   "deadline": "2026-12-03",
+   "deadline_confidence": "exact",
+   "summary": "Asemakaavamuutosehdotus asuinkortteleille Äyritie 4–6:ssa Veromiehessä Kehä III:n pohjoispuolella. Uusi rakentaminen muuttaa hulevesien määrää ja laatua."
+  },
+  {
+   "source_id": "kunta_vantaa",
+   "title": "Pääkaupunkiseudun Junakalusto Oy, Kehäradan varikon ympäristövaikutusten arviointiohjelma nähtävillä",
+   "url": "http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=3493096",
+   "id": "6e9aa8777c28",
+   "kunta": [
+    "Vantaa"
+   ],
+   "type": "YVA",
+   "action": "mielipide",
+   "published": "2026-10-21",
+   "deadline": "2026-11-26",
+   "deadline_confidence": "exact",
+   "summary": "LVV-U/115714/2026. Lähijunaliikenteen varikon YVA-ohjelma Petakseen tai Keimolaan; nähtävilläoloa jatkettu 26.11.2026 asti LVV:n sivuston häiriöiden vuoksi. Vaihtoehdoissa Radioasemanojan siirto ja Jelmusanojan virtausreitti, hulevedet ja pohjavesi."
+  },
+  {
+   "source_id": "kunta_vantaa",
+   "title": "Liikenteen palvelualueen rakentaminen valtatien 3 ja maantien 132 eritasoliittymään, tiesuunnitelma nähtävillä",
+   "url": "https://vayliensuunnittelu.fi/s/468y/nahtavillaolo",
+   "kunta": [
+    "Vantaa",
+    "Nurmijärvi"
+   ],
+   "type": "tiesuunnitelma",
+   "action": "muistutus",
+   "published": "2026-11-03",
+   "deadline": "2026-12-03",
+   "deadline_confidence": "exact",
+   "summary": "Uudenmaan elinvoimakeskuksen tiesuunnitelma (UUD/6087/2026) palvelualueesta Hämeenlinnanväylän ja mt 132:n liittymään. Uusi päällystetty alue ja polttoaineen jakelu lisäävät hulevesiä ja pohjavesiriskiä."
+  },
+  {
+   "source_id": "kunta_nurmijarvi",
+   "title": "Klaukkalan Sudentullin datakeskus, YVA-ohjelma uudelleen kuulutettu (LVV-U/79337/2026)",
+   "url": "https://nurmijarvi10.oncloudos.com/kuulutus/202676435.PDF",
+   "kunta": [
+    "Nurmijärvi"
+   ],
+   "type": "YVA",
+   "action": "mielipide",
+   "published": "2026-11-05",
+   "deadline": "2026-12-04",
+   "deadline_confidence": "exact",
+   "summary": "Noin 96 ha datakeskusalue viidelle rakennukselle (560 MW) ja 1 360 MW varavoimageneraattorit sekä 400 kV voimajohto ja maakaapeli Passanmäkeen. Laaja rakentaminen vaikuttaa hulevesiin ja Klaukkalan alueen ojiin; polttoainevarastot pohjavesiriski."
+  },
+  {
+   "source_id": "kunta_nurmijarvi",
+   "title": "Kirkonkylä, Helsingintien varsi k2001 (2-254), asemakaavan muutosluonnos ja päivitetty OAS",
+   "url": "https://nurmijarvi10.oncloudos.com/kuulutus/202676259.PDF",
+   "kunta": [
+    "Nurmijärvi"
+   ],
+   "type": "asemakaava",
+   "action": "mielipide",
+   "published": "2026-11-02",
+   "deadline": "2026-12-04",
+   "deadline_confidence": "exact",
+   "summary": "Rakentamattoman pientaloalueen ja puistojen muuttaminen liiketoiminta-alueeksi Kirkonkylän eteläosassa Helsingintien varrella; päällystetyn pinnan lisääntyminen vaikuttaa hulevesiin."
+  },
+  {
+   "source_id": "kunta_tuusula",
+   "title": "Tuusulan itäväylän työpaikka-alue (3580) asemakaava ja asemakaavamuutos, Sula, sekä yleissuunnitelma (2012), OAS",
+   "url": "https://tuusula.oncloudos.com/cgi/DREQUEST.PHP?page=announcement&id=7229C8EBX125FX4AD0X89C8XAA5E89CB4569",
+   "kunta": [
+    "Tuusula"
+   ],
+   "type": "asemakaava",
+   "action": "mielipide",
+   "published": "2026-11-05",
+   "deadline": "2026-12-04",
+   "deadline_confidence": "exact",
+   "summary": "Työpaikka-alueen laajennus Tuusulan itäväylän eteläpuolelle Hyrylän kaakkoispuolella ja itäväylän muuttaminen nelikaistaiseksi. Laaja uusi päällystetty alue vaikuttaa hulevesiin ja Tuusulanjoen valuma-alueeseen."
+  },
+  {
+   "source_id": "kunta_tuusula",
+   "title": "Pilaantuneen maaperän ja pohjaveden puhdistaminen, Rykmentinportti, Tuusula (LVV-U/131564/2026), päätös",
+   "url": "https://lvv.fi/-/kuulutus-lvv-u-131564-2026-ymparistonsuojelulain-527-2014-136-n-mukainen-paatos-pilaantuneen-maaperan-puhdistamisesta-rykmentinportti-tuusula",
+   "kunta": [
+    "Tuusula"
+   ],
+   "type": "muu",
+   "action": "päätös",
+   "published": "2026-11-03",
+   "deadline": "2026-12-10",
+   "deadline_confidence": "exact",
+   "summary": "LVV:n YSL 136 §:n päätös Tuusulan kunnalle pilaantuneen maaperän ja pohjaveden puhdistamisesta Rykmentinpuistossa; pohjaveden kunnostus."
+  },
+  {
+   "source_id": "kunta_sipoo",
+   "title": "Vesilain 2:6 §:n mukainen ilmoitus ruoppauksesta yhteisellä vesialueella, Rågholmsfjärden, Sipoo (LVV-U/145318/2026)",
+   "url": "https://sipoofi.oncloudos.com/kuulutus/202669401.PDF",
+   "kunta": [
+    "Sipoo"
+   ],
+   "type": "vesilupa",
+   "action": "tiedoksi",
+   "published": "2026-11-05",
+   "deadline": "2026-12-04",
+   "deadline_confidence": "exact",
+   "summary": "Ilmoitus haitan poistamisesta ruoppaamalla järjestäytymättömän osakaskunnan vesialueella Rågholmsfjärdenillä; ruoppaus vaikuttaa rantaveteen ja pohjaan."
+  },
+  {
+   "source_id": "kunta_hausjarvi",
+   "title": "Luonnontilaisten lähteiden ja norojen vaarantamiskiellosta poikkeaminen Helsinki–Riihimäki-rataosuudella, Väylävirasto (LVV-U/107439/2026)",
+   "url": "https://ytietopalvelu.lvv.fi/fi-FI/asia/3456533",
+   "kunta": [
+    "Hausjärvi"
+   ],
+   "type": "vesilupa",
+   "action": "muistutus",
+   "published": "2026-11-04",
+   "deadline": "2026-12-11",
+   "deadline_confidence": "exact",
+   "summary": "Väyläviraston hakemus poiketa vesilain 2 luvun 11 §:n mukaisten luonnontilaisten lähteiden ja norojen vaarantamiskiellosta radan lisäraiteiden rakentamisessa Hausjärvellä, Vantaanjoen latvavesillä."
+  },
+  {
+   "source_id": "kunta_hausjarvi",
+   "title": "Ryttylän osayleiskaava vireille, teollisen mittakaavan aurinkovoimala (Silakkamäentie)",
+   "url": "https://www.hausjarvi.fi/ajankohtaista/kuulutukset/paatoksia-kaava-asioissa-6/",
+   "kunta": [
+    "Hausjärvi"
+   ],
+   "type": "yleiskaava",
+   "action": "mielipide",
+   "published": "2026-11-07",
+   "deadline": null,
+   "deadline_confidence": "unknown",
+   "summary": "Osayleiskaava aurinkovoimalalle Ryttylän ja Apiliston välille; laaja peltoalueen muutos vaikuttaa valumavesiin ja Vantaanjoen latvaosan ojiin. OAS:n nähtävilläoloa ei vielä ilmoitettu."
+  },
+  {
+   "source_id": "kunta_jarvenpaa",
+   "title": "Laaksokatu 10 ja 12, asemakaavan muutosehdotus nähtävillä",
+   "url": "https://www.jarvenpaa.fi/announcement/asemakaavan-muutosehdotus-nahtavilla-laaksokatu-10-ja-12",
+   "id": "272b8d1354bd",
+   "kunta": [
+    "Järvenpää"
+   ],
+   "type": "asemakaava",
+   "action": "muistutus",
+   "published": "2026-11-03",
+   "deadline": "2026-12-10",
+   "deadline_confidence": "exact",
+   "summary": "Pientalotonttien tiivistäminen (kaavatunnus 060066); ehdotus nähtävillä 11.11.–10.12.2026. Täydennysrakentaminen vaikuttaa hulevesien hallintaan."
+  }
+ ]
+}
